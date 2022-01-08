@@ -4,5 +4,4 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-
-> **Note**: Add Markdown syntax content to file `_tabs/about.md` and it will show up on this page.
+새롭게 알게 된 것 또는 기억해둘 만한 것을 적어놓는 비망록 블로그

@@ -18,7 +18,7 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: poBLOGwer                          # the main title
+title: Jeon Won                          # the main title
 
 tagline: 멍정이   # it will display as the sub-title
 
@@ -80,7 +80,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: https://avatars.githubusercontent.com/u/56036601?v=4
 
 # boolean type, the global switch for ToC in posts.
 toc: true
