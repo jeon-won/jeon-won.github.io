@@ -41,6 +41,11 @@ Hello GitHub.io! 첫 글 테스트
 ## 포스팅
 * 마크다운 형식으로 글을 작성하여 _posts 폴더에 저장한 후 master 브랜치에 올리면 됨
 
+### 이미지
+* 마크다운 문법(`![IMG_DESC](IMG_LINK)`)으로 첨부하거나
+* img나 figure 태그로 첨부하거나
+* [이미지를 base64 문자열로 변환한 후](https://www.base64-image.de) 마크다운 문법에 base64 문자열을 적거나(예: `![IMG_DESC](data:image/jpg;base64,~~~`)
+
 ## GitHub Pages 설정
 * GitHub 리포지토리에서 settings 클릭
 * GitHub Pages 항목의 Pages settings now has its own dedicated tab! `Check it out here!` 클릭
