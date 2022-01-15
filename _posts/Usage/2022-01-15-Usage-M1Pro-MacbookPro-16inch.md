@@ -1,7 +1,7 @@
 ---
 title: M1 Pro 맥북 프로 16인치 간단 사용기
 author: Jeon Won
-date: 2022-01-15 23:00:00 +0900
+date: 2022-01-15 22:00:00 +0900
 categories: [Usage]
 tags: [usage]
 ---
