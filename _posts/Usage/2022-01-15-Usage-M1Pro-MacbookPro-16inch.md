@@ -8,13 +8,13 @@ tags: [usage]
 
 ![M1 Pro Macbook Pro 16inch](/assets/img/2022/01/m1pro_macbook.JPG)
 
-2018년에 맥북 프로 15인치를 사서 약 3년 간 쓴 적이 있었습니다. 스타벅스 입장권(?)으로 그럭저럭 잘 썼었지만 딱 한 가지 붊만이었던 점은 바로 발열입니다. 별로 무겁지 않은 작업을 하는데도 팬 소음이 거슬리게 들리고, MacOS를 업데이트한 후 기기가 정말 멀쩡해질지 의심스러울 정도로 발열이 심했기 때문입니다.
+2018년에 맥북 프로 15인치를 사서 약 3년 간 쓴 적이 있었습니다. 스타벅스 입장권(?)으로 그럭저럭 잘 썼었지만 딱 한 가지 붊만이었던 점은 바로 발열입니다. 별로 무겁지 않은 작업을 하는데도 팬 소음이 거슬리게 들리고, MacOS를 업데이트하는 동안 기기가 멀쩡해질지 의심스러울 정도로 발열이 심해지기 때문입니다.
 
 그렇게 그냥저냥 쓰다가 2020년 말에 등장한 M1 맥북 에어를 보고 이참에 쓰고 있던 랩탑을 바꿔야하나 하는 생각이 들었습니다. 하지만 저는 무조건 큰 랩탑만을 고수하기에 향후에 나올 애플 실리콘 16인치 맥북 프로를 쭉 기다렸습니다. 2021년 WWDC에서 애플 실리콘 16인치 맥북 프로가 등장할 것으로 예상하고 그 전에 쓰고 있던 맥북 프로를 처분까지 했지만 그런 일은 없었습니다... 그렇게 몇 달 더 기다리다가 2021년 10월 애플 이벤트에서 M1 Pro 맥북 프로 16인치가 드디어 공개됐습니다! 그 다음 달에 주문 사이트가 열리자마자 바로 예약했지만, 직장 동료 분이 애플 스토어에 물량이 풀렸다고 알려주시길래 예약해놨던 건은 취소하고 퇴근하자마자 애플 스토어에 냉큼 달려가서 집어왔습니다.
 
 ![MacOS Sensei App](/assets/img/2022/01/m1pro_sensei.jpeg)
 
-한 달 반 가량 써보니 발열이 거의 없고 배터리가 엄청나게 오래 가는 게 너무 놀랍습니다. 팬이 돌아간 적이 거의 없으며, MacOS를 업데이트해도 발열이 심하지 않습니다. 밝기 50%에 저전력모드 설정, 에어팟 연결해서 약 7시간 가량 대부분 유튜브 동영상 보거나 프로그램 설치도 하고 웹 서핑도 좀 했더니 배터리가 40% 가량 빠졌습니다. 전에 썼던 인텔 맥북에서 이와 비슷한 조건으로 사용했다면 배터리가 진작에 방전됩니다. 6시간을 넘게 썼는데도 배터리는 절반도 안 빠지다니! 제가 M1 Pro 맥북 프로를 산 이유 입니다. M1 Max 배터리 타임이 좀 더 짧다고 해서 사지 않았을 따름입니다. 총알이 부족해서가 아니라(?)
+한 달 반 가량 써보니 발열이 거의 없고 배터리가 엄청나게 오래 가는 게 너무 놀랍습니다. 팬이 돌아간 적이 거의 없으며, MacOS를 업데이트해도 발열이 심하지 않습니다. 밝기 50%에 저전력모드 설정, 에어팟 연결해서 약 7시간 가량 대부분 유튜브 동영상 보거나 프로그램 설치도 하고 웹 서핑도 좀 했더니 배터리가 40% 가량 빠졌습니다. 전에 썼던 인텔 맥북에서 이와 비슷한 조건으로 사용했다면 배터리가 진작에 방전됩니다. 6시간을 넘게 썼는데도 배터리는 절반도 안 빠지다니!
 
 뒤틀린 황천의(?) 나비식 키보드와 터치바가 사라진 것도 너무 마음에 듭니다. 나비식 키보드는 손가락으로 살살 쳐도 쉽게 입력이 가능하지만 오래 타이핑하다보면 손가락 끝이 얼얼할 때가 있고 무엇보다 결함이 발생했을 때 같은 키가 두 번 이상 눌리는 치명적인 문제가 있습니다. 터치바는 잘만 커스터마이징하면 유용하게 쓸 순 있으나 그러기 귀찮기도하고 무엇보다 눈으로 보면서 터치해야 하는 점이 가장 불편합니다. 특히 맨 바닥에 땅땅 거리며 ESC를 입력하는게 불편했었지만 이제 물리 ESC 키를 누를 수 있게 되었습니다!
 
@@ -39,9 +39,11 @@ tags: [usage]
 
 4. [DaisyDisk](https://daisydiskapp.com)는 디스크 사용량과 파일 분포를 시각적으로 보여주고 원하는 영역을 삭제해주는 앱입니다.
 
-5. [iTerm2](https://iterm2.com)은 MacOS에 기본 내장된 터미널 앱을 대체하여 사용 중인 앱입니다.
+5. [EasyFind](https://www.devontechnologies.com/apps/freeware)는 맥에 저장된 모든 파일들을 검색해주는 앱입니다. 윈도우 앱인 [Everything](https://www.voidtools.com/ko-kr)의 대체 앱입니다.
 
-6. [Karabiner](https://karabiner-elements.pqrs.org)는 키보드 입력을 커스터마이징하기 위해 사용하는 앱입니다. 타이핑하다가 방향키를 입력하려 오른손목을 자주 움직이면 불편할 때가 있는데, 방향키를 hjkl 키로 대체 사용하면 오른손목을 움직일 필요가 없어 편합니다. 자세한 사용법은 [유튜브 동영상(개발자 라라)](https://www.youtube.com/watch?v=47pu4yI2Zcs)을 참고하기 바랍니다. 저는 [따로 커스터마이징한 설정 파일](/assets/upload/2022/01/karabiner.json)을 사용하여 아래와 같이 사용하고 있습니다.
+6. [iTerm2](https://iterm2.com)은 MacOS에 기본 내장된 터미널 앱을 대체하여 사용 중인 앱입니다.
+
+7. [Karabiner](https://karabiner-elements.pqrs.org)는 키보드 입력을 커스터마이징하기 위해 사용하는 앱입니다. 타이핑하다가 방향키를 입력하려 오른손목을 자주 움직이면 불편할 때가 있는데, 방향키를 hjkl 키로 대체 사용하면 오른손목을 움직일 필요가 없어 편합니다. 자세한 사용법은 [유튜브 동영상(개발자 라라)](https://www.youtube.com/watch?v=47pu4yI2Zcs)을 참고하기 바랍니다. 저는 [따로 커스터마이징한 설정 파일](/assets/upload/2022/01/karabiner.json)을 사용하여 아래와 같이 사용하고 있습니다.
     * 왼쪽 방향키: CapsLock + H
     * 아래쪽 방향키: CapsLock + J
     * 위쪽 방향키: CapsLock + K
@@ -49,22 +51,22 @@ tags: [usage]
     * Home 키: CapsLock + U
     * End 키: CapsLock + I
 
-7. [Notion](https://www.notion.so)은 메모 앱입니다. 주로 마크다운 형식으로 간단한 문서를 만들기 위해 사용합니다. 원래 [Bear](https://apps.apple.com/kr/app/%EB%B2%A0%EC%96%B4-%EC%9E%91%EB%AC%B8-%EB%B0%8F-markdown-%ED%8E%B8%EC%A7%91%EC%9E%90/id1091189122?mt=12) 앱을 사용했었지만 Bear에 기능이 좀 더 제한적이어서 Notion으로 넘어갔습니다. Bear도 마크다운 형식으로 문서를 작성하기에 괜찮은 앱입니다!
+8. [Notion](https://www.notion.so)은 메모 앱입니다. 주로 마크다운 형식으로 간단한 문서를 만들기 위해 사용합니다. 원래 [Bear](https://apps.apple.com/kr/app/%EB%B2%A0%EC%96%B4-%EC%9E%91%EB%AC%B8-%EB%B0%8F-markdown-%ED%8E%B8%EC%A7%91%EC%9E%90/id1091189122?mt=12) 앱을 사용했었지만 Bear에 기능이 좀 더 제한적이어서 Notion으로 넘어갔습니다. Bear도 마크다운 형식으로 문서를 작성하기에 괜찮은 앱입니다!
 
-8. [Sensei](https://sensei.app)는 시스템 상태를 체크하기 위한 앱입니다. CPU, RAM, SSD 및 배터리 실시간 사용량 등을 체크할 수 있습니다. 앱 클린 제거 기능도 지원합니다.
+9. [Sensei](https://sensei.app)는 시스템 상태를 체크하기 위한 앱입니다. CPU, RAM, SSD 및 배터리 실시간 사용량 등을 체크할 수 있습니다. 앱 클린 제거 기능도 지원합니다.
 
-9. [Amphetamine](https://apps.apple.com/kr/app/amphetamine/id937984704?mt=12)은 맥북 화면이 꺼지지 않도록 하기 위해 사용하는 앱입니다.
+10. [Amphetamine](https://apps.apple.com/kr/app/amphetamine/id937984704?mt=12)은 맥북 화면이 꺼지지 않도록 하기 위해 사용하는 앱입니다.
 
-10. [HazeOver](https://apps.apple.com/kr/app/hazeover-%EB%94%94%EC%8A%A4%ED%8A%B8%EB%9E%99%EC%85%98-%EB%94%94%EB%A8%B8/id430798174?mt=12)는 활성화된 윈도우 외의 영역을 어둡게 표시해주는 앱입니다. 이 앱을 사용하면 좀 더 작업에 집중할 수 있습니다.
+11. [HazeOver](https://apps.apple.com/kr/app/hazeover-%EB%94%94%EC%8A%A4%ED%8A%B8%EB%9E%99%EC%85%98-%EB%94%94%EB%A8%B8/id430798174?mt=12)는 활성화된 윈도우 외의 영역을 어둡게 표시해주는 앱입니다. 이 앱을 사용하면 좀 더 작업에 집중할 수 있습니다.
 
-11. [Hidden Bar](https://apps.apple.com/kr/app/hidden-bar/id1452453066?mt=12)는 메뉴 막대에 표시된 아이콘을 일부 또는 전부를 숨겨줍니다.
+12. [Hidden Bar](https://apps.apple.com/kr/app/hidden-bar/id1452453066?mt=12)는 메뉴 막대에 표시된 아이콘을 일부 또는 전부를 숨겨줍니다.
 
-12. [Magnet](https://apps.apple.com/kr/app/magnet-%EB%A7%88%EA%B7%B8%EB%84%B7/id441258766?mt=12)은 단축키로 앱의 크기를 설정할 때 사용합니다.
+13. [Magnet](https://apps.apple.com/kr/app/magnet-%EB%A7%88%EA%B7%B8%EB%84%B7/id441258766?mt=12)은 단축키로 앱의 크기를 설정할 때 사용합니다.
 
-13. [Mate Translate](https://apps.apple.com/kr/app/%EB%A9%94%EC%9D%B4%ED%8A%B8-%EB%B2%88%EC%97%AD%EA%B8%B0-%EB%B0%8F-%EC%82%AC%EC%A0%84-103%EA%B0%9C-%EC%96%B8%EC%96%B4/id1005088137?mt=12)는 번역 앱입니다. 웹 페이지나 원하는 내용을 번역할 수 있습니다.
+14. [Mate Translate](https://apps.apple.com/kr/app/%EB%A9%94%EC%9D%B4%ED%8A%B8-%EB%B2%88%EC%97%AD%EA%B8%B0-%EB%B0%8F-%EC%82%AC%EC%A0%84-103%EA%B0%9C-%EC%96%B8%EC%96%B4/id1005088137?mt=12)는 번역 앱입니다. 웹 페이지나 원하는 내용을 번역할 수 있습니다.
 
-14. [Noir](https://apps.apple.com/kr/app/noir-dark-mode-for-safari/id1592917505?mt=12)는 다크 모드를 지원하지 않는 웹 사이트를 검은 배경으로 바꿔주는 사파리 확장 프로그램입니다. 대부분의 웹 사이트를 검은 배경으로 자연스럽게 바꿔줍니다.
+15. [Noir](https://apps.apple.com/kr/app/noir-dark-mode-for-safari/id1592917505?mt=12)는 다크 모드를 지원하지 않는 웹 사이트를 검은 배경으로 바꿔주는 사파리 확장 프로그램입니다. 대부분의 웹 사이트를 검은 배경으로 자연스럽게 바꿔줍니다.
 
-15. [PopClip](https://apps.apple.com/kr/app/popclip/id445189367?mt=12)은 마우스로 선택한 테스트로 다양한 작업을 할 수 있도록 해줍니다. 선택한 텍스트로 구글, 네이버, 유튜브 또는 지도 검색을 하거나 선택한 텍스트를 마크다운 형식으로 복사하는 등의 작업을 빠르게 할 수 있습니다. [PopClip Extensions](https://pilotmoon.com/popclip/extensions/)에서 어떤 작업들을 할 수 있는지 볼 수 있습니다.
+16. [PopClip](https://apps.apple.com/kr/app/popclip/id445189367?mt=12)은 마우스로 선택한 테스트로 다양한 작업을 할 수 있도록 해줍니다. 선택한 텍스트로 구글, 네이버, 유튜브 또는 지도 검색을 하거나 선택한 텍스트를 마크다운 형식으로 복사하는 등의 작업을 빠르게 할 수 있습니다. [PopClip Extensions](https://pilotmoon.com/popclip/extensions/)에서 어떤 작업들을 할 수 있는지 볼 수 있습니다.
 
-16. [반디집](https://apps.apple.com/kr/app/%EB%B0%98%EB%94%94%EC%A7%91-%EC%95%95%EC%B6%95-%EB%B0%8F-%EC%95%95%EC%B6%95%ED%95%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/id1265704574?mt=12)은 누구나 알 법합 압축 프로그램입니다. MacOS에선 유료이지만 돈 값을 하는 앱입니다.
+17. [반디집](https://apps.apple.com/kr/app/%EB%B0%98%EB%94%94%EC%A7%91-%EC%95%95%EC%B6%95-%EB%B0%8F-%EC%95%95%EC%B6%95%ED%95%B4%EC%A0%9C-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8/id1265704574?mt=12)은 누구나 알 법합 압축 프로그램입니다. MacOS에선 유료이지만 돈 값을 하는 앱입니다.
