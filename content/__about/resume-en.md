@@ -4,10 +4,10 @@ date: 2019-1-27 16:21:13
 lang: 'en'
 ---
 
-# Your name
+# Jeon Won
 
 <div align="center">
 
-_Thank you for reading my resume. If you want to contact me, Please send me an email._
+_안녕하세요. 피아노공학과(?) 웃는 로봇(???) 전원 입니다._
 
 </div>
