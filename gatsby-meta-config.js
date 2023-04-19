@@ -1,7 +1,7 @@
 module.exports = {
   title: `jeonwon.dev`,
   description: `피아노공학과`,
-  author: `Jeon Won`,
+  author: `JeonWon`,
   introduction: `피아노공학과`,
   siteUrl: `https://jeonwon.dev`, // Your blog site url
   social: {
