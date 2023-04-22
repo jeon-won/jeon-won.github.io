@@ -1,5 +1,5 @@
 ---
-title: 'Hello GitHub Pages!'
+title: 'Hello GitHub Pages! (Gatsby + gatsby-starter-bee)'
 date: 2023-04-16 14:17:00
 category: 'BLOGGINGs'
 draft: false

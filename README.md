@@ -1,255 +1,128 @@
-<div align="center">
+![Github Pages](./content/blog/blogging/images/github_pages.jpg)
 
-  <img src="./assets/gatsby-starter-bee.png" width="360px" />
+## 😃 Hello GitHub Pages!
 
-</div>
+GitHub Pages와 정적 사이트 생성기인 [Gatsby](https://www.gatsbyjs.com)를 사용하여 만든 블로그입니다.
 
-[![Financial Contributors on Open Collective](https://opencollective.com/gatsby-starter-bee/all/badge.svg?label=financial+contributors)](https://opencollective.com/gatsby-starter-bee) [![Greenkeeper badge](https://badges.greenkeeper.io/JaeYeopHan/gatsby-starter-bee.svg)](https://greenkeeper.io/)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/JaeYeopHan/gatsby-starter-bee.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/JaeYeopHan/gatsby-starter-bee/alerts/)
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/4b1962ce-6206-4d8f-9516-63be92294198/deploy-status)](https://app.netlify.com/sites/gatsby-starter-bee/deploys)
+Gatsby 테마 여러 종류로 블로그를 만들며 지지고 볶다가, 마음에 드는 것이 [zoomkoding-gatsby-blog](https://github.com/zoomKoding/zoomkoding-gatsby-blog)와 [gatsby-starter-bee](https://github.com/JaeYeopHan/gatsby-starter-bee) 두 가지 뿐이었습니다. 둘 중에 고민하다가 결국 후자를 택했습니다.
 
-<a href="https://twitter.com/JbeeLjyhanll">
-<img alt="Twitter: JbeeLjyhanll" src="https://img.shields.io/twitter/follow/JbeeLjyhanll.svg?style=social" target="_blank" />
-</a>
 
-[한국어🇰🇷](./README.ko.md)
+## 🤔 구축과정
 
-![screenshot](./assets/screenshot.png)
+먼저 로컬에 git과 nvm이 설치되어 있어야 합니다. nvm이 필요한 이유는 Gatsby를 실행하기 위한 Node 버전과 gatsby-starter-bee 테마 관련 패키지와 호환되는 Node 버전이 서로 다르기 때문입니다. 여기서는 gatsby-starter-bee 테마를 설치할 때만 Node 18.14.0 버전을 사용하고, 이 외엔 모두 Node 14.15.0 버전을 사용합니다.
 
-In this template...
+1. GitHub에 `<GITHUB_ID>.github.io` 라는 이름의 리포지토리를 만듭니다.
+2. `git clone <GITHUB_REPOSITORY_LINK>` 명령어로 위에서 만든 리포지토리를 로컬로 복제해옵니다.
+3. `npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee` 명령어로 gatsby-starter-bee 테마를 로컬에 설치합니다. 이 때 사용하는 Node 버전은 18 이상이어야 하며, 저는 18.14.0 버전을 사용했습니다.
+4. 생성된 gatsby-starter-bee 테마 파일을 리포지토리 경로로 복사합니다.
+5. `package-lock.json` 파일을 삭제합니다. 이 파일을 삭제하지 않으면 npm으로 패키지 설치 시 에러가 발생합니다.
+6. `nvm install 14.15.0` 명령어로 Node 14.15.0 버전을 설치한 후, `nvm use 14.15.0` 명령어를 실행하여 Node 14.15.0 버전을 사용하도록 설정합니다.
+7. 리포지토리 경로로 이동한 후 `npm i` 명령어를 실행하여 gatsby-starter-bee 테마에 필요한 패키지를 설치합니다. 추후 GitHub Pages로 배포할 것을 고려하여 `npm i gh-pages` 명령어로 gh-pages 패키지를 설치합니다.
+8. `npm audit fix` 명령어를 실행하여 패키지 취약점을 개선합니다. 사실 아래 10번 과정이 잘 실행된다면 하지 않아도 됩니다.
+9. 보유한 도메인이 있다면 리포지토리 최상위 경로에 `CNAME` 파일을 만든 후 파일 내용에 도메인 명을 넣어 저장합니다.
+10. `npm start` 명령어를 실행한 후 http://localhost:8000 주소로 접속이 잘 되는지 확인합니다.
 
-- 💄 Code highlight with Fira Code font
-- 🧙 CLI Tool
-- 😄 Emoji (emojione)
-- 🗣 Social share feature (Twitter, Facebook)
-- 💬 Comment feature (disqus, utterances)
-- ☕ 'Buy me a coffee' service
-- 🤖 GA
-- ⭐ Enhance UX
-- ⚙ Configurable
 
-> [About this Template](https://www.gatsbyjs.org/starters/JaeYeopHan/gatsby-starter-bee/)
+## ⚙️ 설정
 
-## Demo
+### 블로그 정보 설정
 
-- [Default Theme](https://gatsby-starter-bee.netlify.com/)
+`gatsby-meta-config.js` 파일 내용을 수정합니다. 주석 설명대로 수정하면 됩니다.
 
-<details>
-  <summary>Use case</summary>
-  <p>
-    <img src="./assets/demos.png" alt="demo-image">
-    <ul>
-      <li>JBEE.io: https://jbee.io</li>
-      <li>Rinae's devlog: https://rinae.dev/</li>
-      <li>Seungdols Company: https://seungdols.dev/</li>
-      <li>Kooku's log: https://kooku.netlify.com/</li>
-      <li>SOSOLOG: https://so-so.dev/</li>
-      <li>delivan.dev: https://delivan.dev/</li>
-      <li>Jungin's blog: https://jungin.netlify.com/</li>
-      <li>Zero's blog: https://awesomezero.com/</li>
-      <li>Jonathan's blog: https://www.learningsomethingnew.com/</li>
-      <li>@deveely-log: https://deveely-log.netlify.com/</li>
-      <li>Hanul's blog: https://hanul-dev.netlify.com/</li>
-      <li>Hoons Blog: https://hoons-up.netlify.com/</li>
-      <li>JWN.cool: https://jwn.cool</li>
-      <li>ugaemi's dev note: https://ugaemi.github.io</li>
-      <li>Minsu's Dev Log: https://alstn2468.github.io/</li>
-      <li>Yungi's Dev Blog: https://yungis.dev/</li>
-      <li>< Taenylog />: https://taeny.dev/</li>
-      <li>brouk's devlog: https://brouk-devlog.netlify.com/</li>
-      <li>CoodingPenguin's Repository: https://cooding-penguin.netlify.com/</li>
-      <li>Garima's Tech Blog: https://garimasingh.netlify.app/ </li>
-      <li>DevRappers.dev: https://devrappers.dev/</li>
-      <li>Let's doodle: https://duduling-blog.netlify.app/</li>
-      <li>noopy.dev: https://noopy.dev/</li>
-      <li>Hong_Devlog: https://hong-dev.github.io/</li>
-      <li>samsara-ku's devlog: https://samsara-ku.dev/</li>
-      <li>muse.kim: https://muse.kim/</li>
-      <li>cereme.dev: https://cereme.dev</li>
-      <li>taekki.dev: https://taekki.dev</li>
-      <li>kkh913's Developer Blog: https://kkh913.github.io</li>
-      <li>Merrily, Code: https://merrily-code.netlify.app/</li>
-      <li>jeeneee's devlog: https://jeeneee.dev</li>
-      <li>Noah's devlog: https://noah0316.github.io/</li>
-      <li>bobs log: https://undefine.me</li>
-      <li>irosyadi: https://irosyadi.netlify.app</li>
-      <li>yujolog: https://yujo11.github.io/</li>
-      <li>hexdrinker's devlog: https://hexdrinker.dev</li>
-      <li>gparkki.io: https://gparkkii.github.io/</li>
-      <li>BO.LOG: https://b5bo.github.io</li>
-    </ul>
-  </p>
-</details>
+robots.txt 파일과 사이트맵 경로 설정을 위해 `gatsby-config-js` 파일 내용을 수정합니다.
 
-> If you're using this template, Please Pull Request for `Use case`!
-
-## 😎 Quick Start
-
-### 1. Create a Gatsby site
-
-```sh
-# create a new Gatsby site using the blog starter
-npx gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
+```js
+{
+  resolve: 'gatsby-plugin-robots-txt',
+  options: {
+    host: 'https://<DOMAIN_NAME>',
+    sitemap: 'https://<DOMAIN_NAME>/sitemap.xml',
+    policy: [
+      {
+        userAgent: '*',
+        allow: '/',
+      },
+    ],
+  },
+},
 ```
 
-> If you are not using `npx`, following [Gatsby Getting Started](https://www.gatsbyjs.org/docs/quick-start)
+### 글 최대 폭 설정
 
-```sh
-npm install -g gatsby-cli
-gatsby new my-blog-starter https://github.com/JaeYeopHan/gatsby-starter-bee
+gatsby-starter-bee 테마의 글 최대 폭을 수정하려면 `src/layout/index.jsx` 파일 내 maxWidth 속성 값의 rhythm 함수 매개변수 값을 수정해줍니다. 기본 값은 24이고, 이 블로그는 28로 설정되어 있습니다.
+
+```jsx
+<div
+  style={{
+    marginLeft: `auto`,
+    marginRight: `auto`,
+    maxWidth: rhythm(24), // 수정
+    padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+  }}
+>
 ```
 
-### 2. Start developing
+### 기타 설정
 
-```sh
-cd my-blog-starter/
-npm start
-# open localhost:8000
+* About 페이지를 수정하려면 `content/__about/resume-en.md` 파일을 수정합니다.
+* Footer를 수정하려면 `src/components/footer/index.jsx` 파일을 수정합니다.
+* 우측 상단 깃허브 링크를 수정하려면 `src/components/social-share/github-icon/index.jsx` 파일을 수정합니다.
+
+## ✏️ 포스팅
+
+### 마크다운 파일 만들기
+
+보통 Gatsby 테마를 사용하는 경우 글을 작성할 때 `content` 경로에 마크다운 파일을 만들면 됩니다. 다만 gatsby-starter-bee 테마를 사용한다면 `content/blog` 경로에 마크다운 파일을 만들면 됩니다.
+
+마크다운 파일을 만드는 방법은 두 가지가 있습니다. 마크다운 파일명을 **index.md**로 만드는 경우와 그렇지 않은 경우인데요. 예시를 들어 설명하자면 다음과 같습니다.
+
+1. `content/blog/blogging/hello-world` 경로에 **index.md** 마크다운 파일을 만들었다면, 위와 동일하게 해당 포스트의 URL은 `https://<YOUR_DOMAIN>/blogging/hello-world`가 됩니다.
+2. `content/blog/blogging` 경로에 **hello-world.md** 마크다운 파일을 만들었다면, 해당 포스트의 URL은 `https://<YOUR_DOMAIN>/blogging/hello-world`가 됩니다.
+
+즉 마크다운 파일 이름을 **index.md**로 만들었다면 마크다운 파일 경로가 URL이 되고, 파일 이름을 그렇게 만들지 않았다면 마크다운 파일 경로와 파일 이름이 URL이 됩니다.
+
+### 마크다운 파일 작성
+
+마크다운 파일 내용 최상단에는 아래 속성 값이 들어가야 합니다. draft 속성 값이 false이면 해당 포스트는 공개됩니다. 글을 작성중이라면 true로 해놓는 것이 좋겠습니다.
+
+```txt
+---
+title: 'Post Title'
+date: 2023-04-16 14:17:00
+category: 'Category'
+draft: false
+---
 ```
 
-### 3. Add your content
+위 속성들은 Gatsby 테마에 따라 사용되는 종류가 달라집니다. Gatsby 테마를 변경한 후 에러가 난다면, 테마에서 필요로 하는 위의 속성 값들이 빠지지 않았는지 확인해야 합니다.
 
-You can write...
+이후 마크다운 문법을 사용하여 글을 작성하면 됩니다.
 
-- contents to blog in `content/blog` directory.
-- resume `content/__about` directory.
 
-> With markdown syntax and some meta data
+## 💠 형상관리
 
-#### Support script for creating new post
+Git 리포지토리를 통해 형상관리를 하므로 스테이징, 커밋 및 푸시 작업이 필요합니다. 주로 사용할만한 명령어는 다음과 같습니다.
 
-![cli-tool-example](assets/cli-tool-example.gif)
+* 모든 파일을 스테이징: `git add *`
+* 커밋: `git commit -m "Commit Message"`
+* 원격 리포지토리로 전송: `git push`
 
-```sh
-npm run post
-```
 
-👉 Use **gatsby-post-gen** (<https://github.com/JaeYeopHan/gatsby-post-gen>)
+## 🚀 배포
 
-### 4. Fix meta data
-
-You can fix meta data of blog in `/gatsby-meta-config.js` file.
-
-### 5. Publish with [netlify](https://netlify.com)
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/JaeYeopHab/gatsby-starter-bee)
-
-:bulb: if you want to deploy github pages, add following script to package.json
+`package.json` 파일에 아래 스크립트를 추가합니다.
 
 ```json
 "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master -r 'git@github.com:${your github id}/${github page name}.github.io.git'"
+    "deploy": "gatsby build && cp CNAME ./public && gh-pages -d public"
 }
 ```
 
-## 🧐 Customize
+보유한 도메인이 없다면 위의 `cp CNAME ./public &&`을 삭제합니다.
 
-### ⚙ Gatsby config
+그 다음 `npm run deploy` 명령어를 실행하면 public 폴더의 파일들이 깃허브 리포지토리의 gh-pages 브랜치에 배포됩니다. 깃허브 리포지토리 Settings 메뉴 → pages 메뉴에 들어간 다음, Branch를 gh-pages로 수정합니다.
 
-```sh
-/root
-├── gatsby-browser.js // font, polyfill, onClientRender ...
-├── gatsby-config.js // Gatsby config
-├── gatsby-meta-config.js // Template meta config
-└── gatsby-node.js // Gatsby Node config
-```
 
-### ⛑ Structure
+## 🔗 접속
 
-```sh
-src
-├── components // Just component with styling
-├── layout // home, post layout
-├── pages // routing except post: /(home), /about
-├── styles
-│   ├── code.scss
-│   ├── dark-theme.scss
-│   ├── light-theme.scss
-│   └── variables.scss
-└── templates
-    ├── blog-post.js
-    └── home.js
-```
-
-### 🎨 Style
-
-You can customize color in `src/styles` directory.
-
-```sh
-src/styles
-├── code.scss
-├── dark-theme.scss
-├── light-theme.scss
-└── variables.scss
-```
-
-### 🍭 Tips (You can change...)
-
-- Profile image! (replace file in `/content/assets/profile.png`)
-- Favicon image! (replace file in `/content/assets/felog.png`)
-- Header gradient! (\$theme-gradient `/styles/variables.scss`)
-- Please set it up for update to the domain distributed in 'robots.txt'! (replace part `https://your-blog.netlify.app` of `gatsby-config.js`)
-- Utterances repository! (replace repository address in `/gatsby-meta-config.js`)
-  - ⚠️ Please check, this guide(<https://utteranc.es/>)
-
-## ☕ Like it?
-
-<a href="https://www.buymeacoffee.com/jbee" target="_blank">
-  <img src="https://www.buymeacoffee.com/assets/img/custom_images/purple_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" >
-</a>
-
-## 🤔 If
-
-If you are currently writing in the Medium, consider migration with [medium-to-own-blog](https://github.com/mathieudutour/medium-to-own-blog)!
-
-## :bug: Bug reporting
-
-[Issue](https://github.com/JaeYeopHan/gatsby-starter-bee/issues)
-
-## 🎁 Contributing
-
-[Contributing guide](./CONTRIBUTING.md)
-
-## Contributors
-
-### Code Contributors
-
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-
-<a href="https://github.com/JaeYeopHan/gatsby-starter-bee/graphs/contributors">
-<img src="https://opencollective.com/gatsby-starter-bee/contributors.svg?width=890&button=false" />
-</a>
-
-### Financial Contributors
-
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/gatsby-starter-bee/contribute)]
-
-#### Individuals
-
-<a href="https://opencollective.com/gatsby-starter-bee"><img src="https://opencollective.com/gatsby-starter-bee/individuals.svg?width=890"></a>
-
-#### Organizations
-
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/gatsby-starter-bee/contribute)]
-
-<a href="https://opencollective.com/gatsby-starter-bee/organization/0/website"><img src="https://opencollective.com/gatsby-starter-bee/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/gatsby-starter-bee/organization/1/website"><img src="https://opencollective.com/gatsby-starter-bee/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/gatsby-starter-bee/organization/2/website"><img src="https://opencollective.com/gatsby-starter-bee/organization/2/avatar.svg"></a>
-<a href="https://opencollective.com/gatsby-starter-bee/organization/3/website"><img src="https://opencollective.com/gatsby-starter-bee/organization/3/avatar.svg"></a>
-<a href="https://opencollective.com/gatsby-starter-bee/organization/4/website"><img src="https://opencollective.com/gatsby-starter-bee/organization/4/avatar.svg"></a>
-<a href="https://opencollective.com/gatsby-starter-bee/organization/5/website"><img src="https://opencollective.com/gatsby-starter-bee/organization/5/avatar.svg"></a>
-<a href="https://opencollective.com/gatsby-starter-bee/organization/6/website"><img src="https://opencollective.com/gatsby-starter-bee/organization/6/avatar.svg"></a>
-<a href="https://opencollective.com/gatsby-starter-bee/organization/7/website"><img src="https://opencollective.com/gatsby-starter-bee/organization/7/avatar.svg"></a>
-<a href="https://opencollective.com/gatsby-starter-bee/organization/8/website"><img src="https://opencollective.com/gatsby-starter-bee/organization/8/avatar.svg"></a>
-<a href="https://opencollective.com/gatsby-starter-bee/organization/9/website"><img src="https://opencollective.com/gatsby-starter-bee/organization/9/avatar.svg"></a>
-
-## LICENSE
-
-[MIT](./LICENSE)
-
-<div align="center">
-
-<sub><sup>Project by <a href="https://github.com/JaeYeopHan">@Jbee</a></sup></sub><small>✌</small>
-
-</div>
+이제 [https://<GITHUB_ID>.github.io](https://<GITHUB_ID>.github.io) 주소로 블로그 접속이 가능합니다. 보유한 도메인이 있다면 보유한 도메인 주소로 접속하면 됩니다. 드더이(?) 끝났습니다. 😁
