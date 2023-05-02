@@ -154,3 +154,37 @@ draft: false
 
 ![나인 아워스 아카사카 캡슐 3](images/20230405213502_NineHoursAkasaka_Capsule.jpg) 
 
+
+## 🍺 오모이데요코초
+
+오모이데요코초는 신주쿠 역 근처에 있는 술집거리입니다. 번역하면 추억의 거리인데 앞으로 있을 여행의 추억이 영... 🤐
+
+![오모이데요코초 입구](./images/20230405184358_Omoideyokocho_Entry.jpg)
+
+![오모이데요코초 거리](./images/20230405185130_Omoideyokocho_Street.jpg)
+
+![오모이데요코초 거리](./images/20230405185302_Omoideyokocho_Street.jpg)
+
+아무 가게나 들어가서 꼬치랑 술 한잔하려 했지만 빈 자리가 있는 가게가 거의 없었습니다. 꼬치구이를 먹고 싶었지만 꼬치구이를 파는 가게는 빈 자리가 하나도 없었습니다. 골목을 세 바퀴 정도 돌고 돌아 결국 [야스베](https://goo.gl/maps/yPvh3Ni8B1CxwdDg8)라는 가게에 갔습니다.
+
+![오모이데요코초 야스베](./images/20230405200116_Omoideyokocho_Yasubee_Entry.jpg)
+
+![오모이데요코초 야스베 세트 메뉴](./images/20230405190112_Omoideyokocho_Yasubee_Menu.jpg)
+
+맥주로 갈증을 해소할 수 있다는 걸 이 때 처음 알았습니다. 맥주가 떨어져서 하이볼도 주문하고, 호피(Hoppy)라는 맥주도 처음 마셔봤는데 저렴하니 가성비가 좋습니다!
+
+![오모이데요코초 야스베 맥주](./images/20230405190148_Omoideyokocho_Yasubee_Beer.jpg)
+
+![오모이데요코초 야스베 하이볼](./images/20230405192056_Omoideyokocho_Yasubee_Highball.jpg)
+
+![오모이데요코초 야스베 호피](./images/20230405194700_Omoideyokocho_Yasubee_Hoppy.jpg)
+
+꼬치구이를 먹고 오지 못해서 아쉽긴 하지만, 대충 오뎅 세트랑 단품 메뉴 몇 가지 추가해서 맛있게 먹고 나왔습니다.
+
+![오모이데요코초 야스베 5세트 메뉴](./images/20230405192454_Omoideyokocho_Yasubee_5Set.jpg)
+
+![오모이데요코초 야스베 오뎅과 꼬치](./images/20230405194810_Omoideyokocho_Yasubee_Odeng.jpg)
+
+![오모이데요코초 야스베 5세트 메뉴](./images/20230405195710_Omoideyokocho_Yasubee_EatEverything.jpg)
+
+이제 다음날부터 본격적인 여행을 시작합니다!
