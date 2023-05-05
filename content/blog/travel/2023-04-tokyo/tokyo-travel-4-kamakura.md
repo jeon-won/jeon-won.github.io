@@ -32,7 +32,7 @@ draft: false
 
 어느 남자아이와 아버지가 함께 모노레일을 탔는데, 남자아이가 모노레일 앞쪽 풍경을 보며 계속해서 감탄을 금치 못했습니다. 이 아이를 보면서 나이를 먹을수록 새로운 것을 경험해도 감흥이 없어지는 것이 슬퍼집니다. 😭 이 아이의 아버지도 아래 [일상툰](https://www.instagram.com/p/CTowZrAhcQz/?utm_source=ig_web_copy_link) 과 같은 생각이 드시려나요... 🥹
 
-![이숨: 어린 나와 만남](./images/2SoomToon_MeetingWithAYoungMan.JPG)
+![이숨: 어린 나와 만남](./images/2SoomToon_MeetingWithAYoungMan.jpg)
 
 쇼난에노시마 역에서 내리니 맑은 하늘이 나타났습니다. 일본여행 4일 차에 처음으로 비가 오지 않고 제대로 된 푸른 하늘을 볼 수 있게 되다니... 😭
 
