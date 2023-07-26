@@ -33,7 +33,7 @@ for filepath in "$directory"/*; do
     filename="$(basename "$filepath")"
 
     # 파일이름 앞에 파일 생성일과 시간을 붙임
-    # mv "$filepath" "$directory"/"$filedate"_"$filename"
+    mv "$filepath" "$directory"/"$filedate"_"$filename"
     echo "변경 전: "$filepath""
     echo "변경 후: "$directory"/"$filedate"_"$filename""
   fi
@@ -106,7 +106,7 @@ for filepath in "$directory"/*; do
 done
 ```
 
-## 참고 사이트
+## ❗ 참고 사이트
 
 * [Add Dates To File Or Photo Names With an Automator Script](https://macmost.com/add-dates-to-file-or-photo-names-with-an-automator-script.html)
 * ChatGPT
