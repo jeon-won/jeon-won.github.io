@@ -1,4 +1,296 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jeonwon.dev]]></title><description><![CDATA[피아노공학과]]></description><link>https://jeonwon.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 03 Dec 2023 17:07:31 GMT</lastBuildDate><item><title><![CDATA[2023년 11월 도쿄 여행기]]></title><description><![CDATA[キムさん, シムさん(?)과 함께 여행을 가볼 기회가 생겨 2박 3일 간 도쿄에 다녀왔습니다. 원래 오사카에 갈 예정이었지만 어찌어찌 하다가 목적지가 도쿄로 바뀐 건 함정… 😎 2박…]]></description><link>https://jeonwon.dev/travel/2023-11-tokyo-travel/</link><guid isPermaLink="false">https://jeonwon.dev/travel/2023-11-tokyo-travel/</guid><pubDate>Sat, 02 Dec 2023 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.instagram.com/25_jw/&quot;&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[jeonwon.dev]]></title><description><![CDATA[피아노공학과]]></description><link>https://jeonwon.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 10 Dec 2023 06:16:46 GMT</lastBuildDate><item><title><![CDATA[Git & GitHub 사용법 간단 정리]]></title><description><![CDATA[코딩애플 git & github 강의 듣고 정리한 것들. 🤔 Git? Git은 파일 변경내역을 보존하고 관리하기 위해 사용. 그렇지 않고 이전 내역으로 되돌리려면 최종, 진짜최종, 찐최종, 레알최종 등의 이름으로 파일 복사본을 만들어둬야 함.…]]></description><link>https://jeonwon.dev/coding/using-git/</link><guid isPermaLink="false">https://jeonwon.dev/coding/using-git/</guid><pubDate>Mon, 11 Dec 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 900px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAMABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAABAABBf/EABYBAQEBAAAAAAAAAAAAAAAAAAEAAv/aAAwDAQACEAMQAAABQjkboXAi/8QAGxAAAgMAAwAAAAAAAAAAAAAAAQIAAxIREyL/2gAIAQEAAQUCAGeBLR60073jXMx//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGRAAAwADAAAAAAAAAAAAAAAAABAxAREh/9oACAEBAAY/AoTCq7o//8QAHBAAAgICAwAAAAAAAAAAAAAAAAERIUGhMXGR/9oACAEBAAE/IYtuNC49QpLWBqdP0R5XhJNB/9oADAMBAAIAAwAAABDzH//EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/EIf/xAAWEQEBAQAAAAAAAAAAAAAAAAARAAH/2gAIAQIBAT8QcJv/xAAbEAEAAwEAAwAAAAAAAAAAAAABABEhMWFxgf/aAAgBAQABPxCroJ0CvfJg+iDwG355YyKZhipnLawuTWwKyP/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;코딩의 효능&quot;
+        title=&quot;코딩의 효능&quot;
+        src=&quot;/static/3e2afe390a1a3396f2d90915ac615f50/8e1fc/EfficacyOfCoding.jpg&quot;
+        srcset=&quot;/static/3e2afe390a1a3396f2d90915ac615f50/f93b5/EfficacyOfCoding.jpg 300w,
+/static/3e2afe390a1a3396f2d90915ac615f50/b4294/EfficacyOfCoding.jpg 600w,
+/static/3e2afe390a1a3396f2d90915ac615f50/8e1fc/EfficacyOfCoding.jpg 900w&quot;
+        sizes=&quot;(max-width: 900px) 100vw, 900px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://codingapple.com/course/git-and-github&quot;&gt;코딩애플 git &amp;#x26; github&lt;/a&gt; 강의 듣고 정리한 것들.&lt;/p&gt;
+&lt;h2 id=&quot;git&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#git&quot; aria-label=&quot;git permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🤔 Git?&lt;/h2&gt;
+&lt;p&gt;Git은 파일 변경내역을 보존하고 관리하기 위해 사용.&lt;/p&gt;
+&lt;p&gt;그렇지 않고 이전 내역으로 되돌리려면 최종, 진짜최종, 찐최종, 레알최종 등의 이름으로 파일 복사본을 만들어둬야 함.&lt;/p&gt;
+&lt;h2 id=&quot;1️⃣초기설정&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#1%EF%B8%8F%E2%83%A3%EC%B4%88%EA%B8%B0%EC%84%A4%EC%A0%95&quot; aria-label=&quot;1️⃣초기설정 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;1️⃣ 초기설정&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 기본 브랜치 이름을 master가 아닌 main으로 설정&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# (GitHub는 기본 브랜치 이름을 main으로 사용하라고 강요하므로 해두는 게 좋음)&lt;/span&gt;
+~ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; config —-global init.defaultBranch main
+
+&lt;span class=&quot;token comment&quot;&gt;# - 기본 Git의 에디터를 vim이 아닌 vs code로 설정&lt;/span&gt;
+~ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; config —-global core.editor “code —wait”
+
+&lt;span class=&quot;token comment&quot;&gt;# 유저 이메일과 이름 설정&lt;/span&gt;
+~ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; config &lt;span class=&quot;token parameter variable&quot;&gt;--global&lt;/span&gt; user.email &lt;span class=&quot;token string&quot;&gt;&quot;이메일&quot;&lt;/span&gt;
+~ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; config &lt;span class=&quot;token parameter variable&quot;&gt;--global&lt;/span&gt; user.name &lt;span class=&quot;token string&quot;&gt;&quot;이름&quot;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;스테이징과-커밋&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%95%EA%B3%BC-%EC%BB%A4%EB%B0%8B&quot; aria-label=&quot;스테이징과 커밋 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;스테이징과 커밋&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Add와 Commit 과정을 나눠놓는 이유&lt;/strong&gt;는 모든 파일을 기록할 필요가 없으므로(예: 이미지 파일) git add로 기록할 파일을 고르고 git commit으로 고른 파일을 기록저장소로 옮기기 위함임.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Git을 사용하는 방식은 작업폴더 → Staging area → Repository&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Staging area는 Commit할 파일을 골라놓는 곳이며, 여기에 파일을 골라넣는 행위를 Staging이라고 함.&lt;/li&gt;
+&lt;li&gt;Repository는 Commit된 파일의 버전들을 모아놓은 곳.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# git 초기화&lt;/span&gt;
+~ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; init
+
+&lt;span class=&quot;token comment&quot;&gt;# 스테이징&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; 파일명
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; 파일명1 파일명2
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## 모든 파일 스테이징 &lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; *  &lt;span class=&quot;token comment&quot;&gt;## 모든 파일 스테이징 &lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 커밋&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;커밋 메시지&apos;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 상태 출력&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; status 
+
+&lt;span class=&quot;token comment&quot;&gt;# 로그 출력(로그 출력 시 나오는 HEAD가 현재 위치를 가리킴)&lt;/span&gt;
+&lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--all&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;-브랜치branch-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%B8%8C%EB%9E%9C%EC%B9%98branch-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot; 브랜치branch 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🌱 브랜치(Branch) 만들기&lt;/h2&gt;
+&lt;p&gt;브랜치는 메인 줄기에서 뻗어나온 복사본과 같은 것. 여러 개발자들이 협업할 때 자기만의 브랜치를 만들어 테스트 후 잘 된다면 Main 브랜치에 합치는 방식으로 사용.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch 브랜치명  &lt;span class=&quot;token comment&quot;&gt;# 브랜치 생성&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; switch 브랜치명  &lt;span class=&quot;token comment&quot;&gt;# 해당 브랜치로 이동&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; status         &lt;span class=&quot;token comment&quot;&gt;# 브랜치 확인&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; log &lt;span class=&quot;token parameter variable&quot;&gt;--oneline&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--all&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;--graph&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# 브랜치 구조를 그래프로 출력&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;브랜치를 합치려면 기준이 되는 브랜치로 이동한 후 merge를 수행함,&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; switch main   &lt;span class=&quot;token comment&quot;&gt;# main 브랜치로 이동한 후&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge 브랜치명  &lt;span class=&quot;token comment&quot;&gt;# main 브랜치에 다른 브랜치를 합침&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;main 브랜치와 다른 브랜치에서 같은 파일을 수정한 경우 Merge conflict가 발생함. main 브랜치를 기준으로 병합할지, 다른 브랜치를 기준으로 병합할지 모호하기 때문. 이 때 원하는 코드만 남긴 후 git add 및 git commit을 하면 됨.&lt;/p&gt;
+&lt;h2 id=&quot;다양한-git-merge-방법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8B%A4%EC%96%91%ED%95%9C-git-merge-%EB%B0%A9%EB%B2%95&quot; aria-label=&quot;다양한 git merge 방법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;다양한 Git merge 방법&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;3-way merge&lt;/strong&gt;는 브랜치를 합쳐서 새로운 commit을 자동으로 생성하는 방식. 기본적인 방식임.&lt;/p&gt;
+&lt;p&gt;모든 브랜치를 3-way merge 해버리면 복잡해보이며, main 브랜치의 git log 출력 시 3-way merge된 commit 내역도 다 출력돼서 더러워보이는 단점이 있음.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 65.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAYAAACpUE5eAAAACXBIWXMAABcRAAAXEQHKJvM/AAAC60lEQVQ4y22TWW7bVhSGtQgvwAvwqx+8lS6iK8gi+poGRYGoDwFqIx3oGnHiSCIlA6olO5UpWhItxSI1mIPEQRRF3unvJaMWDdBD/Pxxpw+H5x5WDg4OxicnJ87R0dHy+Pj4+fDwcHFxcfEBwO9g+TlnVFknRAm2RIGgCjhVckKU54gohFKFMaZQxn6T/iHP828ruq53lsslbNtG4ZZlYZem4AL4a8kx9KW7QPcZuHcEbhfAwwpozYAoQxlCfHEJ7VSkN7AfF2t7MTcF669kjnnO9PGC9UybeUHCZLbMMKes3X9is8WSSRoTQpA9sFGhlGryEAzD4L7vC8/3EUchzKc59NFnRMEKM3sK11liYPQRhWtkuxRZmoCQXPLK4HugVhHgTX/l4+zslKqayt9dvuOqprF67SP941yhDVWlV1dXtNPt0tPTUzoYDKk8+68kjH6VofRaEqWYmFMU/k88TZ8wGpmglJXjzSbBYDgsa13UjMuXKLR/9sA/K28/vXzVNJXx9eSi33o8f6gP3xq2Nz6jOXstWP4TzZIqSFql2bYKTqqcZtLzUpyJqmCoMspey7L9nGXZN5WXzRfGL73v0197r2JF/zF+0/0uttYjeZewoh2zvRS27sF2t7D9rbDDDPZjAHsstc1DO9h6dkbSqUzSJ5T8UHyyiv+JLRE4HwGf7BQfBzHakwQ3M4GOlUE1N7gehxi79xh79+jNW2CcgTN+U5FUrQAQQv7bNiLaCWE4shtpIqz5UgS+I3ieiGwTirm9EDNrIUT+Ze/E67OM7iC4UIsMtc1mg8vLS357e4t6vY52u12q0VBx0+ngutWC3u/LPVcwHnXMExPT4AGPXg+z0MTQ7fJw5xWpyLYRohkEAWq1Gh+NRnBdF57n4e7uDpqmlbdazBUu96D/oCMhEaJ0hSQP4YXPuJ/c8IVnFcBmRV71+wLoOA6L43j/K4kSWkg2fjmXJEkJXq/XX9V6EyewrRlzHRc5yd//DcjAsHYxgxBHAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;3-way merge&quot;
+        title=&quot;3-way merge&quot;
+        src=&quot;/static/0ae0d7db695638072b68f21f2a54faeb/c1b63/Git_Merge_3Way.png&quot;
+        srcset=&quot;/static/0ae0d7db695638072b68f21f2a54faeb/5a46d/Git_Merge_3Way.png 300w,
+/static/0ae0d7db695638072b68f21f2a54faeb/0a47e/Git_Merge_3Way.png 600w,
+/static/0ae0d7db695638072b68f21f2a54faeb/c1b63/Git_Merge_3Way.png 1200w,
+/static/0ae0d7db695638072b68f21f2a54faeb/27e9a/Git_Merge_3Way.png 1253w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;fast-forward merge는&lt;/strong&gt; 신규 브랜치엔 새로운 commit이 있지만 main 브랜치엔 없는 경우 신규 브랜치의 commit을 main으로 지칭하는 방식.&lt;/p&gt;
+&lt;p&gt;이 방식이 싫으면 &lt;code class=&quot;language-text&quot;&gt;git merge --no-ff 브랜치명&lt;/code&gt; 명령어를 실행해서 강제로 3-way merge를 수행.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAJCAYAAAAywQxIAAAACXBIWXMAABcRAAAXEQHKJvM/AAAB7klEQVQoz2WS327TMBTG+7g8QLWL3jCJm/EUvADqDdO0AVundaBpZX/UAtHWtWnmhjlO2sZJlz+OTz9OwkADjvTLsS3n85fPabXb7WB7e7vsdDrZzs7rtKqMSgtSDwmp8RJqwoh4ozwNdcPjSGdqtVwoIeaqKAoFQBGR3Gw2j9babosXfPxTX0NAaGB0rzH0YtxFFiORYHAX4f5HgHi1hJQSxphmP4s1nYXPa0Hh+z48z6tc17VzIexwPLdZqu2DL6wvPGvy1JostfFqYY0pLb/zBxarMU+C/Vpw2esdo98/hevOMByO8OH9AdzZDDpJGic6Sf/6gtrRb1fPiwUvWqDiQC+CSbGOv/Oag41xAvngJEnqNPMnrKVfEDn0P98YjzN803rxjo5efcLlyxMMOof4svURA2eFXRZ5ayvThWXIdDdUca+acd1ZoMsum17v5b5fluVWy42Rnd9IDG4DXLtLXE0XmHg+9GMJXQK64GvMgEdOKc6BFc9jxpQFsixHnufQWoPF6hjO6gzl6fEhPp/07PTWodH1Be3v7dLlWNJkBbry1tS7SWm2MOTwD3I2XdNgqilUkqQMSClFQgiTcN5cvVZRlDKMIj4laVIu+KQwDJFn6zpmLKOQUagMO7AGkZKIwgCc5fP7sM3D2qOfUoubpHinigcAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;fast-forward merge&quot;
+        title=&quot;fast-forward merge&quot;
+        src=&quot;/static/108d9e39fe9b58559d162f2a392f9380/c1b63/Git_Merge_FastForward.png&quot;
+        srcset=&quot;/static/108d9e39fe9b58559d162f2a392f9380/5a46d/Git_Merge_FastForward.png 300w,
+/static/108d9e39fe9b58559d162f2a392f9380/0a47e/Git_Merge_FastForward.png 600w,
+/static/108d9e39fe9b58559d162f2a392f9380/c1b63/Git_Merge_FastForward.png 1200w,
+/static/108d9e39fe9b58559d162f2a392f9380/0c1c2/Git_Merge_FastForward.png 1542w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;rebase merge&lt;/strong&gt; 는 브랜치의 시작점을 다른 commit으로 옮김. 간단하고 짧은 브랜치들은 log 출력 시 깔끔해 보이는 장점이 있지만 conflict가 자주 난다는 단점이 있음.&lt;/p&gt;
+&lt;p&gt;신규 브랜치의 시작점을 main 브랜치의 최근 commit으로 옮긴 후 fast-forward merge를 하는 경우가 있음. 이렇게 하면 commit 내역을 가지치기 하지 않고 계속 이어나갈 수 있음.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# rebase &amp;amp; merge 하는 방법&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; switch 신규브랜치  &lt;span class=&quot;token comment&quot;&gt;## 신규 브랜치로 이동 후&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; rebase main     &lt;span class=&quot;token comment&quot;&gt;## git rebase main 수행&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; switch main     &lt;span class=&quot;token comment&quot;&gt;## main 브랜치로 이동후 &lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge 신규브랜치   &lt;span class=&quot;token comment&quot;&gt;## fast-forward merge 수행&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 26%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAFCAYAAABFA8wzAAAACXBIWXMAABcRAAAXEQHKJvM/AAABGUlEQVQY03WQvU7DMBSF85KMPAYLb8DEzsLAE6AidUCFEhUVFTVLpJZSqZEbFIW0EDum+bGvfXDSjHClT8c/5x5d27s4uY2vzx7lzfmTuDy942mUTwE7bpT2K0W+0kcaZfzaQUR/MTbGTLXWV15Tq7U1cBk9rsih7BHd0ziPMr3hn3KhO8/pW1mV4IIbIYQtCkH7b06cc8qyrFMhOMm8JMlLqqSi+kdRWTTUHLRTRdZCd4MQbdrA9/l8juFwaMIwRLseDAaYzV4RBAEmzxOMRg+IwhTxco/FC8NqFuNj9QW2+ERwv0Z1qG0/IfNc6iJJEqRpavpDRFEEKWX3jDzPwRiDcR9BVmHLYuz2u+5OFNztt63HtH2k9eYXFH10NLu2hWUAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;rebase merge&quot;
+        title=&quot;rebase merge&quot;
+        src=&quot;/static/dee6fb442d74abb00ebff232e08dc48e/c1b63/Git_Merge_Rebase.png&quot;
+        srcset=&quot;/static/dee6fb442d74abb00ebff232e08dc48e/5a46d/Git_Merge_Rebase.png 300w,
+/static/dee6fb442d74abb00ebff232e08dc48e/0a47e/Git_Merge_Rebase.png 600w,
+/static/dee6fb442d74abb00ebff232e08dc48e/c1b63/Git_Merge_Rebase.png 1200w,
+/static/dee6fb442d74abb00ebff232e08dc48e/54d4c/Git_Merge_Rebase.png 1571w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;squash merge&lt;/strong&gt;는 새 브랜치에 있던 코드 변경사항들을 main 브랜치로 순간이동하는 방식.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.333333333333336%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAABcRAAAXEQHKJvM/AAACWElEQVQoz21Ty27TQBT1d7FHIis+AVXdRSpLPoMFiy4gLNmhSBECIiqlJIUmaZO6TWI3TtM83BiRUEoSv+fhyxlDrLYw0tHMuTP3zNx7bC2Xyzn5fD7Y2tpyt7e3g52dp3MiasdM6DdBoi980iOe6AGT+jIk/RqcKNGllLfRAgac8+cakvt0b6wjomOH6NRhtGcFdD5n1J0nVJ9E9HUcQ09QQv8OiH7ShBDnSZIoIhBT55K5R+LypxT+6kZczRyxXq9FGIbCtq+E43wTvu+rswJ5G8RKEFol9UKjb1lUqVTY0dGRaDSbon54yA9qNd5qtXiz2eSH4GrG2QwQyWYgygRBnOFwSCe6TsvlklzPI9M0Sd9w1804EtLSVEW3x4Zjf18jxl9Evl/mYVhC7B1Q8jyviLKKaEMRPF2rGIvjNIbE+3gLlBljz7QHjb3S49ODj49Oqh8eHu+Xn3TqSuQVbn3NuSjA7QLWKbiQBYYY2l2AQAECKeDuS/A3WOe1vrtcjAOXht6aLrwVzQIPBiUUsoSCWJIXSYq4TLmfQpKQ8r8u/ymZqPuXMxVL3UOzeUJ3TCBlgpBchDGfDi74pTXgk9GYTycTjpZEeGXmsjm1bWq127zb68lOtyu7wOnZmYQZstPpyB54xzDkMPKl4S6lCfRWN7Jij6Q1Gskr22bKOPQ5FRwZhkHVapXG4zFNp1Oq1+t3eKPRoM+1Gs1Cn2zAiQIyF9/py2SEtsS3Sy5raOT71Wo1AdQfYyngJgvcyrjvW/iELJScxSLXs379uLYC7MF5EyU70Nr9DUHVb7AMGY/MAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;https://codingapple.com/wp-content/uploads/2022/06/그림2.png&quot;
+        title=&quot;https://codingapple.com/wp-content/uploads/2022/06/그림2.png&quot;
+        src=&quot;/static/47264cb575039d45d709dbb10afa71e4/c1b63/Git_Merge_Squash.png&quot;
+        srcset=&quot;/static/47264cb575039d45d709dbb10afa71e4/5a46d/Git_Merge_Squash.png 300w,
+/static/47264cb575039d45d709dbb10afa71e4/0a47e/Git_Merge_Squash.png 600w,
+/static/47264cb575039d45d709dbb10afa71e4/c1b63/Git_Merge_Squash.png 1200w,
+/static/47264cb575039d45d709dbb10afa71e4/e515d/Git_Merge_Squash.png 1430w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# squash &amp;amp; merge 방법&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; switch main            &lt;span class=&quot;token comment&quot;&gt;## main 브랜치로 이동 후&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; merge &lt;span class=&quot;token parameter variable&quot;&gt;--squash&lt;/span&gt; 브랜치명  &lt;span class=&quot;token comment&quot;&gt;## squash &amp;amp; merge 수행&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;메시지&quot;&lt;/span&gt;       &lt;span class=&quot;token comment&quot;&gt;## 새 브랜치의 내용들이 순간이동&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;브랜치 삭제&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; 브랜치명  &lt;span class=&quot;token comment&quot;&gt;# merge 완료된 브랜치 삭제&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; branch &lt;span class=&quot;token parameter variable&quot;&gt;-D&lt;/span&gt; 브랜치명  &lt;span class=&quot;token comment&quot;&gt;# merge 안 한 브랜치 삭제&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;-되돌아가기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%90%98%EB%8F%8C%EC%95%84%EA%B0%80%EA%B8%B0&quot; aria-label=&quot; 되돌아가기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🔙 되돌아가기&lt;/h2&gt;
+&lt;h3 id=&quot;파일-하나를-되돌리려면-git-restore&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8C%8C%EC%9D%BC-%ED%95%98%EB%82%98%EB%A5%BC-%EB%90%98%EB%8F%8C%EB%A6%AC%EB%A0%A4%EB%A9%B4-git-restore&quot; aria-label=&quot;파일 하나를 되돌리려면 git restore permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;파일 하나를 되돌리려면 git restore&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;파일 하나를 되돌리려면 git restore&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; restore 파일명                   &lt;span class=&quot;token comment&quot;&gt;## 최근 commit된 상태의 파일로 되돌리기&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; restore &lt;span class=&quot;token parameter variable&quot;&gt;--source&lt;/span&gt; 커밋아이디 파일명  &lt;span class=&quot;token comment&quot;&gt;## 특정 커밋 아이디 시점으로 파일 되돌리기&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; restore &lt;span class=&quot;token parameter variable&quot;&gt;--staged&lt;/span&gt; 파일명          &lt;span class=&quot;token comment&quot;&gt;## 스테이징 취소하기&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;commit을 되돌리려면 git revert&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;revert 하면 commit을 없애는 게 아니고 commit을 취소한 commit을 생성함.&lt;/li&gt;
+&lt;li&gt;revert 할 때 여러 개의 commit ID를 입력할 수 있음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; revert 커밋아이디  &lt;span class=&quot;token comment&quot;&gt;## 특정 commit으로 되돌리기&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; revert HEAD     &lt;span class=&quot;token comment&quot;&gt;## 최근 commit으로 되돌리기&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;전부 되돌리고 싶으면 git reset&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;reset 하면 그 이후 commit은 사라짐&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 특정 commit으로 되돌리기&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;## --hard 옵션: 특정 commit 이후에 생성된 파일이 삭제됨&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;## --soft 옵션: 파일이 삭제되지 않고 Staging area에 남음&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;## --mixed 옵션: 파일이 삭제되지 않고 Staging 되지 않은 상태가 됨&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; reset &lt;span class=&quot;token parameter variable&quot;&gt;--hard&lt;/span&gt; 커밋아이디&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;github-사용법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#github-%EC%82%AC%EC%9A%A9%EB%B2%95&quot; aria-label=&quot;github 사용법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;GitHub 사용법&lt;/h2&gt;
+&lt;p&gt;Git이 파일 기록해두는 장소가 리포지토리(Repository)이며, GitHub는 온라인 리포지토리.&lt;/p&gt;
+&lt;p&gt;GitHub는 기본 브랜치 이름을 main으로 사용하라고 강요하므로 &lt;code class=&quot;language-text&quot;&gt;git branch -M main&lt;/code&gt; 명령어로 기본 브랜치 이름을 변경해야 함.&lt;/p&gt;
+&lt;p&gt;원격저장소에 올리지 않는 파일이나 폴더들은 &lt;code class=&quot;language-text&quot;&gt;.gitignore&lt;/code&gt; 파일에 명시&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;로컬에서 GitHub 원격저장소로 올리기&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 로컬에서 GitHub 원격저장소로 업로드&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; push &lt;span class=&quot;token parameter variable&quot;&gt;-u&lt;/span&gt; 원격저장소주소 브랜치명  &lt;span class=&quot;token comment&quot;&gt;## -u 옵션은 방금 입력한 주소를 기억하는 옵션. 다음부터는 `git push`만 입력해도 됨.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;리포지토리 주소 길게 입력하는게 귀찮으면?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;주소를 변수에 저장하여 사용하면 됨.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; 변수명 원격저장소주소    &lt;span class=&quot;token comment&quot;&gt;## 변수 지정&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token function&quot;&gt;add&lt;/span&gt; origin 원격저장소주소  &lt;span class=&quot;token comment&quot;&gt;## 보통 origin 변수에 리포지토리 주소 저장&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; remote &lt;span class=&quot;token parameter variable&quot;&gt;-v&lt;/span&gt;                     &lt;span class=&quot;token comment&quot;&gt;## 변수 목록 출력&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;타인과-협업하기git-clone-pull&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%83%80%EC%9D%B8%EA%B3%BC-%ED%98%91%EC%97%85%ED%95%98%EA%B8%B0git-clone-pull&quot; aria-label=&quot;타인과 협업하기git clone pull permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;타인과 협업하기(git clone, pull)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;원격저장소 복제하기&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git clone 원격저장소주소&lt;/code&gt; 명령어로 원격저장소 그대로 내려받은 후 commit 하고 push 하면 됨. 다만 GitHub 원격저장소 Settings의 Collaborator에 계정이 등록되어 있어야 함.&lt;/li&gt;
+&lt;li&gt;원격저장소에 타인이 새로운 commit을 만들면 나는 git push를 못 함. 원격저장소의 최신 commit이 나의 로컬저장소에 있을 때만 git push가 가능함.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;git pull 원격저장소주소&lt;/code&gt; 명령어로 원격저장소의 모든 브랜치 내용을 로컬저장소에 합칠 수 있음. &lt;code class=&quot;language-text&quot;&gt;-u&lt;/code&gt; 옵션을 사용했다면 그 이후에 &lt;code class=&quot;language-text&quot;&gt;git pull&lt;/code&gt; 만 사용해도 됨.&lt;/li&gt;
+&lt;li&gt;git pull은 git fetch(원격저장소 신규 commit 가져오세요) + git merge(내 브랜치에 merge 해주세요) 이므로 conflict가 발생할 수 있음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;타인과-협업하기pull-request&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%83%80%EC%9D%B8%EA%B3%BC-%ED%98%91%EC%97%85%ED%95%98%EA%B8%B0pull-request&quot; aria-label=&quot;타인과 협업하기pull request permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;타인과 협업하기(Pull request)&lt;/h3&gt;
+&lt;p&gt;개발자가 많아지면 개발자마다 브랜치를 만들어서 개발 후 merge함. &lt;/p&gt;
+&lt;p&gt;GitHub에서 브랜치를 만드려면 main 브랜치명 버튼 클릭 후 이름을 입력하여 만듦.&lt;/p&gt;
+&lt;p&gt;GitHub에서 merge 하려면 Pull request를 사용. Pull request 시 내 브랜치좀 merge 해달라는 요청을 할 수 있고, merge 전에 팀원끼리 코드 검토가 가능함.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;원격저장소 Pull requests 메뉴 → New pull request 버튼 클릭 → base, compare 브랜치 선택 후 Create pull request 버튼 클릭하면 pull request가 열림&lt;/li&gt;
+&lt;li&gt;이후 팀원끼리 검토, 토론을 할 수 있음&lt;/li&gt;
+&lt;li&gt;문제 없다면 Merge pull request 버튼 클릭 → merge 옵션(기본, Squash, Rebase) 선택 후 merge 수행&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&quot;브랜치-전략&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B8%8C%EB%9E%9C%EC%B9%98-%EC%A0%84%EB%9E%B5&quot; aria-label=&quot;브랜치 전략 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;브랜치 전략&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;GitFlow 전략&lt;/strong&gt;은 main, develop, feature, release, hotfix 5개의 브랜치를 운영하는 방법.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;main은 서비스 중인 코드 저장&lt;/li&gt;
+&lt;li&gt;신기능 개발 시 develop 브랜치를 만든 후 프로젝트 사본 복사&lt;/li&gt;
+&lt;li&gt;feature 브랜치를 develop 브랜치에 만들어 개발해보고, 잘 되면 develop 브랜치에 merge. (feeature/이름 형식으로 작명하는 경우가 흔함)&lt;/li&gt;
+&lt;li&gt;release 브랜치를 develop 브랜치에 만들어 테스트해보고, 고칠게 있으면 수정하며 테스트 후 문제 없으면 main, develop 브랜치에 merge.&lt;/li&gt;
+&lt;li&gt;hotfix 브랜치를 만들어 치명적인 버그 수정 후 main, develop 브랜치에 merge.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;안정적으로 버전별 배포 가능하나, CI/CD 이런거 하는 곳은 안 좋아함. 굳이 똑같이 따라할 필요없으며, 상황에 맞게 변경하여 사용.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50.66666666666667%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAABcRAAAXEQHKJvM/AAAB+klEQVQoz32SbY/SQBSF+6c1/Af9D3zVbGLWDxqT/YBmcYECq7th2w60FCihBdrS9/eZ46X4Es3Gm5zcM+25T5uZkVzXFcvlEiRhmiaqqkJRFM+qrmtYloW967a+Kkuw+RzH41GAanB3V0mO46DT6Yhut4t+vw9N06CqKkmBqjyRlJ9eoXcqRsMBpre30Aik6Tr65OM0PfOEfH8PKUmSln44HIROgXPVdQVO/bfEpTfnqcwDNxXUCkPj2BCLBSpZFri+xujqSkhxkrQQm/5UN4zWt5DIBt8MwV0dIg/Awx1E6qLZPYAnDkScUiZEszJRn+c2G8g3N5CqLGsh/n6PlX4BtkWD+PIaYJ8AS6bAEnAXwHYCBNafnLMHj+PWytMppM+7DV6tNXy013h093DKAk6RYV1WUKsGVs0x87aw6RCcRkANXSzCI2UK2JR7PDq/9hDyaARJ9VwMAh+TIMb3KG9h2zzHJksx8CLs8hRycHluk7fLnHT5qFPk2JEvm+YClGVIb4yIv3yq+ftdzbWIcyMRfOJzzsg/BLzdzlnI/zqjf8Wbpu0E5JIbZ4hoOTo1eGfX+Oo3kE8c20LAzARWpOGJ438lRHtRMB6PIXmep6Eu2Id1yF5MffbWCNm3fczmXsIMP2GzY8ymtM6zlKXp86Krp8VxPO/1erMfo4XpJYHEpwoAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;GitFlow 전략&quot;
+        title=&quot;GitFlow 전략&quot;
+        src=&quot;/static/c4ad81b2f4b04f45517df34be1754da8/c1b63/Git_Strategy_GitFlow.png&quot;
+        srcset=&quot;/static/c4ad81b2f4b04f45517df34be1754da8/5a46d/Git_Strategy_GitFlow.png 300w,
+/static/c4ad81b2f4b04f45517df34be1754da8/0a47e/Git_Strategy_GitFlow.png 600w,
+/static/c4ad81b2f4b04f45517df34be1754da8/c1b63/Git_Strategy_GitFlow.png 1200w,
+/static/c4ad81b2f4b04f45517df34be1754da8/d61c2/Git_Strategy_GitFlow.png 1800w,
+/static/c4ad81b2f4b04f45517df34be1754da8/10a83/Git_Strategy_GitFlow.png 2109w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Trunk-based 전략&lt;/strong&gt;은 브랜치 하나만 잘 관리하자는 전략. 새로운 기능이 필요하면 그 때마다 feature 브랜치를 만든 후 main 브랜치에 합침.&lt;/p&gt;
+&lt;p&gt;브랜치 종류가 많지 않고 소스코드가 한 곳에 있어 간편하나, 테스트를 많이 해야 함.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1200px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 38.666666666666664%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAICAYAAAD5nd/tAAAACXBIWXMAABcRAAAXEQHKJvM/AAABf0lEQVQoz3WR607CQBCF+57qW/gMxifwh78MxkSNSghgohIVSKxJCRAKFJVioMil9EKvAm33uFuQaJRJvt3NzOzZzFlOGWjo9EZkONZgGgZ0ikGZaDrGqgZ1oq/Q4vx/aJpGfN9HMpm0uL2TNtk9qONWUMEijEi8t3ounpsm3ocepK6DYs3AqrQpSCaTARfSps8FIax3uS5DHniw/Sg+s1Xq2huVgiCIL6bTacJdXF1ia2cbieMESqUSeJ5HpVLB/cMj8vk8qtUqBEFA7i4HSZLQlmXwTzyKtFamfaIoolAoxMLZbBbcx+sbrs/O0aqJUPp95gcsy4Ki9CgKbNuGSnNCqwnPdhDOZtTzHsSODJfWTNOETB9hEY98agxxZI5IY+5vHolyM1WhBnM4UYiyZ6HmO7/8W4982JfJfruOoj5efsrKR+bnt6csV7Z0NJwpXlwbwlSH4nvrvjAM4yMVBLfSJ+wLF0HADP5DSEEU/YBeoCJxje6O4xDXdZFKpfwv5wtTX8x8U0sAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Trunk-based 전략&quot;
+        title=&quot;Trunk-based 전략&quot;
+        src=&quot;/static/1d6b90a64ed59a0b4c161b57f600bf23/c1b63/Git_Strategy_TrunkBased.png&quot;
+        srcset=&quot;/static/1d6b90a64ed59a0b4c161b57f600bf23/5a46d/Git_Strategy_TrunkBased.png 300w,
+/static/1d6b90a64ed59a0b4c161b57f600bf23/0a47e/Git_Strategy_TrunkBased.png 600w,
+/static/1d6b90a64ed59a0b4c161b57f600bf23/c1b63/Git_Strategy_TrunkBased.png 1200w,
+/static/1d6b90a64ed59a0b4c161b57f600bf23/19ab6/Git_Strategy_TrunkBased.png 1664w&quot;
+        sizes=&quot;(max-width: 1200px) 100vw, 1200px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;코드-잠깐-보관하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BD%94%EB%93%9C-%EC%9E%A0%EA%B9%90-%EB%B3%B4%EA%B4%80%ED%95%98%EA%B8%B0&quot; aria-label=&quot;코드 잠깐 보관하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;코드 잠깐 보관하기&lt;/h2&gt;
+&lt;p&gt;git stash를 사용하면 코드 내용 일부를 잠시 잘라 보관할 수 있음. 주석 내용을 숨기고 commit하고 싶을 때 유용.&lt;/p&gt;
+&lt;p&gt;Staging된 파일 내용 일부를 삭제 및 저장한 후 &lt;code class=&quot;language-text&quot;&gt;git stash&lt;/code&gt; 명령어를 실행하면 삭제된 내용이 다른 공간에 보관됨. 이 때 Staging된 파일이든 아니든 추적 중인 파일은 다 이동되며, 새로 만든 파일이지만 Staging 안 되었다면 이동되지 않음.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash              &lt;span class=&quot;token comment&quot;&gt;## 수정 사항 stash&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash save &lt;span class=&quot;token string&quot;&gt;&quot;메모&quot;&lt;/span&gt;   &lt;span class=&quot;token comment&quot;&gt;## 메모를 남기며 stash&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash list         &lt;span class=&quot;token comment&quot;&gt;## stash 리스트 출력&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash pop          &lt;span class=&quot;token comment&quot;&gt;## 가장 최근 stash한 내용 불러오기&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash drop 삭제할ID  &lt;span class=&quot;token comment&quot;&gt;## 특정 stash 리스트 삭제&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash &lt;span class=&quot;token function&quot;&gt;clear&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;## 모든 stash 리스트 삭제&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2023년 11월 도쿄 여행기]]></title><description><![CDATA[キムさん, シムさん(?)과 함께 여행을 가볼 기회가 생겨 2박 3일 간 도쿄에 다녀왔습니다. 원래 오사카에 갈 예정이었지만 어찌어찌 하다가 목적지가 도쿄로 바뀐 건 함정… 😎 2박…]]></description><link>https://jeonwon.dev/travel/2023-11-tokyo-travel/</link><guid isPermaLink="false">https://jeonwon.dev/travel/2023-11-tokyo-travel/</guid><pubDate>Sat, 02 Dec 2023 18:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.instagram.com/25_jw/&quot;&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 1080px; &quot;
     &gt;
