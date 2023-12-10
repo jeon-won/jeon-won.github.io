@@ -181,4 +181,3 @@ draft: false
 ![큐슈 장가라 라멘 1](./images/20231125_123202_Akihabara_KyusyuJanggaraRamen.jpg)
 
 ![큐슈 장가라 라멘 2](./images/20231125_124247_Akihabara_KyusyuJanggaraRamen.jpg)
-
