@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:mobile="http://www.google.com/schemas/sitemap-mobile/1.0" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<url> <loc>https://jeonwon.dev/system/how-to-install-visio-in-a-closed-network/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonwon.dev/coding/using-git/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonwon.dev/travel/2023-11-tokyo-travel/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonwon.dev/travel/tokyo-travel-guide/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
@@ -24,8 +25,6 @@
 <url> <loc>https://jeonwon.dev/system/backup/avamar-backup-dns-error/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonwon.dev/system/backup/avamar-administrator-backup-schedule-setting-error/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonwon.dev/system/backup/datadomain-replication-error/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeonwon.dev/blogging/quick-start/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://jeonwon.dev/blogging/welcome-bee-starter/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonwon.dev/about/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://jeonwon.dev/</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
