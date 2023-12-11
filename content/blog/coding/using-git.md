@@ -1,6 +1,6 @@
 ---
 title: 'Git & GitHub 사용법 간단 정리'
-date: 2023-12-11 00:00:00
+date: 2023-12-10 00:00:00
 category: 'CODINGs'
 draft: false
 ---
@@ -22,7 +22,7 @@ Git은 파일 변경내역을 보존하고 관리하기 위해 사용.
 # (GitHub는 기본 브랜치 이름을 main으로 사용하라고 강요하므로 해두는 게 좋음)
 ~ git config —-global init.defaultBranch main
 
-# - 기본 Git의 에디터를 vim이 아닌 vs code로 설정
+# 기본 Git의 에디터를 vim이 아닌 vs code로 설정
 ~ git config —-global core.editor “code —wait”
 
 # 유저 이메일과 이름 설정
@@ -69,7 +69,7 @@ $ git status         # 브랜치 확인
 $ git log --oneline --all --graph  # 브랜치 구조를 그래프로 출력
 ```
 
-브랜치를 합치려면 기준이 되는 브랜치로 이동한 후 merge를 수행함,
+브랜치를 합치려면 기준이 되는 브랜치로 이동한 후 merge를 수행함.
 
 ```shell
 $ git switch main   # main 브랜치로 이동한 후
@@ -127,8 +127,6 @@ $ git branch -D 브랜치명  # merge 안 한 브랜치 삭제
 
 ## 🔙 되돌아가기
 
-### 파일 하나를 되돌리려면 git restore
-
 **파일 하나를 되돌리려면 git restore**
 
 ```shell
@@ -175,9 +173,7 @@ GitHub는 기본 브랜치 이름을 main으로 사용하라고 강요하므로 
 $ git push -u 원격저장소주소 브랜치명  ## -u 옵션은 방금 입력한 주소를 기억하는 옵션. 다음부터는 `git push`만 입력해도 됨.
 ```
 
-**리포지토리 주소 길게 입력하는게 귀찮으면?**
-
-주소를 변수에 저장하여 사용하면 됨.
+**리포지토리 주소 길게 입력하는게 귀찮으면?** 주소를 변수에 저장하여 사용하면 됨.
 
 ```shell
 $ git remote add 변수명 원격저장소주소    ## 변수 지정
