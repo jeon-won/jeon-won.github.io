@@ -92,14 +92,14 @@
 <h2 id="1️⃣초기설정" style="position:relative;"><a href="#1%EF%B8%8F%E2%83%A3%EC%B4%88%EA%B8%B0%EC%84%A4%EC%A0%95" aria-label="1️⃣초기설정 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>1️⃣ 초기설정</h2>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment"># 기본 브랜치 이름을 master가 아닌 main으로 설정</span>
 <span class="token comment"># (GitHub는 기본 브랜치 이름을 main으로 사용하라고 강요하므로 해두는 게 좋음)</span>
-~ <span class="token function">git</span> config —-global init.defaultBranch main
+$ <span class="token function">git</span> config —-global init.defaultBranch main
 
 <span class="token comment"># 기본 Git의 에디터를 vim이 아닌 vs code로 설정</span>
-~ <span class="token function">git</span> config —-global core.editor “code —wait”
+$ <span class="token function">git</span> config —-global core.editor “code —wait”
 
 <span class="token comment"># 유저 이메일과 이름 설정</span>
-~ <span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"이메일"</span>
-~ <span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">"이름"</span></code></pre></div>
+$ <span class="token function">git</span> config <span class="token parameter variable">--global</span> user.email <span class="token string">"이메일"</span>
+$ <span class="token function">git</span> config <span class="token parameter variable">--global</span> user.name <span class="token string">"이름"</span></code></pre></div>
 <h2 id="스테이징과-커밋" style="position:relative;"><a href="#%EC%8A%A4%ED%85%8C%EC%9D%B4%EC%A7%95%EA%B3%BC-%EC%BB%A4%EB%B0%8B" aria-label="스테이징과 커밋 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>스테이징과 커밋</h2>
 <p><strong>Add와 Commit 과정을 나눠놓는 이유</strong>는 모든 파일을 기록할 필요가 없으므로(예: 이미지 파일) git add로 기록할 파일을 고르고 git commit으로 고른 파일을 기록저장소로 옮기기 위함임.</p>
 <p><strong>Git을 사용하는 방식은 작업폴더 → Staging area → Repository</strong></p>
@@ -108,22 +108,22 @@
 <li>Repository는 Commit된 파일의 버전들을 모아놓은 곳.</li>
 </ul>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment"># git 초기화</span>
-~ <span class="token function">git</span> init
+$ <span class="token function">git</span> init
 
 <span class="token comment"># 스테이징</span>
-<span class="token function">git</span> <span class="token function">add</span> 파일명
-<span class="token function">git</span> <span class="token function">add</span> 파일명1 파일명2
-<span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>  <span class="token comment">## 모든 파일 스테이징 </span>
-<span class="token function">git</span> <span class="token function">add</span> *  <span class="token comment">## 모든 파일 스테이징 </span>
+$ <span class="token function">git</span> <span class="token function">add</span> 파일명
+$ <span class="token function">git</span> <span class="token function">add</span> 파일명1 파일명2
+$ <span class="token function">git</span> <span class="token function">add</span> <span class="token builtin class-name">.</span>  <span class="token comment">## 모든 파일 스테이징 </span>
+$ <span class="token function">git</span> <span class="token function">add</span> *  <span class="token comment">## 모든 파일 스테이징 </span>
 
 <span class="token comment"># 커밋</span>
-<span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">'커밋 메시지'</span>
+$ <span class="token function">git</span> commit <span class="token parameter variable">-m</span> <span class="token string">'커밋 메시지'</span>
 
 <span class="token comment"># 상태 출력</span>
-<span class="token function">git</span> status 
+$  <span class="token function">git</span> status 
 
 <span class="token comment"># 로그 출력(로그 출력 시 나오는 HEAD가 현재 위치를 가리킴)</span>
-<span class="token function">git</span> log <span class="token parameter variable">--all</span> <span class="token parameter variable">--oneline</span></code></pre></div>
+$ <span class="token function">git</span> log <span class="token parameter variable">--all</span> <span class="token parameter variable">--oneline</span></code></pre></div>
 <h2 id="-브랜치branch-만들기" style="position:relative;"><a href="#-%EB%B8%8C%EB%9E%9C%EC%B9%98branch-%EB%A7%8C%EB%93%A4%EA%B8%B0" aria-label=" 브랜치branch 만들기 permalink" class="anchor before"><svg aria-hidden="true" focusable="false" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>🌱 브랜치(Branch) 만들기</h2>
 <p>브랜치는 메인 줄기에서 뻗어나온 복사본과 같은 것. 여러 개발자들이 협업할 때 자기만의 브랜치를 만들어 테스트 후 잘 된다면 Main 브랜치에 합치는 방식으로 사용.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ <span class="token function">git</span> branch 브랜치명  <span class="token comment"># 브랜치 생성</span>
