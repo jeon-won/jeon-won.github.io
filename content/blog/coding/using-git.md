@@ -20,14 +20,14 @@ Git은 파일 변경내역을 보존하고 관리하기 위해 사용.
 ```shell
 # 기본 브랜치 이름을 master가 아닌 main으로 설정
 # (GitHub는 기본 브랜치 이름을 main으로 사용하라고 강요하므로 해두는 게 좋음)
-~ git config —-global init.defaultBranch main
+$ git config —-global init.defaultBranch main
 
 # 기본 Git의 에디터를 vim이 아닌 vs code로 설정
-~ git config —-global core.editor “code —wait”
+$ git config —-global core.editor “code —wait”
 
 # 유저 이메일과 이름 설정
-~ git config --global user.email "이메일"
-~ git config --global user.name "이름"
+$ git config --global user.email "이메일"
+$ git config --global user.name "이름"
 ```
 
 ## 스테이징과 커밋
@@ -40,22 +40,22 @@ Git은 파일 변경내역을 보존하고 관리하기 위해 사용.
 
 ```shell
 # git 초기화
-~ git init
+$ git init
 
 # 스테이징
-git add 파일명
-git add 파일명1 파일명2
-git add .  ## 모든 파일 스테이징 
-git add *  ## 모든 파일 스테이징 
+$ git add 파일명
+$ git add 파일명1 파일명2
+$ git add .  ## 모든 파일 스테이징 
+$ git add *  ## 모든 파일 스테이징 
 
 # 커밋
-git commit -m '커밋 메시지'
+$ git commit -m '커밋 메시지'
 
 # 상태 출력
-git status 
+$  git status 
 
 # 로그 출력(로그 출력 시 나오는 HEAD가 현재 위치를 가리킴)
-git log --all --oneline
+$ git log --all --oneline
 ```
 
 ## 🌱 브랜치(Branch) 만들기
