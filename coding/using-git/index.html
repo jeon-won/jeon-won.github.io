@@ -267,7 +267,8 @@ $ <span class="token function">git</span> reset <span class="token parameter var
 <p>원격저장소에 올리지 않는 파일이나 폴더들은 <code class="language-text">.gitignore</code> 파일에 명시</p>
 <p><strong>로컬에서 GitHub 원격저장소로 올리기</strong></p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell"><span class="token comment"># 로컬에서 GitHub 원격저장소로 업로드</span>
-$ <span class="token function">git</span> push <span class="token parameter variable">-u</span> 원격저장소주소 브랜치명  <span class="token comment">## -u 옵션은 방금 입력한 주소를 기억하는 옵션. 다음부터는 `git push`만 입력해도 됨.</span></code></pre></div>
+$ <span class="token function">git</span> push <span class="token parameter variable">-u</span> 원격저장소주소 브랜치명  <span class="token comment">## -u 옵션은 방금 입력한 주소를 기억하는 옵션. 다음부터는 `git push`만 입력해도 됨.</span>
+$ <span class="token function">git</span> push origin 브랜치명         <span class="token comment">## main 브랜치가 아닌 브랜치를 push</span></code></pre></div>
 <p><strong>리포지토리 주소 길게 입력하는게 귀찮으면?</strong> 주소를 변수에 저장하여 사용하면 됨.</p>
 <div class="gatsby-highlight" data-language="shell"><pre class="language-shell"><code class="language-shell">$ <span class="token function">git</span> remote <span class="token function">add</span> 변수명 원격저장소주소    <span class="token comment">## 변수 지정</span>
 $ <span class="token function">git</span> remote <span class="token function">add</span> origin 원격저장소주소  <span class="token comment">## 보통 origin 변수에 리포지토리 주소 저장</span>
