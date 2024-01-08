@@ -25,6 +25,10 @@ Visio는 Microsoft Office에 기본적으로 포함되어 있지 않아 Office D
       <Language ID="ko-kr" />
     </Product>
     <!-- 여기에 다른 MS Office 제품 Product ID 태그를 추가하면 여러 제품을 동시에 설치할 수 있는 듯(테스트 안 해봄...)-->
+    <!-- <Product ID="ProPlus2021Volume" PIDKEY="XXXXX-XXXXX-XXXXX-XXXXX-XXXXX">
+      <Language ID="ko-kr" />
+      <ExcludeApp ID="Lync" />
+    </Product> -->
   </Add>
 
   <!-- Remove 태그의 All 속성 값이 True면 Visio 설치완료 후 설치된 MS Office를 모두 삭제하므로 주석 처리-->
