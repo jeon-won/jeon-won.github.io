@@ -5,6 +5,8 @@ category: 'WEBs'
 draft: false
 ---
 
+![HTML is programming language(?)](./images/html-coding.jpg)
+
 - [HTML 기본 태그로 글 작성해 보기](#html-기본-태그로-글-작성해-보기)
 - [head 태그](#head-태그)
   - [head 태그 안에 들어가는 meta 태그](#head-태그-안에-들어가는-meta-태그)

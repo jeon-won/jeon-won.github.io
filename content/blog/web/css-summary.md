@@ -5,6 +5,8 @@ category: 'WEBs'
 draft: false
 ---
 
+![CSS is awesome!](./images/css-is-awesome.jpg)
+
 - [CSS 파일을 HTML 문서에 첨부하는 법](#css-파일을-html-문서에-첨부하는-법)
 - [주요 스타일링](#주요-스타일링)
   - [글자 스타일](#글자-스타일)
