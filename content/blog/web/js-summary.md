@@ -67,7 +67,7 @@ DOM(Document Object Model)은 HTML 요소를 프로그래밍 언어로 제어할
   document.getElementByClassName("hi").style.fontSize = "16px";
 
   document.getElementsByClassName("hello")[0].innerHTML = "HTML은 프로그래밍 언어가 아닙니다!"
-  document.getElementsByTagName("h1").style.fontSize = "16px";
+  document.getElementsByTagName("h1")[0].style.fontSize = "16px";
 
   document.querySelector('#hello').innerHTML = "HTML은 프로그래밍 언어가 아닙니다!"
   document.querySelectorAll('.hi')[0].style.fontSize = "16px";

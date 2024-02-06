@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'MaplestoryOTFLight';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/MaplestoryOTFLight.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body.light {
   background-color: $light-background-color;
   text-shadow: $light-text-shadow;
@@ -11,9 +18,11 @@ body.light {
     .author-name-content {
       background-color: $light-category-border-color;
     }
+
     .author-introduction {
       color: $middle-gray;
     }
+
     a {
       color: $light-link-color;
     }
@@ -25,18 +34,22 @@ body.light {
     border-right: 6px solid $light-category-border-color;
     border-left: 6px solid $light-category-border-color;
     background-color: $light-category-background-color;
+
     .item {
       border: 1px solid $light-category-border-color;
       background-color: $light-category-item-color;
       -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
       box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+
       a {
         color: $light-category-text-color;
       }
+
       &[aria-selected='true'] {
         border: 2px solid $light-category-highlight-border-color;
         font-weight: bolder;
       }
+
       &[aria-selected='true'] a {
         color: $light-category-highlight-text-color;
       }
@@ -47,9 +60,11 @@ body.light {
     h3 {
       color: $dark-gray;
     }
+
     p {
       color: $middle-gray;
     }
+
     &:hover {
       text-shadow: $light-hover-text-shadow;
     }
@@ -57,6 +72,7 @@ body.light {
 
   .footer {
     color: $light-gray;
+
     a {
       color: $dark-gray;
     }
@@ -68,5 +84,19 @@ body.light {
       background-color: $navigator-background-color;
       color: $navigator-text-color;
     }
+  }
+
+  /* custom */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'MaplestoryOTFLight', sans-serif;
+  }
+
+  strong {
+    color: #ff7e95;
   }
 }
