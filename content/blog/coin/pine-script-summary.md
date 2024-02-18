@@ -9,9 +9,13 @@ draft: false
 
 아래 사이트 보고 배운 파인 스크립트 정리 글(정리 중...)
 
-https://wikidocs.net/book/8535
-https://wikidocs.net/book/9388
+* https://wikidocs.net/book/8535
+* https://wikidocs.net/book/9388
 
+
+## 🔖 목차
+
+- [🔖 목차](#-목차)
 - [🤔 파인 스크립트란?](#-파인-스크립트란)
 - [🥡 변수](#-변수)
   - [기본 변수](#기본-변수)
