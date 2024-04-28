@@ -5,7 +5,7 @@ category: 'TRAVELs'
 draft: false
 ---
 
-![애니메이션 바다가 들린다 주인공](./images/OceanWaves_Airplane.jpeg)
+![애니메이션 바다가 들린다 주인공](./images/2023-11-tokyo/OceanWaves_Airplane.jpeg)
 
 도쿄를 여러 번 여행하면서 정리해본 가이드...
 
