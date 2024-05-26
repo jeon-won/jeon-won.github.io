@@ -12,7 +12,7 @@ previewImage: "setting.png"
 
 Github Pages와 [Gatsby-Starter-Haon](https://github.com/msung99/Gatsby-Starter-Haon) v1.0.1 테마를 사용하여 만든 정적 블로그입니다.
 
-[gatsby-starter-bee](https://github.com/JaeYeopHan/gatsby-starter-bee) 테마와 [데브시스터즈 기술블로그](https://tech.devsisters.com)의 CSS 일부 스타일을 차용하여 커스터마이징 했습니다.
+[gatsby-starter-bee](https://github.com/JaeYeopHan/gatsby-starter-bee) 테마와 [데브시스터즈 기술블로그](https://tech.devsisters.com)의 CSS 일부 스타일을 차용하여 커스터마이징 했습니다. 미세하게 바꾸고는 있지만 자꾸 조금씩 뭔가 맘에 안듦...
 
 사용한 Gatsby 버전은 5.13.1, node 버전은 20.13.1 입니다.
 
@@ -120,9 +120,9 @@ previewImage: "setting.png"
 이후 마크다운 문법을 사용하여 글을 작성하면 됩니다.
 
 
-## 배포
+## Github Pages로 배포
 
-`package.json` 파일에 아래 스크립트를 추가합니다.
+`package.json` 파일에 아래 스크립트를 추가합니다. 보유한 도메인이 없다면 아래 `cp CNAME ./public &&`을 삭제합니다.
 
 ```json
 "scripts": {
@@ -130,9 +130,9 @@ previewImage: "setting.png"
 }
 ```
 
-보유한 도메인이 없다면 위의 cp CNAME ./public &&을 삭제합니다.
+`npm i gh-pages --legacy-peer-deps` 명령어를 실행하여 gh-pages를 설치합니다.
 
-그 다음 npm run deploy 명령어를 실행하면 public 폴더의 파일들이 깃허브 리포지토리의 gh-pages 브랜치에 배포됩니다. 깃허브 리포지토리 Settings 메뉴 → pages 메뉴에 들어간 다음, Branch를 gh-pages로 수정합니다.
+이제 `npm run deploy` 명령어를 실행하면 public 폴더의 파일들이 깃허브 리포지토리의 gh-pages 브랜치에 배포됩니다. 깃허브 리포지토리 Settings 메뉴 → pages 메뉴에 들어간 다음, Branch를 gh-pages로 수정합니다.
 
 
 ## 🔗 접속
