@@ -23,26 +23,26 @@ export const HtmlWrapper = styled.div`
   }
 
   section > h2 {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
     color: ${props => props.theme.post.content.text};
     color: #fd7622;
     margin-top: 50px;
     margin-bottom: 30px;
     padding-top: 10px;
     word-break: break-all;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 130%;
     border-top: 2px solid #fd7622;
   }
 
   section > h3 {
-    font-size: 1.5rem;
+    font-size: 1.35rem;
     color: ${props => props.theme.post.content.text};
     color: #fd7622;
     margin-top: 30px;
     margin-bottom: 20px;
     word-break: break-all;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 130%;
   }
 

@@ -122,7 +122,7 @@ const HeaderWrapper = styled.div`
 const PostTitle = styled.h1`
   color: #fd7622;
   font-family: 'MaplestoryOTFLight', sans-serif;
-  font-size: 38px;
+  font-size: 32px;
   margin-bottom: 25px;
   line-height: 1.2;
   font-weight: 800;
