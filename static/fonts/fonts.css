@@ -1,0 +1,15 @@
+@font-face {
+  font-family: MaplestoryOTFBold;
+  /* font-weight: 400;
+  font-style: normal; */
+  src: url("MaplestoryOTFBold.woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: MaplestoryOTFLight;
+  /* font-weight: 400;
+  font-style: normal; */
+  src: url("MaplestoryOTFLight.woff");
+  font-display: swap;
+}

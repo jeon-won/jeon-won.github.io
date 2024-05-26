@@ -1,35 +1,48 @@
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react';
+import styled from 'styled-components';
+import { siteMetadata } from '../../../gatsby-config';
+import { getValueFromLocalStorage } from '../../utils/localStorage';
 
-import * as Dom from '../../utils/dom'
-import { THEME } from '../../constants'
-
-const src = 'https://utteranc.es/client.js'
-const branch = 'master'
-const DARK_THEME = 'photon-dark'
-const LIGHT_THEME = 'github-light'
-
-export const Utterances = ({ repo }) => {
-  const rootElm = React.createRef()
+const Utterances = () => {
+  const [isDarkMode, setIsDarkMode] = useState(getValueFromLocalStorage('isDarkMode'));
 
   useEffect(() => {
-    const isDarkTheme = Dom.hasClassOfBody(THEME.DARK)
-    const utterances = document.createElement('script')
-    const utterancesConfig = {
-      src,
-      repo,
-      branch,
-      theme: isDarkTheme ? DARK_THEME : LIGHT_THEME,
-      label: 'comment',
-      async: true,
-      'issue-term': 'pathname',
-      crossorigin: 'anonymous',
-    }
+    const handleThemeChange = () => {
+      setIsDarkMode(getValueFromLocalStorage('isDarkMode'));
+    };
 
-    Object.keys(utterancesConfig).forEach(configKey => {
-      utterances.setAttribute(configKey, utterancesConfig[configKey])
-    })
-    rootElm.current.appendChild(utterances)
-  }, [])
+    window.addEventListener('theme', handleThemeChange);
 
-  return <div className="utterances" ref={rootElm} />
-}
+    return () => {
+      window.removeEventListener('theme', handleThemeChange);
+    };
+  }, []);
+
+  return (
+    <CommentWrapper>
+      <div
+        ref={(elem) => {
+          if (!elem) {
+            return;
+          }
+
+          const scriptElem = document.createElement('script');
+          scriptElem.src = 'https://utteranc.es/client.js';
+          scriptElem.async = true;
+          scriptElem.setAttribute('repo', siteMetadata.repo);
+          scriptElem.setAttribute('issue-term', 'pathname');
+          scriptElem.setAttribute('theme', isDarkMode ? 'github-dark' : 'github-light');
+          scriptElem.setAttribute('label', 'blog-comment');
+          scriptElem.crossOrigin = 'anonymous';
+          elem.replaceChildren(scriptElem);
+        }}
+      />
+    </CommentWrapper>
+  );
+};
+
+const CommentWrapper = styled.section`
+  margin-top: 70px;
+`;
+
+export default Utterances;

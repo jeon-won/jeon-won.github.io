@@ -1,124 +1,138 @@
-const metaConfig = require('./gatsby-meta-config')
+const metaConfig = require("./meta-config")
+const {title, description, author, siteUrl, keywords, repo, socialLinks, gtag} = metaConfig
 
 module.exports = {
-  siteMetadata: metaConfig,
+  siteMetadata: {
+    title,
+    description,
+    author,
+    siteUrl,
+    keywords,
+    repo,
+    socialLinks,
+    gtag
+  },
   plugins: [
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: `gatsby-plugin-feed`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        query: `
+          {
+            site {
+              siteMetadata {
+                title
+                description
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            serialize: ({ query: { site, allMarkdownRemark } }) => {
+              return allMarkdownRemark.edges.map(edge => {
+                return Object.assign({}, edge.node.frontmatter, {
+                  description: edge.node.excerpt,
+                  date: edge.node.frontmatter.date,
+                  url: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  custom_elements: [{ 'content:encoded': edge.node.html }],
+                })
+              })
+            },
+            query: `
+              {
+                allMarkdownRemark(
+                  sort: { fields: [frontmatter___date], order: DESC }
+                ) {
+                  edges {
+                    node {
+                      excerpt
+                      html
+                      fields { slug }
+                      frontmatter {
+                        title
+                        date
+                      }
+                    }
+                  }
+                }
+              }
+            `,
+            output: '/rss.xml',
+            title: `RSS Feed`,
+            match: "^/blog/",
+          },
+        ],
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: "gatsby-plugin-gtag",
       options: {
-        path: `${__dirname}/content/__about`,
-        name: `about`,
+        trackingId: [gtag],
       },
     },
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/content/assets`,
-        name: `assets`,
-      },
-    },
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
           {
-            resolve: `gatsby-remark-katex`,
-            options: {
-              strict: `ignore`,
-            },
-          },
-          {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 1200,
-              linkImagesToOriginal: false,
+              // maxWidth: 700,
+              // maxHeight: 400,
             },
           },
           {
-            resolve: `gatsby-remark-images-medium-zoom`,
+            resolve: 'gatsby-remark-prismjs',
             options: {
-              margin: 36,
-              scrollOffset: 0,
+              classPrefix: 'language-',
             },
           },
           {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
+            resolve: `gatsby-remark-autolink-headers`
           },
           {
-            resolve: `gatsby-remark-prismjs`,
+            /* 별도 추가(https://github.com/gatsbyjs/gatsby/tree/master/packages/gatsby-remark-copy-linked-files#readme) */
+            resolve: `gatsby-remark-copy-linked-files`,
             options: {
-              inlineCodeMarker: '%',
+              destinationDir: `path/to/dir`,
+              // ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
             },
-          },
-          `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
-          `gatsby-remark-autolink-headers`,
-          `gatsby-remark-emoji`,
+          }
         ],
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-source-filesystem`,
       options: {
-        trackingId: metaConfig.ga,
-        head: true,
-        anonymize: true,
+        name: `content`,
+        path: `${__dirname}/src/contents/posts`,
       },
     },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: metaConfig.title,
-        short_name: metaConfig.title,
+        name: `gatsby-starter-default`,
+        short_name: `starter`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#663399`,
         display: `minimal-ui`,
-        icon: metaConfig.icon,
+        icon: `static/profile.png`,
       },
     },
-    {
-      resolve: `gatsby-plugin-typography`,
-      options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
-    },
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://jeonwon.dev',
-        sitemap: 'https://jeonwon.dev/sitemap.xml',
-        policy: [
-          {
-            userAgent: '*',
-            allow: '/',
-          },
-        ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: metaConfig.ad,
-      },
-    },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    `gatsby-plugin-feed`,
-    `gatsby-plugin-offline`,
-    `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-sass`,
-    `gatsby-plugin-lodash`,
-    `gatsby-plugin-sitemap`,
+        host: siteUrl,
+        sitemap: `${siteUrl}/sitemap.xml`,
+        policy: [{userAgent: '*', allow: '/'}]
+      }
+    }
   ],
 }
