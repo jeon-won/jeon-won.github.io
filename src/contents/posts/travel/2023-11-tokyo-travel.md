@@ -124,8 +124,9 @@ previewImage: "travel.jpeg"
 
 연주해볼까 말까 겁이 나서 고민하다가 용기 내어 연주를 한번 해봤습니다. 베토벤 비창 소나타 3악장을 연주해보고 싶었지만 연주시간 제한인 5분이 넘어갈 것 같아서 2악장을 연주해봤습니다. シムさん께서 촬영까지 해주셨습니다...!!! 😁
 
-<div style="text-align: center;">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/RL1HO1lOwcc?si=IRHv5hxSeHLPCnkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- 16:9 비율 반응형 유튜브 -->
+<div class="video-container" style="aspect-ratio: 16/9; display: flex; justify-content: center; align-items: center;">
+  <iframe style="width: 90%; height: 90%;" src="https://www.youtube.com/embed/RL1HO1lOwcc?si=IRHv5hxSeHLPCnkY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 
