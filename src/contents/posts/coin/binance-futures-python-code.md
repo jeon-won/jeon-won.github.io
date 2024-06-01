@@ -11,15 +11,18 @@ previewImage: "bitcoin.jpg"
 
 ![방향성이 보이지 않는 차트](./images/Chart_NoDirection.jpg)
 
+**(주의!) 아래 코드는 사전에 충분히 검증한 후 활용해야 합니다.**
+
 파이썬의 ccxt 패키지를 사용하여 바이낸스 선물 자동거래를 하기 위한 코드를 정리한 글입니다.
+
 
 ## 🔑 API 발급
 
 https://www.binance.com/en/my/settings/api-management 에서 API를 발급받습니다. Secret Key는 한 번 확인 후 다시는 확인할 수 없으니 꼭 별도로 보관해둡니다. API 접근이 가능한 IP를 추가한 후 `Enable Futures`에 체크하여 설정을 완료합니다.
 
-발급받은 API Key와 Secret Key는 환경변수로 만들어 사용하려 합니다. 파이썬 프로젝트 최상위 경로에 `.env` 파일을 만든 후 키 값을 입력합니다. 이렇게 만든 환경변수는 dotenv 패키지를 사용하여 불러올 수 있습니다.
+발급받은 API Key와 Secret Key는 환경변수로 만들어 사용하려 합니다. 파이썬 프로젝트 최상위 경로에 `.env` 파일을 만든 후 키 값을 입력합니다. 이렇게 만든 환경변수는 python-dotenv 패키지를 사용하여 불러올 수 있습니다.
 
-```txt
+```python
 BINANCE_API_KEY = bInAnCeApIkEy
 BINANCE_SECRET_KEY = bInAnCeSeCrEtKeY
 ```
@@ -36,6 +39,7 @@ from pprint import pprint
 load_dotenv()
 BINANCE_API_KEY = os.environ.get("BINANCE_API_KEY")
 BINANCE_SECRET_KEY = os.environ.get("BINANCE_SECRET_KEY")
+
 binance = ccxt.binance(config={
     'apiKey': BINANCE_API_KEY, 
     'secret': BINANCE_SECRET_KEY,
