@@ -77,7 +77,7 @@ def limit_remote_addr():
 전달 받은 웹훅 메시지는 딕셔너리 자료형에 맞게 처리하면 됩니다. 😎
 
 ```python
-# http://SERVER_IP/webhook 주소로 POST 요청 받기
+# http://SERVER_IP:PORT/webhook 주소로 POST 요청 받기
 @app.route('/webhook', methods=['POST'])
 def webhook():
     if request.method == 'POST':
@@ -131,4 +131,42 @@ def webhook():
 
 if __name__ == '__main__':
     app.run(debug=True, host="0.0.0.0", port=80)
+```
+
+
+## 🧪 테스트
+
+curl 명령어의 -d 옵션에 파이쎤 딕셔너리 데이터를 넣어서 테스트할 수 있습니다.
+
+```shell
+$ curl -X POST -H "Content-Type: application/json" -d '{"key": "value"}' http://SERVER_IP:PORT/webhook
+```
+
+
+## 🎸 기타
+
+### 로그 설정
+
+```python
+# 파일 로그 핸들러 설정
+logfile_name = 'app.log'
+file_handler = RotatingFileHandler(logfile_name, maxBytes=10000, backupCount=1)
+file_handler.setLevel(logging.INFO)
+
+# # 콘솔 로그 핸들러 설정(선택사항)
+console_handler = logging.StreamHandler()
+console_handler.setLevel(logging.DEBUG)
+
+# 로그 포맷 설정
+formatter = logging.Formatter('%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]')
+file_handler.setFormatter(formatter)
+console_handler.setFormatter(formatter)
+
+# Flask 애플리케이션에 핸들러 추가
+app.logger.setLevel(logging.INFO)
+app.logger.addHandler(file_handler)
+app.logger.addHandler(console_handler)
+
+# 원하는 곳에 아래 코드 호출
+app.logger.info('Log...')
 ```

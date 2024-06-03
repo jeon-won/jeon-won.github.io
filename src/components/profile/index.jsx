@@ -89,7 +89,7 @@ const Author = styled.div`
 
   display: inline-block;
   font-family: "Catamaran", sans-serif;
-  font-size: 40px;
+  font-size: 32px;
   color: ${(props) => props.theme.main.text};
   padding-bottom: 8px;
   font-weight: 600;
