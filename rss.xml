@@ -1,4 +1,507 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[프로 병맛연주러 😭 및 병맛여행러 😅]]></description><link>https://jeonwon.dev</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 04 Jul 2024 14:12:05 GMT</lastBuildDate><item><title><![CDATA[TrueNAS 서버 구축 정리]]></title><description><![CDATA[내부망에서만 SMB를 사용하는 NAS 서버를 구축해본 걸 정리한 글. 사용한 OS는 TrueNAS SCALE 24.04.0 🤔 TrueNAS 라이선스 검토 라이선스 링크: https://www.truenas.com/docs/scale…]]></description><link>https://jeonwon.dev/system/set-up-truenas/</link><guid isPermaLink="false">https://jeonwon.dev/system/set-up-truenas/</guid><pubDate>Wed, 03 Jul 2024 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[프로 병맛연주러 😭 및 병맛여행러 😅]]></description><link>https://jeonwon.dev</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 04 Jul 2024 17:19:36 GMT</lastBuildDate><item><title><![CDATA[2024년 6월 제주 병맛 여행기]]></title><description><![CDATA[2024년 6월 말 2박 3일 간 제주도 어딜 갔다왔는지 정리해 본 글입니다. MBTI J가 P…]]></description><link>https://jeonwon.dev/travel/2024-06-jeju-travel/</link><guid isPermaLink="false">https://jeonwon.dev/travel/2024-06-jeju-travel/</guid><pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 644px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/8945c0d697bdae9d6cc9f00b4d153b41/f847d/mbti_ei.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 127.60736196319019%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRuwAAABXRUJQVlA4IOAAAABwBQCdASoUABoAPtFcpU6oJSMiKAqpABoJYgCo+AgdgAfVen7X/xF8+d3BqEThBmGyTqzAAP4rhr7KXNWBGuYRkAF3I9IHDzBIwmJbvE68YUMVI4F1Ogy4VSJ3JuvvlxFfC+utvZUV4HKuY9572J1JTCmaU0SdTChWLa0YROhxTloc2y72zcFfZxDp8BqnFh+PNEKpC3JUO3uFb3JnL0DwhgAgjKgkCY/X6Ae+XfW+wbfjzetF5K0co8QnZ88Uc/X7TQFf+q5IRBvKTMJd+vh+fZkqAlnZJl43ubcqDIAAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;충격! 내향형 직원 진짜 있음!&quot;
+        title=&quot;&quot;
+        src=&quot;/static/8945c0d697bdae9d6cc9f00b4d153b41/f847d/mbti_ei.webp&quot;
+        srcset=&quot;/static/8945c0d697bdae9d6cc9f00b4d153b41/94563/mbti_ei.webp 163w,
+/static/8945c0d697bdae9d6cc9f00b4d153b41/647a8/mbti_ei.webp 325w,
+/static/8945c0d697bdae9d6cc9f00b4d153b41/f847d/mbti_ei.webp 644w&quot;
+        sizes=&quot;(max-width: 644px) 100vw, 644px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2024년 6월 말 2박 3일 간 제주도 어딜 갔다왔는지 정리해 본 글입니다. MBTI J가 P들과 함께 무계획이 계획인 컨셉으로 제주 여행을 가 봤습니다.&lt;/p&gt;
+&lt;p&gt;여행 비용을 정산해보니 가성비가 솔직히 영... 좀 그렇습니다. 숙소비가 들지 않아 그나마 괜찮았지만 숙소비까지 들었다면 과연 이 돈 내고 또 올까 싶습니다. 시럽만 탄 제주도 수박주스 값이 생과일을 갈아넣은 육지(?)의 수박주스 값보다 비싼 걸 보고 절레절레... 😞&lt;/p&gt;
+&lt;h2 id=&quot;️-우도--비양도&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EF%B8%8F-%EC%9A%B0%EB%8F%84--%EB%B9%84%EC%96%91%EB%8F%84&quot; aria-label=&quot;️ 우도  비양도 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🏝️ 우도 &amp;#x26; 비양도&lt;/h2&gt;
+&lt;p&gt;제주공항에 내릴 때까지도 어디어디 갈지 계획을 세우지 않은 상태였고, 숙소 체크인까지 5시간 남아서 어디서 시간을 떼울까 하다가 우도를 갔습니다.&lt;/p&gt;
+&lt;p&gt;우도를 돌던 중 들러본 비양도 등대길. 여긴 올 때마다 해수면이 높아지는 것 같아 지구 온난화의 영향이 아닐까 싶었는데...&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e8b42bf99dcbd5341c8c2dd5bc1fdf07/af3f0/20240628_134407_biyangdo_lighthouse.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAADQAwCdASoUAA8APtFUo0uoJKMhsAgBABoJZwCo9CHdOJ5i+/MrbHQA/utEo9Dc1GC2Ti5bJuK7GuE5/Nph3gJB36iZc7m2DNFG1nSsJk8fGef1y+dnkcba8E8X887sAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;우도 비양도 등대길&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e8b42bf99dcbd5341c8c2dd5bc1fdf07/c1dc5/20240628_134407_biyangdo_lighthouse.webp&quot;
+        srcset=&quot;/static/e8b42bf99dcbd5341c8c2dd5bc1fdf07/94563/20240628_134407_biyangdo_lighthouse.webp 163w,
+/static/e8b42bf99dcbd5341c8c2dd5bc1fdf07/647a8/20240628_134407_biyangdo_lighthouse.webp 325w,
+/static/e8b42bf99dcbd5341c8c2dd5bc1fdf07/c1dc5/20240628_134407_biyangdo_lighthouse.webp 650w,
+/static/e8b42bf99dcbd5341c8c2dd5bc1fdf07/1e975/20240628_134407_biyangdo_lighthouse.webp 975w,
+/static/e8b42bf99dcbd5341c8c2dd5bc1fdf07/af3f0/20240628_134407_biyangdo_lighthouse.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;밀물 때라서 그렇다고 합니다. 😅&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f7899c095865a5143867f2887e07a563/af3f0/20240628_134149_biyangdo_lighthouse.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRnQAAABXRUJQVlA4IGgAAAAQBACdASoUAA8APtFUo0uoJKMhsAgBABoJZwC7AB6FAZ8wespngKKXAAD+18FrD0p9Rbp9buB7J20Ki/MRKJLaMSnIVQgj9tVz4zQX3iOEcRro+1lKkl/Pa1fqW3gmWmLDtXHmIDAAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;우도 비양도 등대길&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f7899c095865a5143867f2887e07a563/c1dc5/20240628_134149_biyangdo_lighthouse.webp&quot;
+        srcset=&quot;/static/f7899c095865a5143867f2887e07a563/94563/20240628_134149_biyangdo_lighthouse.webp 163w,
+/static/f7899c095865a5143867f2887e07a563/647a8/20240628_134149_biyangdo_lighthouse.webp 325w,
+/static/f7899c095865a5143867f2887e07a563/c1dc5/20240628_134149_biyangdo_lighthouse.webp 650w,
+/static/f7899c095865a5143867f2887e07a563/1e975/20240628_134149_biyangdo_lighthouse.webp 975w,
+/static/f7899c095865a5143867f2887e07a563/af3f0/20240628_134149_biyangdo_lighthouse.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-갈치-구이--조림&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EA%B0%88%EC%B9%98-%EA%B5%AC%EC%9D%B4--%EC%A1%B0%EB%A6%BC&quot; aria-label=&quot; 갈치 구이  조림 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🐠 갈치 구이 &amp;#x26; 조림&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://naver.me/5PS23KxT&quot;&gt;해녀세자매&lt;/a&gt;라는 식당에서 갈치 구이와 조림, 몸국 등이 나오는 3인 세트를 주문했습니다. 맛있습니다. 😊&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/07f8c0bd446ae2c73b4ba26055075133/af3f0/20240628_185121_sea_maiden_hairtail_deboning.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.44171779141104%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABwBACdASoUAAsAPtFUo0uoJKMhsAgBABoJbACdMoR4PxaraVQyoUCszwUAQAD+76b6ts22yPZolbqn/m93C77/lT/vv1SS/6/aKdMifSMaV4GJI1f6pVC0m/SZq6lOFBML2TOFgpj736sXPZmK02uZNRU+xxG16+6LprHqzOg2NfEu9JKjubQfKWE2yedRoX6Six9LZab++4qHzulpKUtBFQGCPwD5IVEAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;제주 해녀세자매 갈치 발골&quot;
+        title=&quot;&quot;
+        src=&quot;/static/07f8c0bd446ae2c73b4ba26055075133/c1dc5/20240628_185121_sea_maiden_hairtail_deboning.webp&quot;
+        srcset=&quot;/static/07f8c0bd446ae2c73b4ba26055075133/94563/20240628_185121_sea_maiden_hairtail_deboning.webp 163w,
+/static/07f8c0bd446ae2c73b4ba26055075133/647a8/20240628_185121_sea_maiden_hairtail_deboning.webp 325w,
+/static/07f8c0bd446ae2c73b4ba26055075133/c1dc5/20240628_185121_sea_maiden_hairtail_deboning.webp 650w,
+/static/07f8c0bd446ae2c73b4ba26055075133/1e975/20240628_185121_sea_maiden_hairtail_deboning.webp 975w,
+/static/07f8c0bd446ae2c73b4ba26055075133/af3f0/20240628_185121_sea_maiden_hairtail_deboning.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c83c03c13aa168bd9e31305e132d7250/af3f0/20240628_185353_sea_maiden_hairtail.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAAAwBQCdASoUAA8APtFUo0uoJKMhsAgBABoJaACdMoLT/xVbQABgowQDLLpgbbKJNGM6wAD+0SFPaaf8+BlLTehq6AbRemrunD9aDmSTUr41dEJv6hgshZewf6Xyad8SSuCXLABFnrheLfohODkF9QB5D9+doa0njP4W42yB8UEABzq8H5T5t4jH/VdRXHxkn1xbGXE7KlFaVY114ILhMSWthziGMdEAAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;제주 해녀세자매 갈치 구이 &amp;amp; 조림&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c83c03c13aa168bd9e31305e132d7250/c1dc5/20240628_185353_sea_maiden_hairtail.webp&quot;
+        srcset=&quot;/static/c83c03c13aa168bd9e31305e132d7250/94563/20240628_185353_sea_maiden_hairtail.webp 163w,
+/static/c83c03c13aa168bd9e31305e132d7250/647a8/20240628_185353_sea_maiden_hairtail.webp 325w,
+/static/c83c03c13aa168bd9e31305e132d7250/c1dc5/20240628_185353_sea_maiden_hairtail.webp 650w,
+/static/c83c03c13aa168bd9e31305e132d7250/1e975/20240628_185353_sea_maiden_hairtail.webp 975w,
+/static/c83c03c13aa168bd9e31305e132d7250/af3f0/20240628_185353_sea_maiden_hairtail.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-에코그린리조트-포차064&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%97%90%EC%BD%94%EA%B7%B8%EB%A6%B0%EB%A6%AC%EC%A1%B0%ED%8A%B8-%ED%8F%AC%EC%B0%A8064&quot; aria-label=&quot; 에코그린리조트 포차064 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🍻 에코그린리조트 포차064&lt;/h2&gt;
+&lt;p&gt;숙소에 포차가 있길래 가봤는데 댕댕이가 한 입만을 시전합니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bc7f3a0356733162481f778cb96b5716/af3f0/20240628_215030_ecogreenresort_pub064_dog.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.44171779141104%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAACwBACdASoUAAsAPtFUo0uoJKMhsAgBABoJbACdMoAluhiSL2E9B/FBZ8ciGkogAP7qR+5v8FPDVo1KNewyRRklwN9WyU8amGmqYznJuQnSJAwS4EhpLUoKZxVZJ2Lt+wUW/514mOt2OcmiOFkhiHt+d+jFGr/oLdumqOJhFQ4u3HTwmJXYbvcCPq3x5TDThonpc227byySRVDoAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;에코그린리조트 포차064 댕댕이&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bc7f3a0356733162481f778cb96b5716/c1dc5/20240628_215030_ecogreenresort_pub064_dog.webp&quot;
+        srcset=&quot;/static/bc7f3a0356733162481f778cb96b5716/94563/20240628_215030_ecogreenresort_pub064_dog.webp 163w,
+/static/bc7f3a0356733162481f778cb96b5716/647a8/20240628_215030_ecogreenresort_pub064_dog.webp 325w,
+/static/bc7f3a0356733162481f778cb96b5716/c1dc5/20240628_215030_ecogreenresort_pub064_dog.webp 650w,
+/static/bc7f3a0356733162481f778cb96b5716/1e975/20240628_215030_ecogreenresort_pub064_dog.webp 975w,
+/static/bc7f3a0356733162481f778cb96b5716/af3f0/20240628_215030_ecogreenresort_pub064_dog.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;미안하다. 목걸이 때문에 줄 수가 없구나... 😭&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3a76490efb36f7bf437bfda7d478e0da/af3f0/20240628_204912_ecogreenresort_pub064_dog.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRqQAAABXRUJQVlA4IJgAAAAwBACdASoUAA8APtFUo0uoJKMhsAgBABoJQBOgMX1TcNLWKN+A07ea2gAA/nI3wgthUM2/tynvJ2rlBist3DsBPMbmvwKSFgZf7wU3PvOQTDpOWL8buK4N7R7z1syXyKomLZtIlzlqkIC85rGS+IDVMDAKGJcacCfBtPHxFd3oGBmvar690aviyOVRFECMK6c/EM2d90xAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;에코그린리조트 포차064 댕댕이&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3a76490efb36f7bf437bfda7d478e0da/c1dc5/20240628_204912_ecogreenresort_pub064_dog.webp&quot;
+        srcset=&quot;/static/3a76490efb36f7bf437bfda7d478e0da/94563/20240628_204912_ecogreenresort_pub064_dog.webp 163w,
+/static/3a76490efb36f7bf437bfda7d478e0da/647a8/20240628_204912_ecogreenresort_pub064_dog.webp 325w,
+/static/3a76490efb36f7bf437bfda7d478e0da/c1dc5/20240628_204912_ecogreenresort_pub064_dog.webp 650w,
+/static/3a76490efb36f7bf437bfda7d478e0da/1e975/20240628_204912_ecogreenresort_pub064_dog.webp 975w,
+/static/3a76490efb36f7bf437bfda7d478e0da/af3f0/20240628_204912_ecogreenresort_pub064_dog.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-고사리-육개장&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EA%B3%A0%EC%82%AC%EB%A6%AC-%EC%9C%A1%EA%B0%9C%EC%9E%A5&quot; aria-label=&quot; 고사리 육개장 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🌿 고사리 육개장&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://naver.me/xnK81vg5&quot;&gt;삼도해장국&lt;/a&gt;이라는 식당에서 고사리 육개장과 고등어 구이를 먹었습니다. 육개장도 맛있었는데 무엇보다 묵은지가 너무 존맛!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d0aca66dac15d5183f168647569e4143/af3f0/20240629_134429_bracken_stew.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRq4AAABXRUJQVlA4IKIAAADQBACdASoUAA8APtFUo0uoJKMhsAgBABoJZACdMoGv/gNspm42Cg30AftKgw27AAD7pBIXge9zw9ggOMTVZ4bxL42kJ8D3m+m0WEngIa5HDpWdcbzkT/wsg+RZ109ikT1Hy8Sy4YUt9A0qSo7hol3U9I6QZUxAxB2Ym+nqQZNu1I015sBgJ4oYK7rg2m55AEsOh+CE3q3DlMZtBNIQ4XsAAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;삼도해장국 고사리 육개장&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d0aca66dac15d5183f168647569e4143/c1dc5/20240629_134429_bracken_stew.webp&quot;
+        srcset=&quot;/static/d0aca66dac15d5183f168647569e4143/94563/20240629_134429_bracken_stew.webp 163w,
+/static/d0aca66dac15d5183f168647569e4143/647a8/20240629_134429_bracken_stew.webp 325w,
+/static/d0aca66dac15d5183f168647569e4143/c1dc5/20240629_134429_bracken_stew.webp 650w,
+/static/d0aca66dac15d5183f168647569e4143/1e975/20240629_134429_bracken_stew.webp 975w,
+/static/d0aca66dac15d5183f168647569e4143/af3f0/20240629_134429_bracken_stew.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-꽈배기--핫도그&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EA%BD%88%EB%B0%B0%EA%B8%B0--%ED%95%AB%EB%8F%84%EA%B7%B8&quot; aria-label=&quot; 꽈배기  핫도그 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🍗 꽈배기 &amp;#x26; 핫도그&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://naver.me/G38bG7Fs&quot;&gt;백한철 꽈배기 &amp;#x26; 식빵&lt;/a&gt;이라는 가게에 문 닫기 5분 전에 도착했더니 역시 대부분 품절됐습니다. 핫도그는 여유분이 좀 있었고, 꽈배기는 기본 메뉴만 소량 주문할 수 있었습니다. 먹어보니 왜 품절됐는지 이해되는 맛이었습니다.&lt;/p&gt;
+&lt;p&gt;사진은 안 찍음... 😅&lt;/p&gt;
+&lt;h2 id=&quot;-연돈-카레-밀키트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%97%B0%EB%8F%88-%EC%B9%B4%EB%A0%88-%EB%B0%80%ED%82%A4%ED%8A%B8&quot; aria-label=&quot; 연돈 카레 밀키트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🍛 연돈 카레 밀키트&lt;/h2&gt;
+&lt;p&gt;여행 중에 연돈에서 카레 밀키트를 판매하기 시작했다는 소식을 듣고 당장 가서 사왔습니다. 판매 시작 첫날에 가는 거라 품절될까봐 걱정됐지만 다행이 그렇진 않았고 물량이 충분해 보였습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/406de04ece7468e0d93b6264e4c22150/af3f0/20240629_163131_yeondeon.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAADQAwCdASoUAA8APtFUo0uoJKMhsAgBABoJaQAD43oMzOvtg6vKFYAA/vNsRcKEH64fQIfX7WHLshCi/YoDalOR0u14K6Za9+xelszFbcb0kqu7Q9HbT22gMik33suav26XYOLeBRWauhgxSaJ1zQqMX1AsFzIAAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;연돈&quot;
+        title=&quot;&quot;
+        src=&quot;/static/406de04ece7468e0d93b6264e4c22150/c1dc5/20240629_163131_yeondeon.webp&quot;
+        srcset=&quot;/static/406de04ece7468e0d93b6264e4c22150/94563/20240629_163131_yeondeon.webp 163w,
+/static/406de04ece7468e0d93b6264e4c22150/647a8/20240629_163131_yeondeon.webp 325w,
+/static/406de04ece7468e0d93b6264e4c22150/c1dc5/20240629_163131_yeondeon.webp 650w,
+/static/406de04ece7468e0d93b6264e4c22150/1e975/20240629_163131_yeondeon.webp 975w,
+/static/406de04ece7468e0d93b6264e4c22150/af3f0/20240629_163131_yeondeon.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/5acd08e59d6e751cc90e27a38c9ce428/af3f0/20240629_163217_yeondeon_curry_mealkit.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAAAQBACdASoUAA8APtFUo0uoJKMhsAgBABoJQBOgMYOc1SAaIV5I+o+GMAD8j5UdE7j/+vBEjul1JXqw7yL9+0yysgpWJZCDMB7fmvaU5lrI9rZFtAWfB/oNKRuGpORYWyu1GKa90qlxMgfjHuM6OSFz7xd/4Haa/X5/H5hb4Pw6J84To65pS/gWVpPi+DfB/RZsscOHnuQR5JpesriiXlX+o1Vs/6to4AA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;연돈 카레 밀키트&quot;
+        title=&quot;&quot;
+        src=&quot;/static/5acd08e59d6e751cc90e27a38c9ce428/c1dc5/20240629_163217_yeondeon_curry_mealkit.webp&quot;
+        srcset=&quot;/static/5acd08e59d6e751cc90e27a38c9ce428/94563/20240629_163217_yeondeon_curry_mealkit.webp 163w,
+/static/5acd08e59d6e751cc90e27a38c9ce428/647a8/20240629_163217_yeondeon_curry_mealkit.webp 325w,
+/static/5acd08e59d6e751cc90e27a38c9ce428/c1dc5/20240629_163217_yeondeon_curry_mealkit.webp 650w,
+/static/5acd08e59d6e751cc90e27a38c9ce428/1e975/20240629_163217_yeondeon_curry_mealkit.webp 975w,
+/static/5acd08e59d6e751cc90e27a38c9ce428/af3f0/20240629_163217_yeondeon_curry_mealkit.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;아직 맛은 못 봄...&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/bb472e7b33eed3031cbd28a509655f23/af3f0/20240630_131406_yeondeon_curry_mealkit.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRoYAAABXRUJQVlA4IHoAAAAwBACdASoUAA8APtFUo0uoJKMhsAgBABoJZQDCgYv05sG0a4g25nCNlmgA/uc3s87PMQbjNWy6wi+1jztOnnnDVlUKSxKJUKwPm/b1aS7fGga84S2U/KqYgPGFYiXZt3dc7Ue5X1CLBp+rvHwEdC9z5FGLcjox2AAAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;연돈 카레 밀키트&quot;
+        title=&quot;&quot;
+        src=&quot;/static/bb472e7b33eed3031cbd28a509655f23/c1dc5/20240630_131406_yeondeon_curry_mealkit.webp&quot;
+        srcset=&quot;/static/bb472e7b33eed3031cbd28a509655f23/94563/20240630_131406_yeondeon_curry_mealkit.webp 163w,
+/static/bb472e7b33eed3031cbd28a509655f23/647a8/20240630_131406_yeondeon_curry_mealkit.webp 325w,
+/static/bb472e7b33eed3031cbd28a509655f23/c1dc5/20240630_131406_yeondeon_curry_mealkit.webp 650w,
+/static/bb472e7b33eed3031cbd28a509655f23/1e975/20240630_131406_yeondeon_curry_mealkit.webp 975w,
+/static/bb472e7b33eed3031cbd28a509655f23/af3f0/20240630_131406_yeondeon_curry_mealkit.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-에코그린리조트-무제한-바비큐&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%97%90%EC%BD%94%EA%B7%B8%EB%A6%B0%EB%A6%AC%EC%A1%B0%ED%8A%B8-%EB%AC%B4%EC%A0%9C%ED%95%9C-%EB%B0%94%EB%B9%84%ED%81%90&quot; aria-label=&quot; 에코그린리조트 무제한 바비큐 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🍖 에코그린리조트 무제한 바비큐&lt;/h2&gt;
+&lt;p&gt;숙소에 고기, 소시지, 야채 등을 무한 리필해서 먹을 수 있는 곳이 있어서 갔는데 문제는... 그 전에 꽈배기, 핫도그, 볼카츠 등을 먹고 오는 바람에 많이 먹질 못했습니다. 이럴 줄 알았으면 무제한이 아닌 그냥 바비큐를 시키는 것인데 😭&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f361c8f20818a245128306a805d79926/af3f0/20240629_182808_ecogreenresort_unlimited_barbecue.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAACwBACdASoUAA8APtFUo0uoJKMhsAgBABoJZACdEf/i1tG317hEVg4U4+1P1cKAAP3wZOxTY8jq51HvudyjWj/Sl8HlT/K8O0o27DwIsMFbVumkEZk8TB4FX4h9jN91/8tgdyKlLwnBt+LfuNThAzfPEVSxJb+0DMEk1J2yYiHXbLghF8+eVsIlpbbo9lQLw24gHYjwgFSwfYW2t95O+a/GGyx0ZA+M/v4/GJWkwScPieqoHtigubGsCWWOiTTHvpIAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;에코그린리조트 무제한 바비큐&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f361c8f20818a245128306a805d79926/c1dc5/20240629_182808_ecogreenresort_unlimited_barbecue.webp&quot;
+        srcset=&quot;/static/f361c8f20818a245128306a805d79926/94563/20240629_182808_ecogreenresort_unlimited_barbecue.webp 163w,
+/static/f361c8f20818a245128306a805d79926/647a8/20240629_182808_ecogreenresort_unlimited_barbecue.webp 325w,
+/static/f361c8f20818a245128306a805d79926/c1dc5/20240629_182808_ecogreenresort_unlimited_barbecue.webp 650w,
+/static/f361c8f20818a245128306a805d79926/1e975/20240629_182808_ecogreenresort_unlimited_barbecue.webp 975w,
+/static/f361c8f20818a245128306a805d79926/af3f0/20240629_182808_ecogreenresort_unlimited_barbecue.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-배달회&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%B0%B0%EB%8B%AC%ED%9A%8C&quot; aria-label=&quot; 배달회 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🐟 배달회&lt;/h2&gt;
+&lt;p&gt;이눔시키들... 무제한 바비큐나 많이 먹을 것이지 자기 직전에 회 한 사다바리(?)를 배달시켜 먹다니 😤 (오히려 좋아! 😅)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3496049e6a254c45c77c9c50bd9ebbfb/af3f0/20240629_221051_sashimi.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRswAAABXRUJQVlA4IMAAAACwBACdASoUAA8APtFUo0uoJKMhsAgBABoJYgCsLwDs4Ba3LAFYR2V+S/vDAGnwAP7v19B2t/SHKLnC1uHRXxOfCfY80uDaoptFLa3eNeg9VrdOA0E1GTXBsYD6Wk9X+kAcwInvRbuZWq+Zo2ZPOZM9hjhDwFS5fQJHVKtJq/p+t9MNPeGRq9q6ewiLF+4ED52DfQB57vm29MUrYNbYhcNyAXYs1VJYtFnCn0BwVpWihZTNAAnRZob0q8jgbknEagA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;배달회&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3496049e6a254c45c77c9c50bd9ebbfb/c1dc5/20240629_221051_sashimi.webp&quot;
+        srcset=&quot;/static/3496049e6a254c45c77c9c50bd9ebbfb/94563/20240629_221051_sashimi.webp 163w,
+/static/3496049e6a254c45c77c9c50bd9ebbfb/647a8/20240629_221051_sashimi.webp 325w,
+/static/3496049e6a254c45c77c9c50bd9ebbfb/c1dc5/20240629_221051_sashimi.webp 650w,
+/static/3496049e6a254c45c77c9c50bd9ebbfb/1e975/20240629_221051_sashimi.webp 975w,
+/static/3496049e6a254c45c77c9c50bd9ebbfb/af3f0/20240629_221051_sashimi.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-에코그린리조트-조식&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%97%90%EC%BD%94%EA%B7%B8%EB%A6%B0%EB%A6%AC%EC%A1%B0%ED%8A%B8-%EC%A1%B0%EC%8B%9D&quot; aria-label=&quot; 에코그린리조트 조식 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🍳 에코그린리조트 조식&lt;/h2&gt;
+&lt;p&gt;전날 커피를 잘못 주문해서 우유 들어간 커피를 그냥 마셨는데 하필 조식 먹으면서 유당불내증 신호가 온 탓인지 조식을 많이 먹지 못해 아쉽습니다. 여기 조식 괜찮은데...&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ecceadc532482ae5ec7cf8ea3c23c956/af3f0/20240630_072543_ecogreenresort_breakfast.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAwBACdASoUAA8APtFUo0uoJKMhsAgBABoJYgCdMoACg+o8lb0F3rbMbgAA9ybZ9xD2QVNE2fPrCfXeQuLay8hT13Ii1QPiyr9iF8cMjPV/eBDuwLbhYbHsvfBgQ2qm3L5ZIpCnfANexpp/vXuMJUBNpwjO3MgeAUIGAnZ/HIvF6h9H3jqgg//SPCv7uLVA1n0dYu2g4mIzA88vAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;에코그린리조트 조식&quot;
+        title=&quot;&quot;
+        src=&quot;/static/ecceadc532482ae5ec7cf8ea3c23c956/c1dc5/20240630_072543_ecogreenresort_breakfast.webp&quot;
+        srcset=&quot;/static/ecceadc532482ae5ec7cf8ea3c23c956/94563/20240630_072543_ecogreenresort_breakfast.webp 163w,
+/static/ecceadc532482ae5ec7cf8ea3c23c956/647a8/20240630_072543_ecogreenresort_breakfast.webp 325w,
+/static/ecceadc532482ae5ec7cf8ea3c23c956/c1dc5/20240630_072543_ecogreenresort_breakfast.webp 650w,
+/static/ecceadc532482ae5ec7cf8ea3c23c956/1e975/20240630_072543_ecogreenresort_breakfast.webp 975w,
+/static/ecceadc532482ae5ec7cf8ea3c23c956/af3f0/20240630_072543_ecogreenresort_breakfast.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-바이바이&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%B0%94%EC%9D%B4%EB%B0%94%EC%9D%B4&quot; aria-label=&quot; 바이바이 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;👋 바이바이&lt;/h2&gt;
+&lt;p&gt;역시 전 계획대로 행동해야 합니다... 😭&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9157a9d02c29b953a78e8a7e698f8699/e46b2/20240630_104158_airplane.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 133.12883435582822%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRsIAAABXRUJQVlA4ILYAAABwBQCdASoUABsAPtFYoUuoJSMhsBgMAQAaCUAWHYaFL4H9cuixYki5qSmpwxyplJNWesLgAP5MrkXQ14x5pc9h1BjfL1br3d642NJ1MB3lS1kMexDx437ioUlkdTzybpzdGFahmLAyx43IFAEQcAm2x0tC6dQGPOAXrK4Gpt1SClvxPnyEImptp4mlojV5/xJujXXbUqbkaoTjT1jEgbgiRPGSHcBqLpc61c+16IuDRu9AA2jsAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;비행기 창문 풍경&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9157a9d02c29b953a78e8a7e698f8699/c1dc5/20240630_104158_airplane.webp&quot;
+        srcset=&quot;/static/9157a9d02c29b953a78e8a7e698f8699/94563/20240630_104158_airplane.webp 163w,
+/static/9157a9d02c29b953a78e8a7e698f8699/647a8/20240630_104158_airplane.webp 325w,
+/static/9157a9d02c29b953a78e8a7e698f8699/c1dc5/20240630_104158_airplane.webp 650w,
+/static/9157a9d02c29b953a78e8a7e698f8699/e46b2/20240630_104158_airplane.webp 960w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[TrueNAS 서버 구축 정리]]></title><description><![CDATA[내부망에서만 SMB를 사용하는 NAS 서버를 구축해본 걸 정리한 글. 사용한 OS는 TrueNAS SCALE 24.04.0 🤔 TrueNAS 라이선스 검토 라이선스 링크: https://www.truenas.com/docs/scale…]]></description><link>https://jeonwon.dev/system/set-up-truenas/</link><guid isPermaLink="false">https://jeonwon.dev/system/set-up-truenas/</guid><pubDate>Wed, 03 Jul 2024 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
