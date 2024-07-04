@@ -36,7 +36,7 @@ export const HtmlWrapper = styled.div`
   }
 
   section > h3 {
-    font-size: 1.35rem;
+    font-size: 1.6rem;
     color: ${props => props.theme.post.content.text};
     color: #fd7622;
     margin-top: 30px;
@@ -47,7 +47,7 @@ export const HtmlWrapper = styled.div`
   }
 
   section > h4 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     color: ${props => props.theme.post.content.text};
     margin-top: 25px;
     margin-bottom: 20px;
@@ -57,7 +57,7 @@ export const HtmlWrapper = styled.div`
   }
 
   section > h5 {
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: ${props => props.theme.post.content.text};
     margin-top: 20px;
     margin-bottom: 15px;
@@ -66,7 +66,7 @@ export const HtmlWrapper = styled.div`
   }
 
   section > h6 {
-    font-size: 0.8rem;
+    font-size: 1.3rem;
     color: ${props => props.theme.post.content.text};
     margin-top: 20px;
     margin-bottom: 15px;
