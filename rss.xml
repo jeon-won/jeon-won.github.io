@@ -1,4 +1,572 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[프로 병맛연주러 😭 및 병맛여행러 😅]]></description><link>https://jeonwon.dev</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 04 Jul 2024 17:19:36 GMT</lastBuildDate><item><title><![CDATA[2024년 6월 제주 병맛 여행기]]></title><description><![CDATA[2024년 6월 말 2박 3일 간 제주도 어딜 갔다왔는지 정리해 본 글입니다. MBTI J가 P…]]></description><link>https://jeonwon.dev/travel/2024-06-jeju-travel/</link><guid isPermaLink="false">https://jeonwon.dev/travel/2024-06-jeju-travel/</guid><pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[프로 병맛연주러 😭 및 병맛여행러 😅]]></description><link>https://jeonwon.dev</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 25 Jul 2024 16:44:59 GMT</lastBuildDate><item><title><![CDATA[도커(Docker) 및 도커 컴포즈(Docker Compose) 사용 방법 간단 정리]]></title><description><![CDATA[따배도 도커 시리즈 강의랑 여기저기서 주워들은 것들을 정리한 내용들. 🤔 도커(Docker)란? 도커(Docker…]]></description><link>https://jeonwon.dev/system/docker-summary/</link><guid isPermaLink="false">https://jeonwon.dev/system/docker-summary/</guid><pubDate>Fri, 26 Jul 2024 01:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/368fcf7c788a89ae585b5676769bc573/4dfa3/docker.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 33.74233128834356%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAHABQDASIAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAAMF/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAH/2gAMAwEAAhADEAAAAdaglAv/xAAZEAACAwEAAAAAAAAAAAAAAAAAEQEDEyL/2gAIAQEAAQUCVunZDP/EABURAQEAAAAAAAAAAAAAAAAAABAR/9oACAEDAQE/AYf/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAABBQAAAAAAAAAAAAAAAAAAARIhMUH/2gAIAQEABj8CtGmEn//EABoQAAICAwAAAAAAAAAAAAAAAAARASExYXH/2gAIAQEAAT8hlmUHs0YPR//aAAwDAQACAAMAAAAQ+8//xAAWEQADAAAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8QEL//xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQIBAT8QXZ//xAAaEAACAwEBAAAAAAAAAAAAAAABEQAhQVFx/9oACAEBAAE/ECQDgQ1DzsVulUYoXLeJ/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Docker logo&quot;
+        title=&quot;&quot;
+        src=&quot;/static/368fcf7c788a89ae585b5676769bc573/6aca1/docker.jpg&quot;
+        srcset=&quot;/static/368fcf7c788a89ae585b5676769bc573/d2f63/docker.jpg 163w,
+/static/368fcf7c788a89ae585b5676769bc573/c989d/docker.jpg 325w,
+/static/368fcf7c788a89ae585b5676769bc573/6aca1/docker.jpg 650w,
+/static/368fcf7c788a89ae585b5676769bc573/4dfa3/docker.jpg 792w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=NLUugLQ8unM&amp;#x26;list=PLApuRlvrZKogb78kKq1wRvrjg1VMwYrvi&quot;&gt;따배도 도커 시리즈 강의&lt;/a&gt;랑 여기저기서 주워들은 것들을 정리한 내용들.&lt;/p&gt;
+&lt;h2 id=&quot;-도커docker란&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%8F%84%EC%BB%A4docker%EB%9E%80&quot; aria-label=&quot; 도커docker란 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🤔 도커(Docker)란?&lt;/h2&gt;
+&lt;p&gt;도커(Docker)는 컨테이너 기술을 사용하여 애플리케이션을 배포, 운영 및 관리하는 플랫폼.&lt;/p&gt;
+&lt;h3 id=&quot;특징&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%ED%8A%B9%EC%A7%95&quot; aria-label=&quot;특징 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;특징&lt;/h3&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 500px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9e9af3663d16b4c20f1f131d51376eb6/41099/docker-containerization.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 112.26993865030674%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAWABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQCAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB822rYzOoOeyplA//xAAaEAEBAAMBAQAAAAAAAAAAAAABAgASIQMR/9oACAEBAAEFAqaGHN6w8xPkzi9rjS69z//EABYRAQEBAAAAAAAAAAAAAAAAAAEQIf/aAAgBAwEBPwHYs//EABcRAAMBAAAAAAAAAAAAAAAAAAAQESH/2gAIAQIBAT8BxQh//8QAGhAAAgIDAAAAAAAAAAAAAAAAACEQESAiMf/aAAgBAQAGPwI5SjcWP//EAB0QAQACAgIDAAAAAAAAAAAAAAEAESFBYXGR8PH/2gAIAQEAAT8hvGa51KEchRGHzmGqe4eixzTwQ4Yoy1uf/9oADAMBAAIAAwAAABCACH7/xAAYEQEBAQEBAAAAAAAAAAAAAAABABEhMf/aAAgBAwEBPxDxlrIvYW//xAAYEQEBAAMAAAAAAAAAAAAAAAABABEhUf/aAAgBAgEBPxBZqAFhy//EAB4QAQADAAICAwAAAAAAAAAAAAEAESExQVFxkcHw/9oACAEBAAE/ED4uzOauy/uKMkAPBzDCC88CqiSi5wyHuXiVyrat8xhRvf0S3e1WKpNxp7fMWWtfc//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Moving your application to another environment VS Containerization&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9e9af3663d16b4c20f1f131d51376eb6/41099/docker-containerization.jpg&quot;
+        srcset=&quot;/static/9e9af3663d16b4c20f1f131d51376eb6/d2f63/docker-containerization.jpg 163w,
+/static/9e9af3663d16b4c20f1f131d51376eb6/c989d/docker-containerization.jpg 325w,
+/static/9e9af3663d16b4c20f1f131d51376eb6/41099/docker-containerization.jpg 500w&quot;
+        sizes=&quot;(max-width: 500px) 100vw, 500px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;컨테이너화: 컨테이너는 애플리케이션과 의존성 파일들(소 스코드, 라이브러리 등)을 하나의 묶은 것. &lt;strong&gt;컨테이너는 도커 실행이 가능한 환경에서 어디서든 실행할 수 있음.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;이식성: 컨테이너는 운영체제에 독립적임. 이미지(컨테이너)와 볼륨만 백업하면 &lt;strong&gt;어느 환경에서든 동일하게 작동하므로 애플리케이션 개발 및 배포가 용이해짐.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;효율성: 가상 머신에 비해 더 빠르고 경량화된 환경 제공.&lt;/li&gt;
+&lt;li&gt;확장성: 도커 컴포즈 또는 기타 오케스트레이션 도구(쿠버네티스)를 사용하여 컨테이너 배포 및 관리를 용이하게 할 수 있음.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;주요-용어&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A3%BC%EC%9A%94-%EC%9A%A9%EC%96%B4&quot; aria-label=&quot;주요 용어 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;주요 용어&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;컨테이너 이미지(이하 이미지): 애플리케이션과 의존성 파일들을 모아놓은 템플릿&lt;/li&gt;
+&lt;li&gt;컨테이너: 이미지에 의해 만들어진 인스턴스&lt;/li&gt;
+&lt;li&gt;도커 허브: 도커 이미지들을 다운받을 수 있는 원격 저장소&lt;/li&gt;
+&lt;li&gt;도커 컴포즈: 여러 컨테이너를 일괄적으로 정의하고 실행할 수 있는 도구&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;-hello-docker&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-hello-docker&quot; aria-label=&quot; hello docker permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🤗 Hello Docker!&lt;/h2&gt;
+&lt;h3 id=&quot;docker-설치&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#docker-%EC%84%A4%EC%B9%98&quot; aria-label=&quot;docker 설치 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Docker 설치&lt;/h3&gt;
+&lt;p&gt;&lt;a href=&quot;https://docs.docker.com/engine/install/&quot;&gt;https://docs.docker.com/engine/install/&lt;/a&gt; 참고&lt;/p&gt;
+&lt;h3 id=&quot;hello-world&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#hello-world&quot; aria-label=&quot;hello world permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Hello World!&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;docker run hello-world&lt;/code&gt; 명령어 실행하면 됨.&lt;/p&gt;
+&lt;h2 id=&quot;-이미지와-컨테이너-살펴보기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%9D%B4%EB%AF%B8%EC%A7%80%EC%99%80-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0&quot; aria-label=&quot; 이미지와 컨테이너 살펴보기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;📦 이미지와 컨테이너 살펴보기&lt;/h2&gt;
+&lt;p&gt;이미지는 내부 파일들이 영구적으로 보존되며 읽기 전용임.&lt;/p&gt;
+&lt;p&gt;컨테이너는 읽기 쓰기 모두 가능하지만, 컨테이너가 생성된 후 저장된 데이터는 컨테이너가 삭제되면 보존되지 않음. 이를 해결하려면 볼륨을 사용해야 함. (뒤에서 자세히 설명)&lt;/p&gt;
+&lt;h3 id=&quot;이미지-검색&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%AF%B8%EC%A7%80-%EA%B2%80%EC%83%89&quot; aria-label=&quot;이미지 검색 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이미지 검색&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Docker Hub에서 이미지 검색&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; search IMAGE_NAME
+
+&lt;span class=&quot;token comment&quot;&gt;# Docker Hub에서 이미지 다운로드&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; pull IMAGE_NAME:TAG
+
+&lt;span class=&quot;token comment&quot;&gt;# 저장된 이미지 검색&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; image &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; images
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; images --no-trunc  &lt;span class=&quot;token comment&quot;&gt;## 이미지 ID를 자르지 않고 전부 출력&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;컨테이너-실행&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EC%8B%A4%ED%96%89&quot; aria-label=&quot;컨테이너 실행 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컨테이너 실행&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 이미지 컨테이너화(실행하진 않음)&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; create &lt;span class=&quot;token parameter variable&quot;&gt;--name&lt;/span&gt; CONTAINER_NAME IMAGE_NAME:TAG
+
+&lt;span class=&quot;token comment&quot;&gt;# 컨테이너화된 이미지 실행&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; start CONTAINER_NAME
+
+&lt;span class=&quot;token comment&quot;&gt;# 컨테이너 실행(이미지가 없으면 다운로드받아 실행까지 함)&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;--name&lt;/span&gt; CONTAINER_NAME &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;## 이 이름으로 컨테이너화&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;-p&lt;/span&gt; HOST_PORT:CONTAINER_PORT &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## 포트 매핑&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; IMAGE_NAME:TAG              &lt;span class=&quot;token comment&quot;&gt;## -d: 백그라운드 모드로 실행&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;이미지-및-컨테이너-관리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%8F-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EA%B4%80%EB%A6%AC&quot; aria-label=&quot;이미지 및 컨테이너 관리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이미지 및 컨테이너 관리&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 포그라운드로 실행 중인 컨테이너 연결&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; attach &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;OPTIONS&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; CONTAINER_NAME
+
+&lt;span class=&quot;token comment&quot;&gt;# 동작 중인 도커 컨테이너 출력&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; container &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ps&lt;/span&gt;     &lt;span class=&quot;token comment&quot;&gt;## 기동 중인 컨테이너 출력&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ps&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-a&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## 중지된 컨테이너도 출력&lt;/span&gt;
+
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;top&lt;/span&gt; CONTAINER_NAME      &lt;span class=&quot;token comment&quot;&gt;## 컨테이너에 작동 중인 프로세스 출력&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; logs CONTAINER_NAME     &lt;span class=&quot;token comment&quot;&gt;## 컨테이너 로그 조회&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; logs &lt;span class=&quot;token parameter variable&quot;&gt;-f&lt;/span&gt; CONTAINER_NAME  &lt;span class=&quot;token comment&quot;&gt;## 컨테이너 로그를 실시간 조회&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt; CONTAINER_NAME COMMAND        &lt;span class=&quot;token comment&quot;&gt;## 컨테이너 내 명령어 실행&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-it&lt;/span&gt; CONTAINER_NAME /bin/bash  &lt;span class=&quot;token comment&quot;&gt;## 컨테이너 셸 실행(Interactive, Terminal)&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 상세 정보 출력&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; inspect IMAGE_NAME:TAG
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; inspect CONTAINER_NAME
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; inspect &lt;span class=&quot;token parameter variable&quot;&gt;--format&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;{{.NetworkSettings.IPAddress}}&apos;&lt;/span&gt; CONTAINER_NAME  &lt;span class=&quot;token comment&quot;&gt;## 컨테이너의 NetworkSettings.IPAdress 속성 출력&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;컨테이너-종료-및-이미지-제거&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EC%A2%85%EB%A3%8C-%EB%B0%8F-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%A0%9C%EA%B1%B0&quot; aria-label=&quot;컨테이너 종료 및 이미지 제거 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컨테이너 종료 및 이미지 제거&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 컨테이너 종료&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; stop CONTAINER_NAME     &lt;span class=&quot;token comment&quot;&gt;## 컨테이너 중지&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; start CONTAINER_NAME    &lt;span class=&quot;token comment&quot;&gt;## 중지된 컨테이너 시작&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; restart CONTAINER_NAME  &lt;span class=&quot;token comment&quot;&gt;## 컨테이너 재시작&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 컨테이너 제거&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; IMAGE_NAME     &lt;span class=&quot;token comment&quot;&gt;## 실행 중인 컨테이너는 제거하지 않음&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-f&lt;/span&gt; IMAGE_NAME  &lt;span class=&quot;token comment&quot;&gt;## 실행 중인 컨테이너도 강제 종료 후 제거&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 이미지 제거&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; image IMAGE_NAME
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; rmi IMAGE_NAME&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;-dockerfile로-이미지-직접-만들기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-dockerfile%EB%A1%9C-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%A4%EA%B8%B0&quot; aria-label=&quot; dockerfile로 이미지 직접 만들기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🙌 Dockerfile로 이미지 직접 만들기&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/82b3d30c2e9caf60492bf8d635a47724/05ca6/my-docker-container.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 69.32515337423312%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAwBACdASoUAA4APtFUo0uoJKMhsAgBABoJYgC7ACIguX6IMXgt9oddq/gA/q+hEYDx6ACt0Q573iwaX50W+OPsrh38Y/JvSQlxQ/kSoVyYMzsX/slUGTn0fM3Q116JfFvORyNZtZcqyjPtWaEGt+bJ+nhg6NnL6oCO0kBDDp7vRP0AY5Au5CMyekdD60P49ZmQ31kK1qan+EoAAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;The docker container my host machine&quot;
+        title=&quot;&quot;
+        src=&quot;/static/82b3d30c2e9caf60492bf8d635a47724/c1dc5/my-docker-container.webp&quot;
+        srcset=&quot;/static/82b3d30c2e9caf60492bf8d635a47724/94563/my-docker-container.webp 163w,
+/static/82b3d30c2e9caf60492bf8d635a47724/647a8/my-docker-container.webp 325w,
+/static/82b3d30c2e9caf60492bf8d635a47724/c1dc5/my-docker-container.webp 650w,
+/static/82b3d30c2e9caf60492bf8d635a47724/05ca6/my-docker-container.webp 719w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Dockerfile을 이용해 이미지를 빌드할 수 있음.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;dockerfile&quot;&gt;&lt;pre class=&quot;language-dockerfile&quot;&gt;&lt;code class=&quot;language-dockerfile&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# Dockerfile 예시&lt;/span&gt;
+&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;FROM&lt;/span&gt; node:20&lt;/span&gt;
+&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;LABEL&lt;/span&gt; maintainer=&lt;span class=&quot;token string&quot;&gt;&quot;Jeon Won &amp;lt;https://jeonwon.dev&gt;&quot;&lt;/span&gt;&lt;/span&gt;
+&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;COPY&lt;/span&gt; hello.js /&lt;/span&gt;
+&lt;span class=&quot;token instruction&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;CMD&lt;/span&gt; [&lt;span class=&quot;token string&quot;&gt;&quot;node&quot;&lt;/span&gt;, &lt;span class=&quot;token string&quot;&gt;&quot;hello.js&quot;&lt;/span&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;dockerfile-주요-문법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dockerfile-%EC%A3%BC%EC%9A%94-%EB%AC%B8%EB%B2%95&quot; aria-label=&quot;dockerfile 주요 문법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dockerfile 주요 문법&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;#&lt;/code&gt;: 주석&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;FROM&lt;/code&gt;: Base image. 가장 먼저 나와야 함.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;LABEL&lt;/code&gt;: Key-Value 형식의 메타데이터. &lt;code class=&quot;language-text&quot;&gt;MAINTAINER&lt;/code&gt;는 Deprecated됨.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;RUN&lt;/code&gt;: Base image에서 실행할 명령어들&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;COPY&lt;/code&gt;: 호스트의 파일을 컨테이너로 복사&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ADD&lt;/code&gt;: 호스트의 파일을 컨테이너로 복사. COPY와의 차이점은...
+&lt;ul&gt;
+&lt;li&gt;압축 파일(tar, tar.gz)인 경우 압축을 해제하여 복사해줌&lt;/li&gt;
+&lt;li&gt;wget 등을 통해 원격지의 파일을 복사 대상으로 지정할 수 있음&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;WORKDIR&lt;/code&gt;: 명령이 실행될 작업 디렉터리 설정&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ENV&lt;/code&gt;: 환경변수 지정&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;USER&lt;/code&gt;: 컨테이너 실행 시 적용할 유저 설정&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;VOLUME&lt;/code&gt;: 파일 또는 디렉터리를 컨테이너의 디렉터리로 마운트. 애플리케이션 데이터가 영구적으로 저장되는 경로로 사용.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;EXPOSE&lt;/code&gt;: 외부에서 사용할 포트 지정&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;CMD&lt;/code&gt;: 자동으로 실행할 서비스나 스크립트 지정. 컨테이너 실행 시 변경 가능.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;ENTRYPOINT&lt;/code&gt;: CMD와 함께 사용하면서 커맨드 지정 시 사용. 컨테이너 실행 시 변경 불가.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;dockerfile-빌드&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#dockerfile-%EB%B9%8C%EB%93%9C&quot; aria-label=&quot;dockerfile 빌드 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Dockerfile 빌드&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;docker build -t DOCKER_HUB_ID/IMAGE_NAME:TAG_NAME .&lt;/code&gt; 명령어를 실행하면 이미지가 생성됨.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker Hub에 배포하지 않는다면 &lt;code class=&quot;language-text&quot;&gt;DOCKER_HUB_ID/&lt;/code&gt; 부분은 제거해도 무방.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;.&lt;/code&gt;은 현재 경로에 있는 Dockerfile을 가리킴. 다른 경로에 있다면 &lt;code class=&quot;language-text&quot;&gt;.&lt;/code&gt; 대신 &lt;code class=&quot;language-text&quot;&gt;-f DOCKERFILE_PATH&lt;/code&gt;를 입력해주면 됨.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;-이미지-배포하기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0&quot; aria-label=&quot; 이미지 배포하기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🚀 이미지 배포하기&lt;/h2&gt;
+&lt;p&gt;로컬에 저장된 이미지는 공개 저장소인 &lt;a href=&quot;https://hub.docker.com&quot;&gt;도커 허브(Docker Hub)&lt;/a&gt;나 비공개 저장소에 배포할 수 있음.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;참고로, 도커 허브에 등록된 이미지는 여러 종류가 있음.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Official Images: 도커 허브에서 직접 관리하는 이미지&lt;/li&gt;
+&lt;li&gt;Verified Publisher: 벤더사에서 관리하는 이미지&lt;/li&gt;
+&lt;li&gt;그 외 개인이 공개 설정한 이미지 등&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;이미지-태그명-변경&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%AF%B8%EC%A7%80-%ED%83%9C%EA%B7%B8%EB%AA%85-%EB%B3%80%EA%B2%BD&quot; aria-label=&quot;이미지 태그명 변경 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이미지 태그명 변경&lt;/h3&gt;
+&lt;p&gt;이미지 태그명에 도커 허브 ID가 명시되지 않으면 도커 허브로 이미지를 배포할 수 없음. 이 경우 &lt;code class=&quot;language-text&quot;&gt;docker tag CONTAINER_NAME:TAG_NAME DOCKER_HUB_NAME/CONTAINER_NAME:TAG_NAME&lt;/code&gt; 명령어로 수정 후 배포해야 함.&lt;/p&gt;
+&lt;h3 id=&quot;도커-허브에-이미지-배포&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8F%84%EC%BB%A4-%ED%97%88%EB%B8%8C%EC%97%90-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%B0%ED%8F%AC&quot; aria-label=&quot;도커 허브에 이미지 배포 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;도커 허브에 이미지 배포&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 도커 허브 로그인&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; login
+
+&lt;span class=&quot;token comment&quot;&gt;# 도커 허브로 이미지 배포(TAG_NAME이 latest인 경우 생략 가능)&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; push DOCKER_HUB_ID/IMAGE_NAME:TAG_NAME&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;비공개-저장소-구축&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B9%84%EA%B3%B5%EA%B0%9C-%EC%A0%80%EC%9E%A5%EC%86%8C-%EA%B5%AC%EC%B6%95&quot; aria-label=&quot;비공개 저장소 구축 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;비공개 저장소 구축&lt;/h3&gt;
+&lt;p&gt;registry 컨테이너를 사용하면 Private Registry를 구축할 수 있음. 아래 명령어 실행.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;-p&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;5000&lt;/span&gt;:5000 &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;--restart&lt;/span&gt; always &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;--name&lt;/span&gt; registry &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+registry:VERSION  &lt;span class=&quot;token comment&quot;&gt;# VERSION은 주로 2를 사용(?)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;registry 컨테이너에 이미지를 배포하려면 &lt;code class=&quot;language-text&quot;&gt;docker tag CONTAINER_NAME:TAG_NAME localhost:5000/CONTAINER_NAME:TAG_NAME&lt;/code&gt; 명령어 실행. registry 컨테이너에 배포하기 위해 이미지 태그를 바꾸는 것이므로 앞뒤 컨테이너, 태그 네임은 서로 달라도 됨.&lt;/p&gt;
+&lt;p&gt;registry 컨테이너로 이미지를 배포하려면 &lt;code class=&quot;language-text&quot;&gt;docker push localhost:5000/CONTAINER_NAME:TAG_NAME&lt;/code&gt; 명령어 실행.&lt;/p&gt;
+&lt;h3 id=&quot;이미지를-로컬에-백업-및-복원&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%9D%B4%EB%AF%B8%EC%A7%80%EB%A5%BC-%EB%A1%9C%EC%BB%AC%EC%97%90-%EB%B0%B1%EC%97%85-%EB%B0%8F-%EB%B3%B5%EC%9B%90&quot; aria-label=&quot;이미지를 로컬에 백업 및 복원 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;이미지를 로컬에 백업 및 복원&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 컨테이너를 이미지로 저장&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; commit &lt;span class=&quot;token parameter variable&quot;&gt;-p&lt;/span&gt; CONTAINER_NAME IMAGE_NAME  &lt;span class=&quot;token comment&quot;&gt;## 컨테이너가 IMAGE_NAME 이름으로 로컬에 이미지로 저장됨&lt;/span&gt;
+
+$ 이미지 백업
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; save &lt;span class=&quot;token parameter variable&quot;&gt;-o&lt;/span&gt; /&lt;span class=&quot;token environment constant&quot;&gt;PATH&lt;/span&gt;/TO/BACKUP_NAME.tar IMAGE_NAME           &lt;span class=&quot;token comment&quot;&gt;## tar 파일로 저장&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; save IMAGE_NAME &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;gzip&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt; /&lt;span class=&quot;token environment constant&quot;&gt;PATH&lt;/span&gt;/TO/BACKUP_NAME.tar.gz  &lt;span class=&quot;token comment&quot;&gt;## 압축하여 저장&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 이미지 복원&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; load &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; BACKUP_NAME.tar
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; load &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt; BACKUP_NAME.tar.gz&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;️-컨테이너-리소스-관리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EF%B8%8F-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%A6%AC%EC%86%8C%EC%8A%A4-%EA%B4%80%EB%A6%AC&quot; aria-label=&quot;️ 컨테이너 리소스 관리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🛠️ 컨테이너 리소스 관리&lt;/h2&gt;
+&lt;p&gt;기본적으로 컨테이너는 호스트 하드웨어 리소스의 사용 제한을 받지 않음.&lt;/p&gt;
+&lt;h3 id=&quot;메모리ram-리소스-제한&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A9%94%EB%AA%A8%EB%A6%ACram-%EB%A6%AC%EC%86%8C%EC%8A%A4-%EC%A0%9C%ED%95%9C&quot; aria-label=&quot;메모리ram 리소스 제한 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;메모리(RAM) 리소스 제한&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;-m&lt;/span&gt; 512m &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;                    &lt;span class=&quot;token comment&quot;&gt;## 메모리 제한: 단위는 b, k, m, g로 할당&lt;/span&gt;
+--memory-reservation 500m &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## 적어도 500MB 메모리 사용 보장&lt;/span&gt;
+--memory-swap 1g &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;           &lt;span class=&quot;token comment&quot;&gt;## 메모리 스왑 사이즈. 생략 시 메모리의 2배로 설정됨.&lt;/span&gt;
+--oom-kill-disable &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;         &lt;span class=&quot;token comment&quot;&gt;## OOM Killer(물리 메모리 부족 시 리눅스 커널이 가동하는 프로세스)가 프로세스를 kill 하지 못하도록 보호&lt;/span&gt;
+CONTAINER_NAME&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;cpu-리소스-제한&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#cpu-%EB%A6%AC%EC%86%8C%EC%8A%A4-%EC%A0%9C%ED%95%9C&quot; aria-label=&quot;cpu 리소스 제한 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;CPU 리소스 제한&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;--cpus&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;.5&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;## 최대 0.5개의 CPU 코어 파워 사용 가능&lt;/span&gt;
+--cpuset-cpus&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;-3 &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## 사용 가능한 CPU나 코어 할당(CPU Index는 0부터)&lt;/span&gt;
+--cpuset-cpus&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;## 0번 CPU 코어만 사용&lt;/span&gt;
+--cpu-share &lt;span class=&quot;token number&quot;&gt;2048&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;   &lt;span class=&quot;token comment&quot;&gt;## CPU 비중을 다른 컨테이너보다 2배 설정(1배 기준: 1024)&lt;/span&gt;
+CONTAINER_NAME&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;block-io-리소스-제한&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#block-io-%EB%A6%AC%EC%86%8C%EC%8A%A4-%EC%A0%9C%ED%95%9C&quot; aria-label=&quot;block io 리소스 제한 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;Block I/O 리소스 제한&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+--blkio-weight &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;                &lt;span class=&quot;token comment&quot;&gt;## Block IO의 Quota 설정. 100~1000까지 선택. 기본 500. &lt;/span&gt;
+--device-read-bps /dev/vda:10mb   &lt;span class=&quot;token comment&quot;&gt;## 특정 디바이스 읽기 속도의 초당 제한(단위: kb, mb, gb)&lt;/span&gt;
+--device-write-bps /dev/vda:10mb  &lt;span class=&quot;token comment&quot;&gt;## 특정 디바이스 읽기 속도의 초당 제한(단위: kb, mb, gb)&lt;/span&gt;
+--device-read-iops /dev/vda:10    &lt;span class=&quot;token comment&quot;&gt;## 특정 디바이스 읽기 속도 Quota 설정&lt;/span&gt;
+--device-write-iops /dev/vda:10   &lt;span class=&quot;token comment&quot;&gt;## 특정 디바이스 쓰기 속도 Quota 설정&lt;/span&gt;
+CONTAINER_NAME&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;리소스-모니터링&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A6%AC%EC%86%8C%EC%8A%A4-%EB%AA%A8%EB%8B%88%ED%84%B0%EB%A7%81&quot; aria-label=&quot;리소스 모니터링 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;리소스 모니터링&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 런타임 통계 확인&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; stats                 &lt;span class=&quot;token comment&quot;&gt;## 실행 중인 모든 컨테이너 확인&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; stats CONTAINER_NAME  &lt;span class=&quot;token comment&quot;&gt;## 특정 컨테이너 확인&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 이벤트 정보 확인&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; events
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; events &lt;span class=&quot;token parameter variable&quot;&gt;-f&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;CONTAINER_NAME&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;위의 모니터링 명령어 외에 &lt;a href=&quot;https://github.com/google/cadvisor&quot;&gt;cAdvisor&lt;/a&gt;를 사용할 수도 있음.&lt;/p&gt;
+&lt;h2 id=&quot;️-컨테이너-볼륨&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EF%B8%8F-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%B3%BC%EB%A5%A8&quot; aria-label=&quot;️ 컨테이너 볼륨 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🗂️ 컨테이너 볼륨&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 608px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/67985306c58501e6ad43dbbccfe22bd5/f5a85/docker-cloud-laptop.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 85.2760736196319%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAACQBACdASoUABEAPtFgqU+oJSOjKAgBABoJZQDKtYvWTFYncFZEKLNi30QpNAAA/u3qrqm+sLf2EfY2K48itpUv7yoQA2qbuJ1uk/JoM/UfAVd1lSXGfrewJKR8HTOjrUKQ/svoBo/Z0Kdv1riWeh9oTrvLGYtPqvPPRPwfKT5ymBT4KxWWWEzx1Ot//ydJzYqjQ3TF6DZxcVHQtZzWHSHCICSSgp0C9ta8ntoanAEp7ew0FFyoAAAA&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Docker in the cloud VS Docker on my laptop&quot;
+        title=&quot;&quot;
+        src=&quot;/static/67985306c58501e6ad43dbbccfe22bd5/f5a85/docker-cloud-laptop.webp&quot;
+        srcset=&quot;/static/67985306c58501e6ad43dbbccfe22bd5/94563/docker-cloud-laptop.webp 163w,
+/static/67985306c58501e6ad43dbbccfe22bd5/647a8/docker-cloud-laptop.webp 325w,
+/static/67985306c58501e6ad43dbbccfe22bd5/f5a85/docker-cloud-laptop.webp 608w&quot;
+        sizes=&quot;(max-width: 608px) 100vw, 608px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;컨테이너가 생성된 후 저장되는 데이터를 영구적으로 보존하려면 컨테이너 볼륨을 사용해야 함. 디렉터리 경로만이 아닌 파일만도 마운트할 수 있음.&lt;/p&gt;
+&lt;p&gt;동일한 볼륨을 여러 컨테이너에 마운트하여 사용할 수 있음. 이렇게 하면 컨테이너끼리 데이터 공유가 가능함. (예: 특정 컨테이너가 만든 파일을 웹 서버 컨테이너가 Read Only 형식으로 접근하도록 구현)&lt;/p&gt;
+&lt;h3 id=&quot;볼륨을-생성한-후-컨테이너에-마운트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%B3%BC%EB%A5%A8%EC%9D%84-%EC%83%9D%EC%84%B1%ED%95%9C-%ED%9B%84-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-%EB%A7%88%EC%9A%B4%ED%8A%B8&quot; aria-label=&quot;볼륨을 생성한 후 컨테이너에 마운트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;볼륨을 생성한 후 컨테이너에 마운트&lt;/h3&gt;
+&lt;p&gt;도커 볼륨을 생성하면 기본적으로 &lt;code class=&quot;language-text&quot;&gt;/var/lib/docker/volumes/&lt;/code&gt; 경로에 디렉터리가 생성되며, 이 하위 디렉터리에 데이터가 저장됨.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 도커 볼륨 생성&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; volume create VOLUME_NAME
+
+&lt;span class=&quot;token comment&quot;&gt;# 컨테이너 실행 시 생성된 볼륨 마운트&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;-v&lt;/span&gt; VOLUME_NAME_1:/CONTAINER/MOUNT/PATH_1 &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;-v&lt;/span&gt; VOLUME_NAME_2:/CONTAINER/MOUNT/PATH_2:ro &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## :ro를 붙이면 Read Only 볼륨&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. 생략&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;로컬-경로를-컨테이너에-마운트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%A1%9C%EC%BB%AC-%EA%B2%BD%EB%A1%9C%EB%A5%BC-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88%EC%97%90-%EB%A7%88%EC%9A%B4%ED%8A%B8&quot; aria-label=&quot;로컬 경로를 컨테이너에 마운트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;로컬 경로를 컨테이너에 마운트&lt;/h3&gt;
+&lt;p&gt;도커 볼륨을 만들지 않고 로컬 경로를 직접 컨테이너에 마운트 할 수 있음.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;-v&lt;/span&gt; /LOCALHOST/PATH_1:/CONTAINER/MOUNT/PATH_1 &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;-v&lt;/span&gt; /LOCALHOST/PATH_2:/CONTAINER/MOUNT/PATH_2:ro &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;. 생략&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;-컨테이너-네트워크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC&quot; aria-label=&quot; 컨테이너 네트워크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🌐 컨테이너 네트워크&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 550px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ba335c8edbffb301fcfd0fe3b1cde254/d7854/docker-network.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGQABAAIDAAAAAAAAAAAAAAAAAAIEAQMF/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAIBA//aAAwDAQACEAMQAAAB79OtOudhsTeZhMN//8QAGRABAQEBAQEAAAAAAAAAAAAAAgMBABIR/9oACAEBAAEFAudvmm5WUq/UfNzORmXMvjmHO//EABcRAAMBAAAAAAAAAAAAAAAAABESIDL/2gAIAQMBAT8BY5j/xAAXEQADAQAAAAAAAAAAAAAAAAAREiAx/9oACAECAQE/AVGx/8QAHBABAAIBBQAAAAAAAAAAAAAAAQAREAIhIjFB/9oACAEBAAY/AogdY1b0EWqr2UE5EoKMf//EABwQAQACAgMBAAAAAAAAAAAAAAEAESExEEFRgf/aAAgBAQABPyGb8PTuXoHGJSHNYCC40q9M+ly9wOrIJEHRx//aAAwDAQACAAMAAAAQ3z/A/8QAGREAAwADAAAAAAAAAAAAAAAAAAERECFh/9oACAEDAQE/EG/QVmyK3H//xAAZEQADAAMAAAAAAAAAAAAAAAAAAREQQYH/2gAIAQIBAT8Q4RzRXJj/xAAfEAEBAAICAQUAAAAAAAAAAAABEQAhMVEQQWFxgZH/2gAIAQEAAT8Qxbeu5HZmNNiqRLB5+8MKJG+7m3n8xNQeH0Db74MIloKrtx2WiUYz5MHMEAgeP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Docker network&quot;
+        title=&quot;&quot;
+        src=&quot;/static/ba335c8edbffb301fcfd0fe3b1cde254/d7854/docker-network.jpg&quot;
+        srcset=&quot;/static/ba335c8edbffb301fcfd0fe3b1cde254/d2f63/docker-network.jpg 163w,
+/static/ba335c8edbffb301fcfd0fe3b1cde254/c989d/docker-network.jpg 325w,
+/static/ba335c8edbffb301fcfd0fe3b1cde254/d7854/docker-network.jpg 550w&quot;
+        sizes=&quot;(max-width: 550px) 100vw, 550px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&quot;컨테이너-포트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%ED%8F%AC%ED%8A%B8&quot; aria-label=&quot;컨테이너 포트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컨테이너 포트&lt;/h3&gt;
+&lt;p&gt;컨테이너 포트는 포트 포워딩을 통해 호스트 포트와 매핑하여 사용됨.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 컨테이너 실행 시 포트 포워딩 설정&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-p&lt;/span&gt; HOST_PORT:CONTAINER_PORT 
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-p&lt;/span&gt; random:CONTAINER_PORT  &lt;span class=&quot;token comment&quot;&gt;## 호스트의 random 포트 사용&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;-P&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## Dockerfile에서 정의한 EXPOSE 값에 따라 포트 사용&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 포트포워딩 설정 조회&lt;/span&gt;
+$ iptables &lt;span class=&quot;token parameter variable&quot;&gt;-t&lt;/span&gt; nat &lt;span class=&quot;token parameter variable&quot;&gt;-L&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-v&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;도커-기본-네트워크docker0&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EB%8F%84%EC%BB%A4-%EA%B8%B0%EB%B3%B8-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%ACdocker0&quot; aria-label=&quot;도커 기본 네트워크docker0 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;도커 기본 네트워크(docker0)&lt;/h3&gt;
+&lt;p&gt;docker0는 도커의 기본 브릿지 네트워크 인터페이스. 도커 데몬이 실행되면 docker0(172.17.0.1)이 가상 이더넷 브릿지를 생성함.&lt;/p&gt;
+&lt;p&gt;docker0는 여러 컨테이너의 게이트웨이 역할을 함. 즉 모든 컨테이너는 docker0를 통해 외부 통신을 수행함.&lt;/p&gt;
+&lt;h3 id=&quot;커스텀-네트워크&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%A4%EC%8A%A4%ED%85%80-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC&quot; aria-label=&quot;커스텀 네트워크 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;커스텀 네트워크&lt;/h3&gt;
+&lt;p&gt;도커 기본 네트워크를 사용하면 컨테이너의 IP 고정이 안 됨. 컨테이너의 IP를 고정하려면 커스텀 네트워크를 사용해야 함.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 커스텀 네트워크 생성&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; network create &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;--driver&lt;/span&gt; bridge &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;            &lt;span class=&quot;token comment&quot;&gt;## 커스텀 브릿지 네트워크&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;--subnet&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.0/24 &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## 서브넷 생략 시 기본(172.17.0.0)의 다음 대역(172.18.0.0)으로 설정됨&lt;/span&gt;
+&lt;span class=&quot;token parameter variable&quot;&gt;--gateway&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;192.168&lt;/span&gt;.100.1 &lt;span class=&quot;token punctuation&quot;&gt;\&lt;/span&gt;    &lt;span class=&quot;token comment&quot;&gt;## 게이트웨이 생략 시 X.X.X.1로 설정됨&lt;/span&gt;
+NETWORK_NAME
+
+&lt;span class=&quot;token comment&quot;&gt;# 네트워크 조회&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; network &lt;span class=&quot;token function&quot;&gt;ls&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 네트워크 삭제&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; network &lt;span class=&quot;token function&quot;&gt;rm&lt;/span&gt; NETWORK_NAME&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;컨테이너-간-통신&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EA%B0%84-%ED%86%B5%EC%8B%A0&quot; aria-label=&quot;컨테이너 간 통신 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;컨테이너 간 통신&lt;/h3&gt;
+&lt;p&gt;컨테이너끼리 네트워크를 동일하게 설정하면 컨테이너간 통신이 가능함.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;docker run --link&lt;/code&gt; 명령어를 사용하는 방법은 Deprecated됨.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 컨테이너끼리 네트워크를 동일하게 설정하면 서로의 호스트네임을 사용하여 통신 가능&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;--name&lt;/span&gt; CONTAINER_NAME_1 &lt;span class=&quot;token parameter variable&quot;&gt;--network&lt;/span&gt; NETWORK_NAME &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.생략
+$ &lt;span class=&quot;token function&quot;&gt;docker&lt;/span&gt; run &lt;span class=&quot;token parameter variable&quot;&gt;--name&lt;/span&gt; CONTAINER_NAME_2 &lt;span class=&quot;token parameter variable&quot;&gt;--network&lt;/span&gt; NETWORK_NAME &lt;span class=&quot;token punctuation&quot;&gt;..&lt;/span&gt;.생략
+
+&lt;span class=&quot;token comment&quot;&gt;# 못 믿겠으면 각 컨테이너 shell에 접속하여 ping 테스트&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@cOnTaiNeR1 ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# ping CONTAINER_NAME_2&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@cOnTaiNeR2 ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token comment&quot;&gt;# ping CONTAINER_NAME_1&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;-docker-compose&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-docker-compose&quot; aria-label=&quot; docker compose permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🐙 Docker Compose&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d86e4a390573a9521bc71c5e28409990/3b36a/docker-compose.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 47.852760736196316%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAABAAMBAAAAAAAAAAAAAAAAAAECAwX/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAAB69tiEl//xAAZEAABBQAAAAAAAAAAAAAAAAASAAECICP/2gAIAQEAAQUCPQpJqf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAQADAAAAAAAAAAAAAAAAAAEAIDH/2gAIAQEABj8CCYV//8QAGxAAAgIDAQAAAAAAAAAAAAAAAREAMRAhYfH/2gAIAQEAAT8hJHooT1Iy3cQbWf/aAAwDAQACAAMAAAAQHA//xAAVEQEBAAAAAAAAAAAAAAAAAAAQIf/aAAgBAwEBPxCn/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPxA//8QAHBABAAICAwEAAAAAAAAAAAAAAQARITEQQVFx/9oACAEBAAE/EM1aEWvjlmHe/UTKQ7AxoUWaa5//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Docker compose logo&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d86e4a390573a9521bc71c5e28409990/6aca1/docker-compose.jpg&quot;
+        srcset=&quot;/static/d86e4a390573a9521bc71c5e28409990/d2f63/docker-compose.jpg 163w,
+/static/d86e4a390573a9521bc71c5e28409990/c989d/docker-compose.jpg 325w,
+/static/d86e4a390573a9521bc71c5e28409990/6aca1/docker-compose.jpg 650w,
+/static/d86e4a390573a9521bc71c5e28409990/7c09c/docker-compose.jpg 975w,
+/static/d86e4a390573a9521bc71c5e28409990/01ab0/docker-compose.jpg 1300w,
+/static/d86e4a390573a9521bc71c5e28409990/3b36a/docker-compose.jpg 1851w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Docker Compose는 여러 컨테이너를 일괄 정의(그룹화)하고 실행할 수 있는 도구.&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;컨테이너화된 애플리케이션을 통합 관리하기 위해 사용&lt;/li&gt;
+&lt;li&gt;YAML 문법으로 컨테이너가 어떻게 실행되어야 하는지를 정의함&lt;/li&gt;
+&lt;li&gt;Dockerfile로 이미지를 생성하고, Docker Compose로 이미지를 어떻게 컨테이너화 할지를 정의함&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;주요-문법&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%A3%BC%EC%9A%94-%EB%AC%B8%EB%B2%95&quot; aria-label=&quot;주요 문법 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;주요 문법&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;services&lt;/code&gt;: 실행할 컨테이너 목록&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;service&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;container1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# 컨테이너 1&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; nginx&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;latest
+  &lt;span class=&quot;token key atrule&quot;&gt;container2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;# 컨테이너 2&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; mysql&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;latest&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;build&lt;/code&gt;: 현재 디렉터리의 Dockerfile로 이미지 빌드&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; .&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;image&lt;/code&gt;: 실행할 이미지&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; rockylinux&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;9.3&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;command&lt;/code&gt;: 컨테이너에서 실행할 명령어&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;command&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; sh &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;c &quot;yum update &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;y &lt;span class=&quot;token important&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; yum install &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;y nginx&quot;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;port&lt;/code&gt;: 외부와 통신하기 위한 컨테이너 포트. 추후에 &lt;code class=&quot;language-text&quot;&gt;docker-compose scale&lt;/code&gt; 명령어로 컨테이너 개수를 늘릴 때 포트 충돌이 일어나지 않도록 포트 범위를 지정할 수 있음.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;port&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; 44300&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;443&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; 8081&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;8082&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# 포트 범위 지정&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;expose&lt;/code&gt;: 연계된 컨테이너끼리 통신하기 위한 포트&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;expose&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3306&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;volumes&lt;/code&gt;: 마운트할 볼륨 경로&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;container1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; db_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;/var/lib/mysql
+&lt;span class=&quot;token key atrule&quot;&gt;container2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; wp_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;/var/www/html
+
+&lt;span class=&quot;token key atrule&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  db_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;       &lt;span class=&quot;token comment&quot;&gt;# docker-compose에 의해 새로 생성될 볼륨 / {}: 추가적인 설정이 없음&lt;/span&gt;
+  wp_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    external&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; true  &lt;span class=&quot;token comment&quot;&gt;# 이미 생성된 볼륨을 사용함&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;environment&lt;/code&gt;: 환경변수 정의&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;environment&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token key atrule&quot;&gt;PASSWORD&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; P@ssW0Rd&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;restart&lt;/code&gt;: 컨테이너가 종료될 때 적용할 재시작 정책&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;# no: 안 함&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;# always: 수동으로 끄기 전까지 항상 재시작&lt;/span&gt;
+  &lt;span class=&quot;token comment&quot;&gt;# on-failure: 오류 있을 시 재시작&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;restart&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; no &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt; alywas &lt;span class=&quot;token punctuation&quot;&gt;|&lt;/span&gt; onfailure&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;depends_on&lt;/code&gt;: 컨테이너 간의 종속성 정의. 정의한 컨테이너가 먼저 동작해야 함을 명시.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;container1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; wordpress
+  &lt;span class=&quot;token key atrule&quot;&gt;depends_on&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; container2
+&lt;span class=&quot;token key atrule&quot;&gt;container2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;image&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; mysql&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;link&lt;/code&gt;: 연계할 컨테이너 &lt;strong&gt;(Deprecated 됨)&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token key atrule&quot;&gt;container&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  &lt;span class=&quot;token key atrule&quot;&gt;link&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    db&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;mysql&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;서비스-실행&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%8B%A4%ED%96%89&quot; aria-label=&quot;서비스 실행 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서비스 실행&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 아래 명령어들은 현재 경로에 docker-compose.yaml 파일이 존재한다고 가정&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# yaml 파일이 다른 경로에 위치한 경우 명령어에 `-f /PATH/TO/docker-compose.yaml` 추가&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 서비스 생성 및 시작 (-d: 백그라운드로 실행)&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; up &lt;span class=&quot;token parameter variable&quot;&gt;-d&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;서비스-및-컨테이너-관리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%B9%84%EC%8A%A4-%EB%B0%8F-%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88-%EA%B4%80%EB%A6%AC&quot; aria-label=&quot;서비스 및 컨테이너 관리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서비스 및 컨테이너 관리&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 서비스 확인&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; config  &lt;span class=&quot;token comment&quot;&gt;## docker-compose.yaml 파일 문법 오류 검사&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;ps&lt;/span&gt;      &lt;span class=&quot;token comment&quot;&gt;## 서비스에 속한 컨테이너 목록 출력&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; port    &lt;span class=&quot;token comment&quot;&gt;## 서비스에 속한 컨테이너의 포트번호 출력&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 특정 서비스에 속한 컨테이너의 명령어 실행&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt; SERVICE_NAME CMD
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;exec&lt;/span&gt; SERVICE_NAME &lt;span class=&quot;token function&quot;&gt;bash&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## 서비스 셸 접속&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 컨테이너 개수 조절&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; scale &lt;span class=&quot;token assign-left variable&quot;&gt;SERVICE_NAME&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;COUNT
+
+&lt;span class=&quot;token comment&quot;&gt;# 서비스 로그 조회&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; logs
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; logs SERVICE_NAME&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;서비스-종료-및-제거&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EC%84%9C%EB%B9%84%EC%8A%A4-%EC%A2%85%EB%A3%8C-%EB%B0%8F-%EC%A0%9C%EA%B1%B0&quot; aria-label=&quot;서비스 종료 및 제거 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;서비스 종료 및 제거&lt;/h3&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 서비스 일시 중단 및 재시작&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; pause    &lt;span class=&quot;token comment&quot;&gt;## 일시 중단    &lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; unpause  &lt;span class=&quot;token comment&quot;&gt;## 일시 중단 해제&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; restart  &lt;span class=&quot;token comment&quot;&gt;## 재시작&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; start    &lt;span class=&quot;token comment&quot;&gt;## 중지된 서비스 시작&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 서비스 중지 또는 삭제까지&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; stop  &lt;span class=&quot;token comment&quot;&gt;## 정지&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;kill&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## 강제 정지&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; down  &lt;span class=&quot;token comment&quot;&gt;## 정지(커스텀 네트워크도 삭제됨)&lt;/span&gt;
+$ &lt;span class=&quot;token function&quot;&gt;docker-compose&lt;/span&gt; down &lt;span class=&quot;token parameter variable&quot;&gt;--volumes&lt;/span&gt;  &lt;span class=&quot;token comment&quot;&gt;## 정지 &amp;amp; 볼륨까지 삭제&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h3 id=&quot;docker-compose-사용-예시-wordpress-구축&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#docker-compose-%EC%82%AC%EC%9A%A9-%EC%98%88%EC%8B%9C-wordpress-%EA%B5%AC%EC%B6%95&quot; aria-label=&quot;docker compose 사용 예시 wordpress 구축 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;docker-compose 사용 예시: Wordpress 구축&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;docker-compose.yaml&lt;/code&gt; 파일 생성&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Docker Compose v2.25.0 이상 버전부터는 yaml 파일에 version 속성을 명시하지 않음&lt;/li&gt;
+&lt;li&gt;docker-compose 파일 확장자는 yaml 또는 yml&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;yaml&quot;&gt;&lt;pre class=&quot;language-yaml&quot;&gt;&lt;code class=&quot;language-yaml&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# version: &quot;3.8&quot;&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# Wordpress 구축에 필요한 서비스(컨테이너)들&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 참고: https://docs.docker.com/samples/wordpress&lt;/span&gt;
+
+&lt;span class=&quot;token key atrule&quot;&gt;services&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  db&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# We use a mariadb image which supports both amd64 &amp;amp; arm64 architecture&lt;/span&gt;
+    image&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; mariadb&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;10.6.4&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;focal
+    &lt;span class=&quot;token comment&quot;&gt;# If you really want to use MySQL, uncomment the following line&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;#image: mysql:8.0.27&lt;/span&gt;
+    command&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;--default-authentication-plugin=mysql_native_password&apos;&lt;/span&gt;
+    volumes&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; db_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;/var/lib/mysql
+    restart&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; always
+    environment&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; MYSQL_ROOT_PASSWORD=somewordpress
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; MYSQL_DATABASE=wordpress
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; MYSQL_USER=wordpress
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; MYSQL_PASSWORD=wordpress
+    expose&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3306&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;33060&lt;/span&gt;
+  wordpress&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    image&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; wordpress&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;latest
+    volumes&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; wp_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;/var/www/html
+    ports&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; 8080&lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt;8082&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;80&lt;/span&gt;
+    restart&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; always
+    environment&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; WORDPRESS_DB_HOST=db
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; WORDPRESS_DB_USER=wordpress
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; WORDPRESS_DB_PASSWORD=wordpress
+      &lt;span class=&quot;token punctuation&quot;&gt;-&lt;/span&gt; WORDPRESS_DB_NAME=wordpress
+&lt;span class=&quot;token key atrule&quot;&gt;volumes&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+  db_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+  wp_data&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    external&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean important&quot;&gt;true&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[2024년 6월 제주 병맛 여행기]]></title><description><![CDATA[2024년 6월 말 2박 3일 간 제주도 어딜 갔다왔는지 정리해 본 글입니다. MBTI J가 P…]]></description><link>https://jeonwon.dev/travel/2024-06-jeju-travel/</link><guid isPermaLink="false">https://jeonwon.dev/travel/2024-06-jeju-travel/</guid><pubDate>Fri, 05 Jul 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 644px; &quot;
     &gt;
