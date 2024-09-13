@@ -1,4 +1,429 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[프로 병맛연주러 😭 및 병맛여행러 😅]]></description><link>https://jeonwon.dev</link><generator>GatsbyJS</generator><lastBuildDate>Sun, 08 Sep 2024 07:27:32 GMT</lastBuildDate><item><title><![CDATA[Next.js 간단 정리]]></title><description><![CDATA[Next.js 14.2.7 버전 사용법을 배워보고 정리한 글. 🤔 Next.js란? Next.js는 풀 스택 웹 애플리케이션 개발 도구. 주요 특징은... React를 기반으로 SSR(Server-Side Rendering…]]></description><link>https://jeonwon.dev/web/nextjs/nextjs-summary/</link><guid isPermaLink="false">https://jeonwon.dev/web/nextjs/nextjs-summary/</guid><pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[프로 병맛연주러 😭 및 병맛여행러 😅]]></description><link>https://jeonwon.dev</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 Sep 2024 15:24:47 GMT</lastBuildDate><item><title><![CDATA[Rocky Linux 9 파일시스템 설정]]></title><description><![CDATA[CentOS 서버 이관용 Rocky Linux 9 가상화 서버 만들다가 배운 걸 정리한 글. 제대로 이해한건지 모르겠으나... 암튼 정리해봄. 😵‍💫 🔠 용어 설명 LVM(Logical Volume Manager…]]></description><link>https://jeonwon.dev/system/linux/rockylinux9-filesystem-setting/</link><guid isPermaLink="false">https://jeonwon.dev/system/linux/rockylinux9-filesystem-setting/</guid><pubDate>Sat, 14 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.instagram.com/25_jw/&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAAMEAv/EABcBAAMBAAAAAAAAAAAAAAAAAAACAwH/2gAMAwEAAhADEAAAAZaOdca4kjLe4bjAn//EABoQAAMAAwEAAAAAAAAAAAAAAAABAgMSIRH/2gAIAQEAAQUCkZ0iCsc61xyyqevh/8QAGBEAAwEBAAAAAAAAAAAAAAAAAAERECH/2gAIAQMBAT8BXFCjz//EABcRAAMBAAAAAAAAAAAAAAAAAAERIDH/2gAIAQIBAT8BOuP/xAAZEAACAwEAAAAAAAAAAAAAAAABEAARMSD/2gAIAQEABj8C4uiJq1f/xAAbEAEAAwADAQAAAAAAAAAAAAABABEhMWHB0f/aAAgBAQABPyHWplw2fCBTGA57BIM7ZaghBI0XwlHWf//aAAwDAQACAAMAAAAQP/A8/8QAGREAAwADAAAAAAAAAAAAAAAAAAEhETFB/9oACAEDAQE/EHo6Oh3kez//xAAZEQEAAwEBAAAAAAAAAAAAAAABABEhEEH/2gAIAQIBAT8QV0eQL2Abz//EABwQAQADAQEAAwAAAAAAAAAAAAEAESExcUFhof/aAAgBAQABPxBiKSOBe+exl0U+is39hcARYs0p4hCsDd93072JqKIAD1gIjRTD4ailDbn/2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;너 공부 싫어하지? (어... 어떻게 알았지?) 출처: https://www.instagram.com/25_jw/&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9a4135b7acc22318a35ad168d30bc6e5/6aca1/25jw-do-you-hate-study.jpg&quot;
+        srcset=&quot;/static/9a4135b7acc22318a35ad168d30bc6e5/d2f63/25jw-do-you-hate-study.jpg 163w,
+/static/9a4135b7acc22318a35ad168d30bc6e5/c989d/25jw-do-you-hate-study.jpg 325w,
+/static/9a4135b7acc22318a35ad168d30bc6e5/6aca1/25jw-do-you-hate-study.jpg 650w,
+/static/9a4135b7acc22318a35ad168d30bc6e5/7c09c/25jw-do-you-hate-study.jpg 975w,
+/static/9a4135b7acc22318a35ad168d30bc6e5/47311/25jw-do-you-hate-study.jpg 1080w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;CentOS 서버 이관용 Rocky Linux 9 가상화 서버 만들다가 배운 걸 정리한 글. 제대로 이해한건지 모르겠으나... 암튼 정리해봄. 😵‍💫&lt;/p&gt;
+&lt;h2 id=&quot;-용어-설명&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%9A%A9%EC%96%B4-%EC%84%A4%EB%AA%85&quot; aria-label=&quot; 용어 설명 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🔠 용어 설명&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;LVM(Logical Volume Manager): 디스크를 논리적으로 구성하기 위한 기능&lt;/li&gt;
+&lt;li&gt;디스크: 데이터를 저장하는 실제 하드웨어
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;/dev/sda&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;/dev/sdb&lt;/code&gt; 등의 장치 파일로 표현됨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;파티션: 디스크를 논리적으로 나눈 구역
+&lt;ul&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;/dev/sda1&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;/dev/sdb2&lt;/code&gt; 등의 장치 파일로 표현됨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;물리볼륨(PV, Physical Volume): 디스크나 파티션을 초기화한 것&lt;/li&gt;
+&lt;li&gt;볼륨그룹(VG, Volume Group): 하나 또는 여러 개의 물리볼륨(PV)를 포함하는 그룹&lt;/li&gt;
+&lt;li&gt;논리볼륨(LV, Logical Volume): 볼륨그룹의 공간 전체 또는 일부를 분할하여 파일시스템 등으로 사용할 수 있도록 할당된 논리 공간
+&lt;ul&gt;
+&lt;li&gt;볼륨그룹과 논리볼륨을 생성하면 &lt;code class=&quot;language-text&quot;&gt;/dev/mapper/&lt;/code&gt; 경로에 파일로 표현됨&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;파일시스템: 파일들이 디스크 상에서 구성되는 방식
+&lt;ul&gt;
+&lt;li&gt;RHEL 6 및 CentOS 6 버전의 기본 파일시스템은 ext4&lt;/li&gt;
+&lt;li&gt;RHEL 7 및 CentOS 7 버전 이후의 기본 파일시스템은 xfs&lt;/li&gt;
+&lt;li&gt;Rocky Linux 9 버전의 기본 파일시스템도 xfs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;-디스크-파티션-및-볼륨-정보-조회&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%94%94%EC%8A%A4%ED%81%AC-%ED%8C%8C%ED%8B%B0%EC%85%98-%EB%B0%8F-%EB%B3%BC%EB%A5%A8-%EC%A0%95%EB%B3%B4-%EC%A1%B0%ED%9A%8C&quot; aria-label=&quot; 디스크 파티션 및 볼륨 정보 조회 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;👀 디스크, 파티션 및 볼륨 정보 조회&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;lsblk&lt;/code&gt; 명령어를 사용하면 사용 중인 디스크, 파티션, 볼륨그룹(VG) 및 논리볼륨을(LV) 계층별로 조회해볼 수 있음.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda           &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   200G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; disk            &lt;span class=&quot;token comment&quot;&gt;# 파티션 분할된 디스크&lt;/span&gt;
+├─sda1        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   600M  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /boot/efi  &lt;span class=&quot;token comment&quot;&gt;# 파티션 1 ~ 3&lt;/span&gt;
+├─sda2        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:2    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;     1G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /boot
+└─sda3        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:3    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;198&lt;/span&gt;.4G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part
+  ├─rl-root &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;184&lt;/span&gt;.4G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; lvm  /          &lt;span class=&quot;token comment&quot;&gt;# VG-LV(예: rl은 Volume Group 이름, root는 Logical Volume 이름)&lt;/span&gt;
+  └─rl-swap &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    14G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; lvm  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SWAP&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+sdb           &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:16   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   300G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; disk            &lt;span class=&quot;token comment&quot;&gt;# 파티션 분할 안 된 디스크&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;df -TH&lt;/code&gt; 명령어를 사용하면 사용 중인 파일시스템을 조회해볼 수 있음.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-TH&lt;/span&gt;
+Filesystem          Type      Size  Used Avail Use% Mounted on
+devtmpfs            devtmpfs  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.1G     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.1G   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /dev
+tmpfs               tmpfs     &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.1G     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.1G   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /dev/shm
+tmpfs               tmpfs     &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.1G  236M  &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.8G   &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;% /run
+tmpfs               tmpfs     &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.1G     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.1G   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /sys/fs/cgroup
+/dev/mapper/rl-root xfs       184G   23G  161G  &lt;span class=&quot;token number&quot;&gt;13&lt;/span&gt;% /          &lt;span class=&quot;token comment&quot;&gt;# /dev/mapper/볼륨그룹(VG)이름-논리볼륨(LV)이름&lt;/span&gt;
+/dev/mapper/rl-logs xfs        22G  186M   22G   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;% /logs
+/dev/sda1           vfat      628M  &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;.0M  622M   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;% /boot/efi  &lt;span class=&quot;token comment&quot;&gt;# /dev/sdX: 디스크&lt;/span&gt;
+/dev/sda2           xfs       &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.1G  190M  875M  &lt;span class=&quot;token number&quot;&gt;18&lt;/span&gt;% /boot      &lt;span class=&quot;token comment&quot;&gt;# /dev/sdXx: 파티션&lt;/span&gt;
+tmpfs               tmpfs     805M     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  805M   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /run/user/0&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2 id=&quot;️-디스크-추가-후-파일시스템-마운트-해보기&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EF%B8%8F-%EB%94%94%EC%8A%A4%ED%81%AC-%EC%B6%94%EA%B0%80-%ED%9B%84-%ED%8C%8C%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C-%EB%A7%88%EC%9A%B4%ED%8A%B8-%ED%95%B4%EB%B3%B4%EA%B8%B0&quot; aria-label=&quot;️ 디스크 추가 후 파일시스템 마운트 해보기 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🛠️ 디스크 추가 후 파일시스템 마운트 해보기&lt;/h2&gt;
+&lt;p&gt;과정은 다음과 같음.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;fdisk&lt;/code&gt; 명령어로 파티션 생성&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pvcreate&lt;/code&gt; 명령어로 물리볼륨(PV) 생성&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;vgcreate&lt;/code&gt; 명령어로 볼륨그룹(VG) 생성&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;lvcreate&lt;/code&gt; 명령어로 논리볼륨(LV) 생성&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;mkfs&lt;/code&gt; 명령어로 파일시스템 생성&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;mount&lt;/code&gt; 명령어로 파일시스템 마운트&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;먼저 &lt;code class=&quot;language-text&quot;&gt;lsblk&lt;/code&gt; 명령어로 서버에 장착된 디스크 확인. &lt;strong&gt;여기선 &lt;code class=&quot;language-text&quot;&gt;/dev/sdb&lt;/code&gt; 디스크를 xfs 파일시스템을 사용하여 마운트 해볼 것임.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda           &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   116G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; disk             &lt;span class=&quot;token comment&quot;&gt;# 파티션(sda1, sda2, sda3) 설정 된 디스크&lt;/span&gt;
+├─sda1        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   600M  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /boot/efi
+├─sda2        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:2    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;     1G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /boot
+└─sda3        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:3    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;114&lt;/span&gt;.4G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part
+  ├─rl-root &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;.4G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; lvm  /
+  └─rl-swap &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    14G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; lvm  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SWAP&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+sdb           &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:16   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   200G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; disk             &lt;span class=&quot;token comment&quot;&gt;# 파티션 설정 안 된 디스크 → 이걸 마운트해볼 것임&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;fdisk&lt;/code&gt; 명령어로 Linux LVM 타입의 파티션 생성.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;아래는 하나의 디스크에 파티션을 두 개 만드는 경우를 설명&lt;/strong&gt;한 것이며, 하나의 디스크에 한 개의 파티션만 만드는 경우 파티션을 만들지 않고 바로 물리볼륨 생성 단계로 넘어가도 됨. (한 개의 파티션만 만들면 나중에 lsblk 명령어 실행 시 그래프가 지저분하게 보일 듯 😅)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 디스크 정보 조회&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fdisk&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; /dev/sdb
+Disk /dev/sdb: &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; GiB, &lt;span class=&quot;token number&quot;&gt;214748364800&lt;/span&gt; bytes, &lt;span class=&quot;token number&quot;&gt;419430400&lt;/span&gt; sectors
+Disk model: Virtual disk
+Units: sectors of &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; * &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes
+Sector size &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;logical/physical&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes / &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes
+I/O size &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;minimum/optimal&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes / &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 디스크 파티션 설정&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fdisk&lt;/span&gt; /dev/sdb
+
+Welcome to &lt;span class=&quot;token function&quot;&gt;fdisk&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;util-linux &lt;span class=&quot;token number&quot;&gt;2.37&lt;/span&gt;.4&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+Changes will remain &lt;span class=&quot;token keyword&quot;&gt;in&lt;/span&gt; memory only, &lt;span class=&quot;token keyword&quot;&gt;until&lt;/span&gt; you decide to &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt; them.
+Be careful before using the &lt;span class=&quot;token function&quot;&gt;write&lt;/span&gt; command.
+
+Device does not contain a recognized partition table.
+Created a new DOS disklabel with disk identifier 0xf0d74294.
+
+
+&lt;span class=&quot;token comment&quot;&gt;# 첫 번째 파티션 만들기&lt;/span&gt;
+Command &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;m &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: n  &lt;span class=&quot;token comment&quot;&gt;## n: New&lt;/span&gt;
+Partition &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt;
+   p   primary &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; primary, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; extended, &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;free&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   e   extended &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;container &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; logical partitions&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Select &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;default p&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: p                         &lt;span class=&quot;token comment&quot;&gt;## 기본 파티션 만들 것임&lt;/span&gt;
+Partition number &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;-4, default &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;          &lt;span class=&quot;token comment&quot;&gt;## 첫 번째 파티션&lt;/span&gt;
+First sector &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2048&lt;/span&gt;-419430399, default &lt;span class=&quot;token number&quot;&gt;2048&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:  &lt;span class=&quot;token comment&quot;&gt;## 시작 섹터. 기본 값 엔터.&lt;/span&gt;
+Last sector, +/-sectors or +/-size&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;K,M,G,T,P&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2048&lt;/span&gt;-419430399, default &lt;span class=&quot;token number&quot;&gt;419430399&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: +50G  &lt;span class=&quot;token comment&quot;&gt;## 마지막 섹터. 원하는 파티션 용량 입력.&lt;/span&gt;
+
+Created a new partition &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; of &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Linux&apos;&lt;/span&gt; and of size &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt; GiB.
+
+
+&lt;span class=&quot;token comment&quot;&gt;# 두 번째 파티션 만들기&lt;/span&gt;
+Command &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;m &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: n  &lt;span class=&quot;token comment&quot;&gt;## n: New&lt;/span&gt;
+Partition &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt;
+   p   primary &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; primary, &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; extended, &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;free&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+   e   extended &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;container &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; logical partitions&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+Select &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;default p&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: p                                   &lt;span class=&quot;token comment&quot;&gt;## 기본 파티션 만들 것임&lt;/span&gt;
+Partition number &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;-4, default &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;                    &lt;span class=&quot;token comment&quot;&gt;## 두 번째 파티션&lt;/span&gt;
+First sector &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;104859648&lt;/span&gt;-419430399, default &lt;span class=&quot;token number&quot;&gt;104859648&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:  &lt;span class=&quot;token comment&quot;&gt;## 시작 섹터. 기본 값 엔터.&lt;/span&gt;
+Last sector, +/-sectors or +/-size&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;K,M,G,T,P&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;104859648&lt;/span&gt;-419430399, default &lt;span class=&quot;token number&quot;&gt;419430399&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;:  &lt;span class=&quot;token comment&quot;&gt;## 마지막 섹터. 엔터 치면 할당 가능한 최대 용량이 할당됨&lt;/span&gt;
+
+Created a new partition &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt; of &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Linux&apos;&lt;/span&gt; and of size &lt;span class=&quot;token number&quot;&gt;150&lt;/span&gt; GiB.
+
+
+&lt;span class=&quot;token comment&quot;&gt;# 첫 번째 파티션 타입 설정&lt;/span&gt;
+Command &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;m &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: t                    &lt;span class=&quot;token comment&quot;&gt;## t: Type&lt;/span&gt;
+Partition number &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1,2&lt;/span&gt;, default &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;       &lt;span class=&quot;token comment&quot;&gt;## 첫 번째 파티션&lt;/span&gt;
+Hex code or &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type L to list all&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: L  &lt;span class=&quot;token comment&quot;&gt;## L: 모든 파티션 타입 출력&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;## 출력내용 생략...&lt;/span&gt;
+Aliases:
+   linux          - &lt;span class=&quot;token number&quot;&gt;83&lt;/span&gt;
+   swap           - &lt;span class=&quot;token number&quot;&gt;82&lt;/span&gt;
+   extended       - 05
+   uefi           - EF
+   raid           - FD
+   lvm            - 8E  &lt;span class=&quot;token comment&quot;&gt;## 8e Linux LVM으로 설정할 거임&lt;/span&gt;
+   linuxex        - &lt;span class=&quot;token number&quot;&gt;85&lt;/span&gt;
+Hex code or &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type L to list all&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: 8e  &lt;span class=&quot;token comment&quot;&gt;## 8e 입력&lt;/span&gt;
+
+Changed &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; of partition &lt;span class=&quot;token string&quot;&gt;&apos;Linux&apos;&lt;/span&gt; to &lt;span class=&quot;token string&quot;&gt;&apos;Linux LVM&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 두 번째 파티션 타입 설정&lt;/span&gt;
+Command &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;m &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: t                     &lt;span class=&quot;token comment&quot;&gt;## t: type&lt;/span&gt;
+Partition number &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1,2&lt;/span&gt;, default &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;## 두 번째 파티션&lt;/span&gt;
+Hex code or &lt;span class=&quot;token builtin class-name&quot;&gt;alias&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;type L to list all&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: 8e  &lt;span class=&quot;token comment&quot;&gt;## 8e 입력&lt;/span&gt;
+
+Changed &lt;span class=&quot;token builtin class-name&quot;&gt;type&lt;/span&gt; of partition &lt;span class=&quot;token string&quot;&gt;&apos;Linux&apos;&lt;/span&gt; to &lt;span class=&quot;token string&quot;&gt;&apos;Linux LVM&apos;&lt;/span&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;.&lt;/span&gt;
+
+
+&lt;span class=&quot;token comment&quot;&gt;# 저장&lt;/span&gt;
+Command &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;m &lt;span class=&quot;token keyword&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;token builtin class-name&quot;&gt;help&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: w  &lt;span class=&quot;token comment&quot;&gt;## w: Write&lt;/span&gt;
+The partition table has been altered.
+Calling ioctl&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; to re-read partition table.
+Syncing disks.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 파티션 잘 생성됐는지 못 믿겠으면 한번 확인&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fdisk&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; /dev/sdb1
+Disk /dev/sdb1: &lt;span class=&quot;token number&quot;&gt;50&lt;/span&gt; GiB, &lt;span class=&quot;token number&quot;&gt;53687091200&lt;/span&gt; bytes, &lt;span class=&quot;token number&quot;&gt;104857600&lt;/span&gt; sectors
+Units: sectors of &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; * &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes
+Sector size &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;logical/physical&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes / &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes
+I/O size &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;minimum/optimal&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes / &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fdisk&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; /dev/sdb2
+&lt;span class=&quot;token comment&quot;&gt;# 생략...&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;파티션을 생성했다면 &lt;code class=&quot;language-text&quot;&gt;pvcreate&lt;/code&gt; 명령어로 물리볼륨(PV) 생성.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# /dev/sdb1 파티션을 물리볼륨(PV)으로 초기화&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; pvcreate /dev/sdb1
+  Physical volume &lt;span class=&quot;token string&quot;&gt;&quot;/dev/sdb1&quot;&lt;/span&gt; successfully created.
+
+&lt;span class=&quot;token comment&quot;&gt;# (참고) 파티션 분할하지 않은 /dev/sdb 디스크 전체를 물리볼륨(PV)으로 초기화&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; pvcreate /dev/sdb
+  Physical volume &lt;span class=&quot;token string&quot;&gt;&quot;/dev/sdb&quot;&lt;/span&gt; successfully created.
+
+&lt;span class=&quot;token comment&quot;&gt;# 물리볼륨 잘 생성 됐는지 못 믿겠으면 pvdisplay 명령어로 확인&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; pvdisplay /dev/sdb1
+  &lt;span class=&quot;token string&quot;&gt;&quot;/dev/sdb1&quot;&lt;/span&gt; is a new physical volume of &lt;span class=&quot;token string&quot;&gt;&quot;50.00 GiB&quot;&lt;/span&gt;
+  --- NEW Physical volume ---
+  PV Name               /dev/sdb1
+  VG Name
+  PV Size               &lt;span class=&quot;token number&quot;&gt;50.00&lt;/span&gt; GiB
+  Allocatable           NO
+  PE Size               &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  Total PE              &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  Free PE               &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  Allocated PE          &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  PV UUID               rOcKy-48uM-ag19-sgCU-8Iju-eFAi-lInUx9
+
+&lt;span class=&quot;token comment&quot;&gt;# 적을 공간이 부족(?)하여 이제 /dev/sdb2 파티션 관련 작업 설명은 생략... 알아서 해보셈 🤗&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;물리볼륨(PV)을 생성했다면 &lt;code class=&quot;language-text&quot;&gt;vgcreate&lt;/code&gt; 명령어로 볼륨그룹(VG) 생성&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# /dev/sdb1 파티션을 포함하는 datavg 라는 이름의 볼륨그룹(VG) 생성&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; vgcreate datavg /dev/sdb1
+  Volume group &lt;span class=&quot;token string&quot;&gt;&quot;datavg&quot;&lt;/span&gt; successfully created
+
+&lt;span class=&quot;token comment&quot;&gt;# (참고) 볼륨그룹은 여러 개의 물리볼륨을 포함할 수 있음&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; vgcreate datavg /dev/sdb1 /dev/sdb2 /dev/sdb3
+
+&lt;span class=&quot;token comment&quot;&gt;# 볼륨그룹 절 생성 됐는지 못 믿겠으면 vgdisplay 명령어로 확인&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; vgdisplay datavg
+  --- Volume group ---
+  VG Name               datavg
+  System ID
+  Format                lvm2
+  Metadata Areas        &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  Metadata Sequence No  &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  Cur LV                &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  Open LV               &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  Max PV                &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  Cur PV                &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  Act PV                &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  VG Size               &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50.00&lt;/span&gt; GiB
+  PE Size               &lt;span class=&quot;token number&quot;&gt;4.00&lt;/span&gt; MiB
+  Total PE              &lt;span class=&quot;token number&quot;&gt;12799&lt;/span&gt;
+  Alloc PE / Size       &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; / &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  Free  PE / Size       &lt;span class=&quot;token number&quot;&gt;12799&lt;/span&gt; / &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;50.00&lt;/span&gt; GiB
+  VG UUID               rOkCy-2N5D-gR18-Inmb-Ceoh-1MwG-lInUx&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;볼륨그룹(VG)을 생성했다면 &lt;code class=&quot;language-text&quot;&gt;lvcreate&lt;/code&gt; 명령어로 논리볼륨(LV) 생성.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# datavg 볼륨그룹(VG)에 data1이라는 이름의 논리볼륨(LV)을 20GB만큼 생성&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; lvcreate &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span&gt; data1 &lt;span class=&quot;token parameter variable&quot;&gt;-L&lt;/span&gt; 20G datavg
+  Logical volume &lt;span class=&quot;token string&quot;&gt;&quot;data1&quot;&lt;/span&gt; created.
+
+&lt;span class=&quot;token comment&quot;&gt;# datavg 볼륨그룹(VG)에 data2이라는 이름의 논리볼륨(LV)을 남아있는 모든 공간을 사용하여 생성&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; lvcreate &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span&gt; data2 &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;%FREE datavg
+  Logical volume &lt;span class=&quot;token string&quot;&gt;&quot;data2&quot;&lt;/span&gt; created.
+
+&lt;span class=&quot;token comment&quot;&gt;# (참고) datavg 볼륨그룹(VG)에 data3이라는 이름의 논리볼륨(LV)을 /dev/sdb1 물리볼륨(PV)에 남아있는 모든 공간을 사용하여 생성&lt;/span&gt;
+&lt;span class=&quot;token comment&quot;&gt;# 여러 개의 물리볼륨(PV)을 갖고 있는 볼륨그룹(VG)에 논리볼륨(LV)을 만들 때 매핑용(논리볼륨 → 물리볼륨)으로 쓰면 좋을 듯&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; lvcreate &lt;span class=&quot;token parameter variable&quot;&gt;-n&lt;/span&gt; data3 &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;%FREE datavg /dev/sdb1
+  Logical volume &lt;span class=&quot;token string&quot;&gt;&quot;data3&quot;&lt;/span&gt; created.
+
+&lt;span class=&quot;token comment&quot;&gt;# 논리볼륨 잘 생성 됐는지 못 믿겠으면 lvdisplay 명령어로 확인&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; lvdisplay /dev/mapper/datavg-data1
+  --- Logical volume ---
+  LV Path                /dev/datavg/data1
+  LV Name                data1
+  VG Name                datavg
+  LV UUID                rOcKy-aYdk-qnEK-nHdG-f7xJ-B4uL-lInUx
+  LV Write Access        read/write
+  LV Creation host, &lt;span class=&quot;token function&quot;&gt;time&lt;/span&gt; rockyhost, &lt;span class=&quot;token number&quot;&gt;2024&lt;/span&gt;-09-11 &lt;span class=&quot;token number&quot;&gt;17&lt;/span&gt;:51:50 +0900
+  LV Status              available
+  &lt;span class=&quot;token comment&quot;&gt;# open                 0&lt;/span&gt;
+  LV Size                &lt;span class=&quot;token number&quot;&gt;20.00&lt;/span&gt; GiB
+  Current LE             &lt;span class=&quot;token number&quot;&gt;5120&lt;/span&gt;
+  Segments               &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  Allocation             inherit
+  Read ahead sectors     auto
+  - currently &lt;span class=&quot;token builtin class-name&quot;&gt;set&lt;/span&gt; to     &lt;span class=&quot;token number&quot;&gt;256&lt;/span&gt;
+  Block device           &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:2
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;논리볼륨(LV)을 생성했으면 &lt;code class=&quot;language-text&quot;&gt;mkfs.xfs&lt;/code&gt; 명령어로 xfs 파일 시스템 생성. (ext4 파일시스템을 생성하려면 &lt;code class=&quot;language-text&quot;&gt;mkfs.ext4&lt;/code&gt;)&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# datavg 볼륨그룹(VG)에 있는 data1 논리볼륨(LV)에 xfs 파일시스템 생성&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; mkfs.xfs /dev/mapper/datavg-data1
+meta-data&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/dev/mapper/datavg-data1 &lt;span class=&quot;token assign-left variable&quot;&gt;isize&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;agcount&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;agsize&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1310720&lt;/span&gt; blks
+         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;sectsz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;projid32bit&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;crc&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;        &lt;span class=&quot;token assign-left variable&quot;&gt;finobt&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;sparse&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;rmapbt&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;reflink&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;bigtime&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;inobtcount&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;nrext64&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+data     &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;bsize&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;blocks&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5242880&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;imaxpct&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;
+         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;sunit&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token assign-left variable&quot;&gt;swidth&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; blks
+naming   &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;version &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;              &lt;span class=&quot;token assign-left variable&quot;&gt;bsize&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;   ascii-ci&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;ftype&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+log      &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;internal log           &lt;span class=&quot;token assign-left variable&quot;&gt;bsize&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;blocks&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16384&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;sectsz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;sunit&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; blks, lazy-count&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+realtime &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;none                   &lt;span class=&quot;token assign-left variable&quot;&gt;extsz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;blocks&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;rtextents&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;파일시스템을 생성했다면 디렉터리 생성 후 마운트.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 디렉터리 생성&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mkdir&lt;/span&gt; /data1
+
+&lt;span class=&quot;token comment&quot;&gt;# 논리볼륨(LV)을 디렉터리에 마운트&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;mount&lt;/span&gt; /dev/mapper/datavg-data1 /data1
+
+&lt;span class=&quot;token comment&quot;&gt;# 마운트 잘 됐는지 못 믿겠으면 df 명령어로 확인&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-TH&lt;/span&gt;
+Filesystem               Type      Size  Used Avail Use% Mounted on
+devtmpfs                 devtmpfs  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.2M     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.2M   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /dev
+tmpfs                    tmpfs     &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.1G     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.1G   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /dev/shm
+tmpfs                    tmpfs     &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.7G   12M  &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.6G   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;% /run
+/dev/mapper/rl-root      xfs       108G  &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;.6G  102G   &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;% /
+/dev/sda2                xfs       &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.1G  307M  701M  &lt;span class=&quot;token number&quot;&gt;31&lt;/span&gt;% /boot
+/dev/sda1                vfat      628M  &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;.4M  621M   &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;% /boot/efi
+tmpfs                    tmpfs     805M  132k  805M   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;% /run/user/1000
+/dev/mapper/datavg-data1 xfs        22G  184M   22G   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;% /data1
+/dev/mapper/datavg-data2 xfs        33G  258M   32G   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;% /data2&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;서버 재기동 시 파일시스템이 자동 마운트되도록 &lt;code class=&quot;language-text&quot;&gt;/etc/fstab&lt;/code&gt; 파일에 등록&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 아래와 같이 입력&lt;/span&gt;
+/dev/mapper/datavg-data1  /data1  xfs  defaults  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;systemctl daemon-reload&lt;/code&gt; 명령어로 수정된 fstab 파일을 반영하거나 재부팅하여 파일시스템이 자동으로 마운트 되는지 최종 확인.&lt;/p&gt;
+&lt;h2 id=&quot;-파일시스템-용량-확장&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%ED%8C%8C%EC%9D%BC%EC%8B%9C%EC%8A%A4%ED%85%9C-%EC%9A%A9%EB%9F%89-%ED%99%95%EC%9E%A5&quot; aria-label=&quot; 파일시스템 용량 확장 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🔍 파일시스템 용량 확장&lt;/h2&gt;
+&lt;p&gt;물리 디스크에 할당되지 않은 공간이 있을 때 이를 활용하는 과정은 다음과 같음.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;growpart&lt;/code&gt; 명령어로 파티션 크기 확장&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pvresize&lt;/code&gt; 명령어로 물리볼륨(PV) 크기 조정&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;lvextend&lt;/code&gt; 명령어로 논리볼륨(LV) 크기 확장&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;xfs_growfs&lt;/code&gt; 명령어(또는 &lt;code class=&quot;language-text&quot;&gt;resize2fs&lt;/code&gt; 명령어)로 파일시스템 크기 확장.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;먼저 &lt;code class=&quot;language-text&quot;&gt;lsblk&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;df -h&lt;/code&gt; 또는 &lt;code class=&quot;language-text&quot;&gt;fdisk -l&lt;/code&gt; 명령어로 용량 확장할 파일시스템 확인. &lt;strong&gt;여기선 /dev/sda3 디스크 파티션의 rl-root 볼륨그룹(VG)-논리볼륨(LV)의 용량을 늘린다고 가정함.&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 파티션, VG(볼륨그룹) 및 LV(논리볼륨) 확인&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda           &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   200G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; disk             &lt;span class=&quot;token comment&quot;&gt;# /dev/sda 디스크 총 용량이 200G인데&lt;/span&gt;
+├─sda1        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   600M  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /boot/efi   &lt;span class=&quot;token comment&quot;&gt;# sda1 ~ 3 파티션 용량 모두 합치면 200GB가 안 됨&lt;/span&gt;
+├─sda2        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:2    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;     1G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /boot       &lt;span class=&quot;token comment&quot;&gt;# 즉 할당되지 않은 공간이 있음&lt;/span&gt;
+└─sda3        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:3    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;114&lt;/span&gt;.4G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part 
+  ├─rl-root &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;.4G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; lvm  /           &lt;span class=&quot;token comment&quot;&gt;# 이걸 늘릴 것임&lt;/span&gt;
+  └─rl-swap &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    14G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; lvm  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SWAP&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 파일시스템 확인&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-h&lt;/span&gt;
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.0M     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.0M   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /dev
+tmpfs                &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.8G     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.8G   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /dev/shm
+tmpfs                &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.5G  &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;.4M  &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.5G   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;% /run
+/dev/mapper/rl-root  101G  &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;.1G   95G   &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;% /  &lt;span class=&quot;token comment&quot;&gt;# 이거 늘릴 거임&lt;/span&gt;
+/dev/sda2            960M  293M  668M  &lt;span class=&quot;token number&quot;&gt;31&lt;/span&gt;% /boot
+/dev/sda1            599M  &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;.0M  592M   &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;% /boot/efi
+tmpfs                768M  132K  768M   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;% /run/user/1000&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# 디스크 및 파티션 세부 정보 확인&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;fdisk&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-l&lt;/span&gt; /dev/sda
+GPT PMBR size mismatch &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;243269631&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;!=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;419430399&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; will be corrected by write.
+Disk /dev/sda: &lt;span class=&quot;token number&quot;&gt;200&lt;/span&gt; GiB, &lt;span class=&quot;token number&quot;&gt;214748364800&lt;/span&gt; bytes, &lt;span class=&quot;token number&quot;&gt;419430400&lt;/span&gt; sectors  &lt;span class=&quot;token comment&quot;&gt;# /dev/sda 디스크 총 용량이 200GB인데&lt;/span&gt;
+Disk model: Virtual disk
+Units: sectors of &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; * &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes
+Sector size &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;logical/physical&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes / &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes
+I/O size &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;minimum/optimal&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;: &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes / &lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt; bytes
+Disklabel type: gpt
+Disk identifier: 8DB6ADB3-2548-4F36-9CC3-0149069BAC35
+
+Device       Start       End   Sectors   Size Type             &lt;span class=&quot;token comment&quot;&gt;# sda1 ~ 3 용량 모두 합치면 200GB가 안 됨&lt;/span&gt;
+/dev/sda1     &lt;span class=&quot;token number&quot;&gt;2048&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;1230847&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;1228800&lt;/span&gt;   600M EFI System
+/dev/sda2  &lt;span class=&quot;token number&quot;&gt;1230848&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;3327999&lt;/span&gt;   &lt;span class=&quot;token number&quot;&gt;2097152&lt;/span&gt;     1G Linux filesystem
+/dev/sda3  &lt;span class=&quot;token number&quot;&gt;3328000&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;243267583&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;239939584&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;114&lt;/span&gt;.4G Linux LVM        &lt;span class=&quot;token comment&quot;&gt;# 이거 늘릴 거&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;dnf install cloud-utils-growpart -y&lt;/code&gt; 명령어로 디스크 용량 할당을 간편하게 해주는 growpart 패키지를 설치한 후 &lt;code class=&quot;language-text&quot;&gt;growpart&lt;/code&gt; 명령어로 파티션 용량 확장.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# /dev/sda3 파티션에 사용 가능한 용량 할당&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; growpart /dev/sda &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
+CHANGED: &lt;span class=&quot;token assign-left variable&quot;&gt;partition&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;start&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3328000&lt;/span&gt; old: &lt;span class=&quot;token assign-left variable&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;239939584&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;243267583&lt;/span&gt; new: &lt;span class=&quot;token assign-left variable&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;416102367&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;end&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;419430366&lt;/span&gt;
+
+&lt;span class=&quot;token comment&quot;&gt;# 정말 할당됐는지 못 믿겠으면 조회&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda           &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   200G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; disk
+├─sda1        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   600M  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /boot/efi
+├─sda2        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:2    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;     1G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /boot
+└─sda3        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:3    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;198&lt;/span&gt;.4G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part           &lt;span class=&quot;token comment&quot;&gt;# 114.4G → 198.4G 확장됨&lt;/span&gt;
+  ├─rl-root &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;.4G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; lvm  /
+  └─rl-swap &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    14G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; lvm  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SWAP&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;pvresize&lt;/code&gt; 명령어로 물리볼륨(PV) 크기 조정 후&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; pvresize /dev/sda3
+  Physical volume &lt;span class=&quot;token string&quot;&gt;&quot;/dev/sda3&quot;&lt;/span&gt; changed
+  &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; physical volume&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; resized or updated / &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; physical volume&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;s&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; not resized&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;vgdisplay&lt;/code&gt; 명령어로 논리볼륨(LV)에 추가로 할당 가능한 용량 확인&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; vgdisplay
+  --- Volume group ---
+  VG Name               rl  &lt;span class=&quot;token comment&quot;&gt;# Volume Group 이름 확인&lt;/span&gt;
+  System ID
+  Format                lvm2
+  Metadata Areas        &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  Metadata Sequence No  &lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  Cur LV                &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+  Open LV               &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+  Max PV                &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+  Cur PV                &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  Act PV                &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+  VG Size               &lt;span class=&quot;token number&quot;&gt;198.41&lt;/span&gt; GiB
+  PE Size               &lt;span class=&quot;token number&quot;&gt;4.00&lt;/span&gt; MiB
+  Total PE              &lt;span class=&quot;token number&quot;&gt;50793&lt;/span&gt;
+  Alloc PE / Size       &lt;span class=&quot;token number&quot;&gt;29288&lt;/span&gt; / &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;114.41&lt;/span&gt; GiB
+  Free  PE / Size       &lt;span class=&quot;token number&quot;&gt;21505&lt;/span&gt; / &lt;span class=&quot;token number&quot;&gt;84.00&lt;/span&gt; GiB    &lt;span class=&quot;token comment&quot;&gt;# 84GB 추가 가능&lt;/span&gt;
+  VG UUID               CHhQUT-BR0c-Ky4T-Rnjl-9Z6o-OOwP-cpfxKK
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;lvextend&lt;/code&gt; 명령어로 논리볼륨(LV) 용량을 확장한 후&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# rl 볼륨그룹(VG)의 root 논리볼륨(LV) 용량 확장&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; lvextend &lt;span class=&quot;token parameter variable&quot;&gt;-L&lt;/span&gt; +84G /dev/mapper/rl-root
+  Size of logical volume rl/root changed from &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;100.41&lt;/span&gt; GiB &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;25704&lt;/span&gt; extents&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; to &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;184.41&lt;/span&gt; GiB &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;47208&lt;/span&gt; extents&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;.
+  Logical volume rl/root successfully resized.&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;xfs_growfs&lt;/code&gt; 명령어로 xfs 파일시스템 크기 확장. ext4 파일시스템인 경우 &lt;code class=&quot;language-text&quot;&gt;resize2fs&lt;/code&gt; 명령어 사용.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;# rl 볼륨그룹(VG)의 root 논리볼륨(LV)을 사용하는 xfs 파일시스템 크기 확장&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; xfs_growfs /dev/mapper/rl-root
+meta-data&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;/dev/mapper/rl-root    &lt;span class=&quot;token assign-left variable&quot;&gt;isize&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;agcount&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;agsize&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;6580224&lt;/span&gt; blks
+         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;sectsz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;attr&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;projid32bit&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;crc&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;        &lt;span class=&quot;token assign-left variable&quot;&gt;finobt&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;sparse&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;rmapbt&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;reflink&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;    &lt;span class=&quot;token assign-left variable&quot;&gt;bigtime&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;inobtcount&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt; &lt;span class=&quot;token assign-left variable&quot;&gt;nrext64&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+data     &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;bsize&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;blocks&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;26320896&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;imaxpct&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;25&lt;/span&gt;
+         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;sunit&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;      &lt;span class=&quot;token assign-left variable&quot;&gt;swidth&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; blks
+naming   &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;version &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;              &lt;span class=&quot;token assign-left variable&quot;&gt;bsize&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;   ascii-ci&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;ftype&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+log      &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;internal log           &lt;span class=&quot;token assign-left variable&quot;&gt;bsize&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;blocks&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;16384&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;version&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;
+         &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;                       &lt;span class=&quot;token assign-left variable&quot;&gt;sectsz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;512&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;sunit&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; blks, lazy-count&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;
+realtime &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;none                   &lt;span class=&quot;token assign-left variable&quot;&gt;extsz&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4096&lt;/span&gt;   &lt;span class=&quot;token assign-left variable&quot;&gt;blocks&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;, &lt;span class=&quot;token assign-left variable&quot;&gt;rtextents&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
+data blocks changed from &lt;span class=&quot;token number&quot;&gt;26320896&lt;/span&gt; to &lt;span class=&quot;token number&quot;&gt;48340992&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;최종 확인.&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;shell&quot;&gt;&lt;pre class=&quot;language-shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;df&lt;/span&gt; &lt;span class=&quot;token parameter variable&quot;&gt;-h&lt;/span&gt;
+Filesystem           Size  Used Avail Use% Mounted on
+devtmpfs             &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.0M     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;.0M   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /dev
+tmpfs                &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.8G     &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;  &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;.8G   &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;% /dev/shm
+tmpfs                &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.5G  &lt;span class=&quot;token number&quot;&gt;9&lt;/span&gt;.4M  &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;.5G   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;% /run
+/dev/mapper/rl-root  185G  &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;.7G  178G   &lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;% /  &lt;span class=&quot;token comment&quot;&gt;# 잘 늘어났음&lt;/span&gt;
+/dev/sda2            960M  293M  668M  &lt;span class=&quot;token number&quot;&gt;31&lt;/span&gt;% /boot
+/dev/sda1            599M  &lt;span class=&quot;token number&quot;&gt;7&lt;/span&gt;.0M  592M   &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;% /boot/efi
+tmpfs                768M  132K  768M   &lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;% /run/user/1000
+
+&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;root@hostname ~&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; lsblk
+NAME        MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+sda           &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   200G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; disk
+├─sda1        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;   600M  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /boot/efi
+├─sda2        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:2    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;     1G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part /boot
+└─sda3        &lt;span class=&quot;token number&quot;&gt;8&lt;/span&gt;:3    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;198&lt;/span&gt;.4G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; part
+  ├─rl-root &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:0    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;184&lt;/span&gt;.4G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; lvm  /  &lt;span class=&quot;token comment&quot;&gt;# 잘 늘어남&lt;/span&gt;
+  └─rl-swap &lt;span class=&quot;token number&quot;&gt;253&lt;/span&gt;:1    &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;    14G  &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt; lvm  &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;SWAP&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[Next.js 간단 정리]]></title><description><![CDATA[Next.js 14.2.7 버전 사용법을 배워보고 정리한 글. 🤔 Next.js란? Next.js는 풀 스택 웹 애플리케이션 개발 도구. 주요 특징은... React를 기반으로 SSR(Server-Side Rendering…]]></description><link>https://jeonwon.dev/web/nextjs/nextjs-summary/</link><guid isPermaLink="false">https://jeonwon.dev/web/nextjs/nextjs-summary/</guid><pubDate>Thu, 05 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
