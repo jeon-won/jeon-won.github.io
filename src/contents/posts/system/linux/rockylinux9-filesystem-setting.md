@@ -216,7 +216,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 물리볼륨(PV)을 생성했다면 `vgcreate` 명령어로 볼륨그룹(VG) 생성
 
 ```shell
-# /dev/sdb1 파티션을 포함하는 datavg 라는 이름의 볼륨그룹(VG) 생성
+# /dev/sdb1 물리볼륨(PV)을 포함하는 datavg 라는 이름의 볼륨그룹(VG) 생성
 [root@hostname ~] vgcreate datavg /dev/sdb1
   Volume group "datavg" successfully created
 
@@ -284,7 +284,7 @@ I/O size (minimum/optimal): 512 bytes / 512 bytes
 
 ```
 
-논리볼륨(LV)을 생성했으면 `mkfs.xfs` 명령어로 xfs 파일 시스템 생성. (ext4 파일시스템을 생성하려면 `mkfs.ext4`)
+논리볼륨(LV)을 생성했다면 `mkfs.xfs` 명령어로 xfs 파일 시스템 생성. (ext4 파일시스템을 생성하려면 `mkfs.ext4`)
 
 ```shell
 # datavg 볼륨그룹(VG)에 있는 data1 논리볼륨(LV)에 xfs 파일시스템 생성
@@ -320,8 +320,7 @@ tmpfs                    tmpfs     1.7G   12M  1.6G   1% /run
 /dev/sda2                xfs       1.1G  307M  701M  31% /boot
 /dev/sda1                vfat      628M  7.4M  621M   2% /boot/efi
 tmpfs                    tmpfs     805M  132k  805M   1% /run/user/1000
-/dev/mapper/datavg-data1 xfs        22G  184M   22G   1% /data1
-/dev/mapper/datavg-data2 xfs        33G  258M   32G   1% /data2
+/dev/mapper/datavg-data1 xfs        22G  184M   22G   1% /data1  # 잘 마운트 됨
 ```
 
 서버 재기동 시 파일시스템이 자동 마운트되도록 `/etc/fstab` 파일에 등록
@@ -336,7 +335,7 @@ tmpfs                    tmpfs     805M  132k  805M   1% /run/user/1000
 
 ## 🔍 파일시스템 용량 확장
 
-물리 디스크에 할당되지 않은 공간이 있을 때 이를 활용하는 과정은 다음과 같음.
+디스크에 할당되지 않은 공간이 남아있을 때 이를 활용하는 과정은 다음과 같음.
 
 1. `growpart` 명령어로 파티션 크기 확장
 2. `pvresize` 명령어로 물리볼륨(PV) 크기 조정
