@@ -1,4 +1,765 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[프로 병맛연주러 😭 및 병맛여행러 😅]]></description><link>https://jeonwon.dev</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 13 Sep 2024 15:39:02 GMT</lastBuildDate><item><title><![CDATA[Rocky Linux 9 파일시스템 설정]]></title><description><![CDATA[CentOS 서버 이관용 Rocky Linux 9 가상화 서버 만들다가 배운 걸 정리한 글. 제대로 이해한건지 모르겠으나... 암튼 정리해봄. 😵‍💫 🔠 용어 설명 LVM(Logical Volume Manager…]]></description><link>https://jeonwon.dev/system/linux/rockylinux9-filesystem-setting/</link><guid isPermaLink="false">https://jeonwon.dev/system/linux/rockylinux9-filesystem-setting/</guid><pubDate>Sat, 14 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.instagram.com/25_jw/&quot;&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[RSS Feed]]></title><description><![CDATA[프로 병맛연주러 😭 및 병맛여행러 😅]]></description><link>https://jeonwon.dev</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 03 Oct 2024 16:10:44 GMT</lastBuildDate><item><title><![CDATA[2024년 9월 추석연휴 병맛 여행기(홍천 계곡, 포천 출렁다리)]]></title><description><![CDATA[2024년…]]></description><link>https://jeonwon.dev/travel/2024-09-chuseok-travel/</link><guid isPermaLink="false">https://jeonwon.dev/travel/2024-09-chuseok-travel/</guid><pubDate>Sat, 21 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 382px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/faefa6415bab65c41dbe9fcc448ad596/c5024/finally-going-to-work.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 105.52147239263803%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRt4AAABXRUJQVlA4INIAAACwBQCdASoUABUAPtFgqU+oJSOiKAgBABoJaQARR9OBE0Beoa1tFTdcxcCMSTRdC/ECFvl+UIAA/utI1y1ycz6VmSHHTRw1xOunPFky1qgbygMNI82xQjgSMmD8fHkNsFG10Fp3ualU03h7wPDguJ9rfBiv47LoIXYkmsuBBdlxXAencrJtfM+3OUyu5BWTAP7f7XTBeyIhIVRXQPr3IQR4c94eWBJB8vu7VG+hdvtOJTvWzMEePRJ0lcRXsiqthKrWSUYHPm+qQ6CQw8AJZLgAAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;finally going to work&quot;
+        title=&quot;&quot;
+        src=&quot;/static/faefa6415bab65c41dbe9fcc448ad596/c5024/finally-going-to-work.webp&quot;
+        srcset=&quot;/static/faefa6415bab65c41dbe9fcc448ad596/94563/finally-going-to-work.webp 163w,
+/static/faefa6415bab65c41dbe9fcc448ad596/647a8/finally-going-to-work.webp 325w,
+/static/faefa6415bab65c41dbe9fcc448ad596/c5024/finally-going-to-work.webp 382w&quot;
+        sizes=&quot;(max-width: 382px) 100vw, 382px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;2024년 9월 추석연휴 때 가족여행 갔던 곳을 기록한 글입니다.&lt;/p&gt;
+&lt;h2 id=&quot;️-점심-어느-홍천의-모내기-정식&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#%EF%B8%8F-%EC%A0%90%EC%8B%AC-%EC%96%B4%EB%8A%90-%ED%99%8D%EC%B2%9C%EC%9D%98-%EB%AA%A8%EB%82%B4%EA%B8%B0-%EC%A0%95%EC%8B%9D&quot; aria-label=&quot;️ 점심 어느 홍천의 모내기 정식 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🍽️ 점심: 어느 홍천의 모내기 정식&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://naver.me/5OnGJFkx&quot;&gt;원골&lt;/a&gt;이라는 식당에서 먹은 모내기 정식입니다. 사진으론 티가 잘 안 나지만 밥 양이 어마어마 합니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/879c41ef0c6047cbc47c1589604fe69f/af3f0/20240916_120641_Wongol_Monaegijeongsik.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRs4AAABXRUJQVlA4IMIAAACwBACdASoUAA8APtFUo0uoJKMhsAgBABoJZgCdMoR3Ff/i1lk4cjudUdcThl7AAP27JQvSkORh6vrVCAnPMMgipQ9EiI3EBUN66WMQ5QHyB5PcrAWzMRbLjHe8AR6xk5B0feuEupjz/V/zskS6kQfI08e9R1aH9SqEfsYQtcR7JM0nbImcsNfRw15Ty0muYPp+T824CKxSAhGwcjggncqUwHu4qwesR+2+yaEmJR+JpOWqoABaoeGE+sTISEej+4bAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;원골 모내기 정식&quot;
+        title=&quot;&quot;
+        src=&quot;/static/879c41ef0c6047cbc47c1589604fe69f/c1dc5/20240916_120641_Wongol_Monaegijeongsik.webp&quot;
+        srcset=&quot;/static/879c41ef0c6047cbc47c1589604fe69f/94563/20240916_120641_Wongol_Monaegijeongsik.webp 163w,
+/static/879c41ef0c6047cbc47c1589604fe69f/647a8/20240916_120641_Wongol_Monaegijeongsik.webp 325w,
+/static/879c41ef0c6047cbc47c1589604fe69f/c1dc5/20240916_120641_Wongol_Monaegijeongsik.webp 650w,
+/static/879c41ef0c6047cbc47c1589604fe69f/1e975/20240916_120641_Wongol_Monaegijeongsik.webp 975w,
+/static/879c41ef0c6047cbc47c1589604fe69f/af3f0/20240916_120641_Wongol_Monaegijeongsik.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;여기에 누룽지가 또 나옵니다. 아으... 배 터질 것 같음. 😖&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/94fcc570c264c98fa6f86a3d93c42e48/b33a3/20240916_121713_Wongol_Nurungji.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRrwAAABXRUJQVlA4ILAAAABQBACdASoUAA8APtFUo0uoJKMhsAgBABoJYgCdICXgqw6vkCxHFhYqg0goAMtK/pa/cWifjgJmeqLojQ1LmMIZvB8seTIXF5M12c/R/2mdnHTHeErHwbK6e3QJ6noAqhvRc3t86xfAefIFQ1jAV/WWnHbRBFmqkPS9l4P1l6VTA9vyHbQdQScddZoUIibWvCVwU+kOBRiCUXf4Jg5J7wpfJGIEZ+vSbcWWpI4AmjUAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;원골 모내기 정식 누룽지&quot;
+        title=&quot;&quot;
+        src=&quot;/static/94fcc570c264c98fa6f86a3d93c42e48/c1dc5/20240916_121713_Wongol_Nurungji.webp&quot;
+        srcset=&quot;/static/94fcc570c264c98fa6f86a3d93c42e48/94563/20240916_121713_Wongol_Nurungji.webp 163w,
+/static/94fcc570c264c98fa6f86a3d93c42e48/647a8/20240916_121713_Wongol_Nurungji.webp 325w,
+/static/94fcc570c264c98fa6f86a3d93c42e48/c1dc5/20240916_121713_Wongol_Nurungji.webp 650w,
+/static/94fcc570c264c98fa6f86a3d93c42e48/1e975/20240916_121713_Wongol_Nurungji.webp 975w,
+/static/94fcc570c264c98fa6f86a3d93c42e48/063bf/20240916_121713_Wongol_Nurungji.webp 1300w,
+/static/94fcc570c264c98fa6f86a3d93c42e48/b33a3/20240916_121713_Wongol_Nurungji.webp 4032w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;근데 너무 맛있고 비싸지도 않아서 나중에 홍천에 오게 된다면 또 들를 듯합니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b8cc1552b39122341aa1a9b34d2701eb/af3f0/20240916_122820_Wongol_Eatall.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRsYAAABXRUJQVlA4ILoAAAAwBQCdASoUAA8APtFUo0uoJKMhsAgBABoJagCdMoMpLIBz/4tfBzlXrQK+b9+eksaWOAD+7uYe+l3UKq9r7D/R+MpKgFYzpQF0WLryHL1sxMYa06Lclrw0PWoD5oKY3idXLVDSX8yvyn+mfepvyzEVkpVT0GlKT84896aL+VQmj6aQPONP320CZbee6pO/KEsmCCQlXtYOU7oDzPi/zd/r4VgELYunKV0gqh8HnS1S/8AswZffMqVgAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;원골 모내기 정식 다 먹음&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b8cc1552b39122341aa1a9b34d2701eb/c1dc5/20240916_122820_Wongol_Eatall.webp&quot;
+        srcset=&quot;/static/b8cc1552b39122341aa1a9b34d2701eb/94563/20240916_122820_Wongol_Eatall.webp 163w,
+/static/b8cc1552b39122341aa1a9b34d2701eb/647a8/20240916_122820_Wongol_Eatall.webp 325w,
+/static/b8cc1552b39122341aa1a9b34d2701eb/c1dc5/20240916_122820_Wongol_Eatall.webp 650w,
+/static/b8cc1552b39122341aa1a9b34d2701eb/1e975/20240916_122820_Wongol_Eatall.webp 975w,
+/static/b8cc1552b39122341aa1a9b34d2701eb/af3f0/20240916_122820_Wongol_Eatall.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-홍천동키마을-메밀밭&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%ED%99%8D%EC%B2%9C%EB%8F%99%ED%82%A4%EB%A7%88%EC%9D%84-%EB%A9%94%EB%B0%80%EB%B0%AD&quot; aria-label=&quot; 홍천동키마을 메밀밭 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🌿 홍천동키마을 메밀밭&lt;/h2&gt;
+&lt;p&gt;펜션 체크인까지 시간이 남아 들른 곳입니다. 당나귀 사육장이 있지만 유료로 입장해야 해서 들어가보진 않았습니다. 몸무게 60kg 이하 어린이들이 입장해서 당나귀를 타볼 수 있지만... 60kg 이하 어른이(?)는 못 탑니다. 😅&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/56025dbb6df47da048797069b9a817a4/af3f0/20240916_131509_Donkeyvillege.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRr4AAABXRUJQVlA4ILIAAABQBQCdASoUAA8APtFUo0uoJKMhsAgBABoJZACdMoRwIsBxf4tkVlb0++xvnk+SJoILp1gA/gWkqVMlPv8i/KQdKBnzgKOJsUw8bpe0cnedz3/Xccfk+qmLVd4tP/XRyHkExbmd2tyb7BMv20H9Ky+/xf5qWGp5xj5L/vYEwgvB4EAawi2XCM0BlJX6EyduWhNg/YTQfP8h11AnpiBQ9H15PJdDm4QCa3uydabQBpzGi4AA&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;홍천동키마을 입구&quot;
+        title=&quot;&quot;
+        src=&quot;/static/56025dbb6df47da048797069b9a817a4/c1dc5/20240916_131509_Donkeyvillege.webp&quot;
+        srcset=&quot;/static/56025dbb6df47da048797069b9a817a4/94563/20240916_131509_Donkeyvillege.webp 163w,
+/static/56025dbb6df47da048797069b9a817a4/647a8/20240916_131509_Donkeyvillege.webp 325w,
+/static/56025dbb6df47da048797069b9a817a4/c1dc5/20240916_131509_Donkeyvillege.webp 650w,
+/static/56025dbb6df47da048797069b9a817a4/1e975/20240916_131509_Donkeyvillege.webp 975w,
+/static/56025dbb6df47da048797069b9a817a4/af3f0/20240916_131509_Donkeyvillege.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;주변에 메밀밭이 넓게 펼쳐져 있습니다. 그냥 포토 스팟인듯.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/1a53c8fbcfb1b5b079a2afab122beb55/af3f0/20240916_131509_Donkeyvillege_Buckwheat.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRpIAAABXRUJQVlA4IIYAAACQBACdASoUAA8APtFUpEuoJKOhsAgBABoJaACdMoKOPbf4Dniqlo/AKLq2zy4A/pfgjgFpaNs241fvVUdLbFEJojLx1lQaZQJ1AtSdoKphzBk3Dz72eOnN6QK2P/bzESBbfKgW34u+QMuE9VJOdWvh772wAMnvtf6w2xigCgNxsjL61QkAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;홍천동키마을 주변 메밀밭&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1a53c8fbcfb1b5b079a2afab122beb55/c1dc5/20240916_131509_Donkeyvillege_Buckwheat.webp&quot;
+        srcset=&quot;/static/1a53c8fbcfb1b5b079a2afab122beb55/94563/20240916_131509_Donkeyvillege_Buckwheat.webp 163w,
+/static/1a53c8fbcfb1b5b079a2afab122beb55/647a8/20240916_131509_Donkeyvillege_Buckwheat.webp 325w,
+/static/1a53c8fbcfb1b5b079a2afab122beb55/c1dc5/20240916_131509_Donkeyvillege_Buckwheat.webp 650w,
+/static/1a53c8fbcfb1b5b079a2afab122beb55/1e975/20240916_131509_Donkeyvillege_Buckwheat.webp 975w,
+/static/1a53c8fbcfb1b5b079a2afab122beb55/af3f0/20240916_131509_Donkeyvillege_Buckwheat.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-어느-강원도-홍천의-계곡&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%96%B4%EB%8A%90-%EA%B0%95%EC%9B%90%EB%8F%84-%ED%99%8D%EC%B2%9C%EC%9D%98-%EA%B3%84%EA%B3%A1&quot; aria-label=&quot; 어느 강원도 홍천의 계곡 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🐚 어느 강원도 홍천의 계곡&lt;/h2&gt;
+&lt;p&gt;홍천 중방대리에 있는 어느 계곡입니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e419c65b2c1c479de4ef924e7da77a05/af3f0/20240916_170726_Valley.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRoQAAABXRUJQVlA4IHgAAAAQBACdASoUAA8APtFUo0uoJKMhsAgBABoJYwCdABk6GSQJBcAS1KW/gAD+0JqT3znBq438hv/Cv4Af9VX6laToYwNLdg+qJBCCyrfIjeGWZbAd67SQ1Ug/wW8ODDeG9TgNlxhorB/bNIf2CR1m3hE49yr4qeGrMAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;홍천 중방대리 계곡&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e419c65b2c1c479de4ef924e7da77a05/c1dc5/20240916_170726_Valley.webp&quot;
+        srcset=&quot;/static/e419c65b2c1c479de4ef924e7da77a05/94563/20240916_170726_Valley.webp 163w,
+/static/e419c65b2c1c479de4ef924e7da77a05/647a8/20240916_170726_Valley.webp 325w,
+/static/e419c65b2c1c479de4ef924e7da77a05/c1dc5/20240916_170726_Valley.webp 650w,
+/static/e419c65b2c1c479de4ef924e7da77a05/1e975/20240916_170726_Valley.webp 975w,
+/static/e419c65b2c1c479de4ef924e7da77a05/af3f0/20240916_170726_Valley.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;여기서 다슬기를 잡아봅니다. 대충 유속이 어느정도 있는 곳에서 바위를 들춰보면 다슬기가 자주 보이는 듯합니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/f634f4120188a0998f322a8434dd32af/af3f0/20240916_155255_Marshsnail.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRp4AAABXRUJQVlA4IJIAAABwBACdASoUAA8APtFUo0uoJKMhsAgBABoJQBOmUDwAANn/GwXwpHpkrcQkwADb4X7kjuIhKi4NG6wvF4S0GhStcr3/GZWZSM0wl/f7vQqYBp3ljozBkEUHMdHiTakjINEqYtXd4VX09VaqktFUS+jAoCbPDJpVdrux48MdElhkHtFBugHALJPIgjahAulqHAwAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;홍천 중방대리 계곡 다슬기&quot;
+        title=&quot;&quot;
+        src=&quot;/static/f634f4120188a0998f322a8434dd32af/c1dc5/20240916_155255_Marshsnail.webp&quot;
+        srcset=&quot;/static/f634f4120188a0998f322a8434dd32af/94563/20240916_155255_Marshsnail.webp 163w,
+/static/f634f4120188a0998f322a8434dd32af/647a8/20240916_155255_Marshsnail.webp 325w,
+/static/f634f4120188a0998f322a8434dd32af/c1dc5/20240916_155255_Marshsnail.webp 650w,
+/static/f634f4120188a0998f322a8434dd32af/1e975/20240916_155255_Marshsnail.webp 975w,
+/static/f634f4120188a0998f322a8434dd32af/af3f0/20240916_155255_Marshsnail.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;실력의 차이가 느껴지십니까... 😅&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9ad510dece10553419bbc3d66ff92957/af3f0/20240916_155900_Marshsnail.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAACwBACdASoUAA8APtFUo0uoJKMhsAgBABoJbACdMoRwIs0bAAEKAwyFT9l56934AP6pqCLVLxt5yNJfvf8ZgzOQZ+9f3i3fDZXU+auNXt6HKBcl5ztDj+kDIxq6Aa0NHtdqYt0YLD5SCvBu2cHoyUH8iSaDJ/nBBb/k1GTO90XUQfKRVwqoXTWGdSe4jBCAMyl6SREPKKrbt+NdjufE9IXi3n+h2ivMTj1gtaoRnDiL4IQiBoo7JAAA&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;홍천 중방대리 계곡 다슬기 잡기&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9ad510dece10553419bbc3d66ff92957/c1dc5/20240916_155900_Marshsnail.webp&quot;
+        srcset=&quot;/static/9ad510dece10553419bbc3d66ff92957/94563/20240916_155900_Marshsnail.webp 163w,
+/static/9ad510dece10553419bbc3d66ff92957/647a8/20240916_155900_Marshsnail.webp 325w,
+/static/9ad510dece10553419bbc3d66ff92957/c1dc5/20240916_155900_Marshsnail.webp 650w,
+/static/9ad510dece10553419bbc3d66ff92957/1e975/20240916_155900_Marshsnail.webp 975w,
+/static/9ad510dece10553419bbc3d66ff92957/af3f0/20240916_155900_Marshsnail.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-저녁-밀키트&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EC%A0%80%EB%85%81-%EB%B0%80%ED%82%A4%ED%8A%B8&quot; aria-label=&quot; 저녁 밀키트 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🍖 저녁: 밀키트(?)&lt;/h2&gt;
+&lt;p&gt;대충 펜션 옥상에 자리잡고 계곡 소리 들으면서 밖에서 사온 고기와 꽃게로 저녁을 차려 먹었습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/2c22b89be9427aa61098031b78a5deb4/af3f0/20240916_180441_pension.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRpYAAABXRUJQVlA4IIoAAADwAwCdASoUAA8APtFUo0uoJKMhsAgBABoJYwAAXgGz8PupsL2JN4sAAP5+GAhsUl4HXGgbRLrcW9JTHC7B4yFd356dySPECPqk5JvKzYZUBlFDy3X2x4sOXPpWo6X/E/5kMQBH5dOxYYhaui1kBoXW9NuO7uBR29l435IunUQ4l/ceMv+gHPRUAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;펜션 옥상&quot;
+        title=&quot;&quot;
+        src=&quot;/static/2c22b89be9427aa61098031b78a5deb4/c1dc5/20240916_180441_pension.webp&quot;
+        srcset=&quot;/static/2c22b89be9427aa61098031b78a5deb4/94563/20240916_180441_pension.webp 163w,
+/static/2c22b89be9427aa61098031b78a5deb4/647a8/20240916_180441_pension.webp 325w,
+/static/2c22b89be9427aa61098031b78a5deb4/c1dc5/20240916_180441_pension.webp 650w,
+/static/2c22b89be9427aa61098031b78a5deb4/1e975/20240916_180441_pension.webp 975w,
+/static/2c22b89be9427aa61098031b78a5deb4/af3f0/20240916_180441_pension.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;가스버너가 모자라서 꽃게탕은 어쩔 수 없이 미지근하게 먹었는데, 다 먹고나서 보니 펜션 방 안에 남는 가스버너 하나가 있었네요... 😑&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7a4c5ee14a9578a086d7856ed11b5954/af3f0/20240916_180644_Food.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAACwBACdASoUAA8APtFUo0uoJKMhsAgBABoJbACdMoRwHurDz2HFkyTk4O/nGmyAAM4drLWWPiBkOjIRkC9GFam29syOqV2SZDWrgNMyhHYTPj/WFfnTL4ih1xNKEkB0Ae03FmkNrMr+AXsQpC0AFzUnN8R+SlcyM419LGLqyz2HJdfe4FFxfy89sXJoYrbXrPv9Wk0IW/HACnrzhYC4hb7rLjtBCyGcRm5Cfe3g/AVGawC4L6S5kAAA&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;꽃게탕과 고기구이&quot;
+        title=&quot;&quot;
+        src=&quot;/static/7a4c5ee14a9578a086d7856ed11b5954/c1dc5/20240916_180644_Food.webp&quot;
+        srcset=&quot;/static/7a4c5ee14a9578a086d7856ed11b5954/94563/20240916_180644_Food.webp 163w,
+/static/7a4c5ee14a9578a086d7856ed11b5954/647a8/20240916_180644_Food.webp 325w,
+/static/7a4c5ee14a9578a086d7856ed11b5954/c1dc5/20240916_180644_Food.webp 650w,
+/static/7a4c5ee14a9578a086d7856ed11b5954/1e975/20240916_180644_Food.webp 975w,
+/static/7a4c5ee14a9578a086d7856ed11b5954/af3f0/20240916_180644_Food.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;몇 달 전 제주도 여행가서 막걸리 마시다가 기억이 날아간 적이 있어서... 이번엔 막걸리 딱 한 사발 맛만 보고&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b46c6fd412960aec73b1c2f3f30accce/af3f0/20240916_180905_Makgeolli.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRrIAAABXRUJQVlA4IKYAAAAwBACdASoUAA8APtFUo0uoJKMhsAgBABoJaACAAGUOrTeEwBYfNo39/aAA/tmlY1ZGzgbO1ytUvzd0n/fmNNgeMsG86AtMFqlZP3OWzyWbx5WgIDeBQwdfA6xABSzRXBS21cYZMXxgNA3G78oxkdjUG6U6uoEnuP/gPpB6P+hjpijFLtH3x2bKOiGHDgzBVAr4r0H0p025k1RbgPcJIsV3lt34AAAA&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;막걸리&quot;
+        title=&quot;&quot;
+        src=&quot;/static/b46c6fd412960aec73b1c2f3f30accce/c1dc5/20240916_180905_Makgeolli.webp&quot;
+        srcset=&quot;/static/b46c6fd412960aec73b1c2f3f30accce/94563/20240916_180905_Makgeolli.webp 163w,
+/static/b46c6fd412960aec73b1c2f3f30accce/647a8/20240916_180905_Makgeolli.webp 325w,
+/static/b46c6fd412960aec73b1c2f3f30accce/c1dc5/20240916_180905_Makgeolli.webp 650w,
+/static/b46c6fd412960aec73b1c2f3f30accce/1e975/20240916_180905_Makgeolli.webp 975w,
+/static/b46c6fd412960aec73b1c2f3f30accce/af3f0/20240916_180905_Makgeolli.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;이 전기 홈매트... 연식이 저보다 형님이실 것 같습니다(?)&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/c24f169b51eaa44f2883988575e80cdf/af3f0/20240917_091021_Homemat.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRngAAABXRUJQVlA4IGwAAAAwBACdASoUAA8APtFUo0uoJKMhsAgBABoJagCdMoRwABxVWl7i6HZSN1AA/sc8fHTWSASqksGyV3lSEGikz3raQFeK/a96ERsmD7WKxX5o7RWK46SIvAU0AzcjbxGpmhlqzWAEaf4UFmLigAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;오래된 전기 홈매트&quot;
+        title=&quot;&quot;
+        src=&quot;/static/c24f169b51eaa44f2883988575e80cdf/c1dc5/20240917_091021_Homemat.webp&quot;
+        srcset=&quot;/static/c24f169b51eaa44f2883988575e80cdf/94563/20240917_091021_Homemat.webp 163w,
+/static/c24f169b51eaa44f2883988575e80cdf/647a8/20240917_091021_Homemat.webp 325w,
+/static/c24f169b51eaa44f2883988575e80cdf/c1dc5/20240917_091021_Homemat.webp 650w,
+/static/c24f169b51eaa44f2883988575e80cdf/1e975/20240917_091021_Homemat.webp 975w,
+/static/c24f169b51eaa44f2883988575e80cdf/af3f0/20240917_091021_Homemat.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&quot;-다음날-점심-어느-포천의-해물찜&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%8B%A4%EC%9D%8C%EB%82%A0-%EC%A0%90%EC%8B%AC-%EC%96%B4%EB%8A%90-%ED%8F%AC%EC%B2%9C%EC%9D%98-%ED%95%B4%EB%AC%BC%EC%B0%9C&quot; aria-label=&quot; 다음날 점심 어느 포천의 해물찜 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🦐 다음날 점심: 어느 포천의 해물찜&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://naver.me/5pNqzmll&quot;&gt;주문진 해물탕&lt;/a&gt;이라는 식당에서 먹은 해물찜. 점심을 뭐 먹을지 정하다가 서로 이건 싫고 저것도 싫다 하길래 겨우 정했습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/18f49b1116a191f749b0a3f067e8e755/af3f0/20240917_123142_Haemuljjim.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRsQAAABXRUJQVlA4ILgAAABwBACdASoUAA8APtFUo0uoJKMhsAgBABoJbACdMoRwAdDEsied2DlP9BnZvAD+QRtudv/pqJvVdMQtJP0ZzBSKtUFgBLL/pUEtaU0PKA5G9Iuck/jGRrB3VmCOslk0PdXHIhVto+5EoVzsL+MWvBY5vaDnvdzQVR/49vtF3h5tK27lTn96M2DxfcRW1FxYenJKL7kJRSY/Fa4Bxj5RAjYUYwlHEDVkulxDnTXfCLneLw71iSHStiAA&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;포천 주문진 해물탕 해물찜&quot;
+        title=&quot;&quot;
+        src=&quot;/static/18f49b1116a191f749b0a3f067e8e755/c1dc5/20240917_123142_Haemuljjim.webp&quot;
+        srcset=&quot;/static/18f49b1116a191f749b0a3f067e8e755/94563/20240917_123142_Haemuljjim.webp 163w,
+/static/18f49b1116a191f749b0a3f067e8e755/647a8/20240917_123142_Haemuljjim.webp 325w,
+/static/18f49b1116a191f749b0a3f067e8e755/c1dc5/20240917_123142_Haemuljjim.webp 650w,
+/static/18f49b1116a191f749b0a3f067e8e755/1e975/20240917_123142_Haemuljjim.webp 975w,
+/static/18f49b1116a191f749b0a3f067e8e755/af3f0/20240917_123142_Haemuljjim.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;산낙지 못 먹지 않냐고 도발(?)을 하길래 탕탕이도 시켜먹고&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/a6a51d0e19dfbe246237930c5219c3e4/af3f0/20240917_122018_Nakjitangtangi.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRrYAAABXRUJQVlA4IKoAAABQBACdASoUAA8APtFUo0uoJKMhsAgBABoJYgCdAYwwwFpi7V2+6EPyxGEAAPDidZXmj+45RPkRolUOTneSOwmQ+o849c0vkIRWtuoCv7Rn8YfTw3VvbHdZ97pKp2lHu3fYzd+cifhElcUgBOwMfxDrZVZVxA4mLel1i7Vv6mtxrBSjMKAzatijxzfLUGnIBRKq7+QVT+kTdvh51mu+K8O6XvafLQCc7sAAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;포천 주문진 해물탕 낙지탕탕이&quot;
+        title=&quot;&quot;
+        src=&quot;/static/a6a51d0e19dfbe246237930c5219c3e4/c1dc5/20240917_122018_Nakjitangtangi.webp&quot;
+        srcset=&quot;/static/a6a51d0e19dfbe246237930c5219c3e4/94563/20240917_122018_Nakjitangtangi.webp 163w,
+/static/a6a51d0e19dfbe246237930c5219c3e4/647a8/20240917_122018_Nakjitangtangi.webp 325w,
+/static/a6a51d0e19dfbe246237930c5219c3e4/c1dc5/20240917_122018_Nakjitangtangi.webp 650w,
+/static/a6a51d0e19dfbe246237930c5219c3e4/1e975/20240917_122018_Nakjitangtangi.webp 975w,
+/static/a6a51d0e19dfbe246237930c5219c3e4/af3f0/20240917_122018_Nakjitangtangi.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;볶음밥 다 먹고 국자를 쇠구슬처럼 보이게 찍어보려 했지만... 실패 😂&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e0f4334e874f2170ea747c39bcae8f26/af3f0/20240917_130634_Bokkeumbap.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRrQAAABXRUJQVlA4IKgAAADQBACdASoUAA8APtFUo0uoJKMhsAgBABoJbACdMoR4Lf/jeAEoonTcEJ2DgAWkQAD+Sh5SGm6KTJHewZD+oUt6y96NvUiMjuw57zsd+mSy/tJG79MOp8LqUGuyMx33ueolX0CAOkVKxh1lFxU+FIbLcPJFz7XCjCqdh9C6Ez+gCNdEmdmqp0RHOQhyiYVCB4XE8l89Lj4GCbppHX9/isGYZvtvpaFdCgA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;포천 주문진 해물탕 해물찜 볶음밥&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e0f4334e874f2170ea747c39bcae8f26/c1dc5/20240917_130634_Bokkeumbap.webp&quot;
+        srcset=&quot;/static/e0f4334e874f2170ea747c39bcae8f26/94563/20240917_130634_Bokkeumbap.webp 163w,
+/static/e0f4334e874f2170ea747c39bcae8f26/647a8/20240917_130634_Bokkeumbap.webp 325w,
+/static/e0f4334e874f2170ea747c39bcae8f26/c1dc5/20240917_130634_Bokkeumbap.webp 650w,
+/static/e0f4334e874f2170ea747c39bcae8f26/1e975/20240917_130634_Bokkeumbap.webp 975w,
+/static/e0f4334e874f2170ea747c39bcae8f26/af3f0/20240917_130634_Bokkeumbap.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3c0a9e9130a0788175e056f120adb55e/af3f0/20240917_131706_Bokkeumbap.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRrAAAABXRUJQVlA4IKQAAAAwBACdASoUAA8APtFUo0uoJKMhsAgBABoJZgCdMoACjXLEpbMbv6hQ2uAAzhqkG97cxYGZ8Uvn0Apd6sIwQ0/tmrLJeBdKL4MxBeXALH1MfHqv7PalmWdmv4qU/wErf0WhORiam/SzoX+ddO6AI9HVRMbygc6zGsKRg+dTVIDhiIcFmIGpodNxJhpFIWKiFv1c9MrfQ0AvNP/K8ZfG1VL4mLYAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;포천 주문진 해물탕 해물찜 볶음밥 다 먹음&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3c0a9e9130a0788175e056f120adb55e/c1dc5/20240917_131706_Bokkeumbap.webp&quot;
+        srcset=&quot;/static/3c0a9e9130a0788175e056f120adb55e/94563/20240917_131706_Bokkeumbap.webp 163w,
+/static/3c0a9e9130a0788175e056f120adb55e/647a8/20240917_131706_Bokkeumbap.webp 325w,
+/static/3c0a9e9130a0788175e056f120adb55e/c1dc5/20240917_131706_Bokkeumbap.webp 650w,
+/static/3c0a9e9130a0788175e056f120adb55e/1e975/20240917_131706_Bokkeumbap.webp 975w,
+/static/3c0a9e9130a0788175e056f120adb55e/af3f0/20240917_131706_Bokkeumbap.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;다행이 이번 여행엔 식당을 모두 잘 고른 것 같습니다.&lt;/p&gt;
+&lt;h2 id=&quot;-포천-출렁다리&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%ED%8F%AC%EC%B2%9C-%EC%B6%9C%EB%A0%81%EB%8B%A4%EB%A6%AC&quot; aria-label=&quot; 포천 출렁다리 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;🌉 포천 출렁다리&lt;/h2&gt;
+&lt;p&gt;한탄강 생태경관단지에 Y형 출렁다리가 생겼다길래 가봤습니다. 이곳은 특이하게 입장료의 절반을 지역화폐로 환급해줍니다. 이걸로 주변 카페에 들러 커피를 사먹었지요.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/d6e2fb39eb1a1b868da04e031ff7a4ca/af3f0/20240917_145201_Hantangang_Themepark.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRqgAAABXRUJQVlA4IJwAAAAwBACdASoUAA8APtFUo0uoJKMhsAgBABoJQBOmUDX1RbHbI8bg48pDs4AA/mbaxiQa5P7eT1NlHarzPxGfjTiY+6Z92dNX60/19DONzLlAPNDfTXqtDFNpBqQsafEuvxaJuW7PjA8qLeOT3lDBxSRnqFxxaTFvxIWonYeD4R1DwiFmIteQOpbxuD0fZVN3qr5JAQi6yFQoAdoAAAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;한탄강 생태경관단지&quot;
+        title=&quot;&quot;
+        src=&quot;/static/d6e2fb39eb1a1b868da04e031ff7a4ca/c1dc5/20240917_145201_Hantangang_Themepark.webp&quot;
+        srcset=&quot;/static/d6e2fb39eb1a1b868da04e031ff7a4ca/94563/20240917_145201_Hantangang_Themepark.webp 163w,
+/static/d6e2fb39eb1a1b868da04e031ff7a4ca/647a8/20240917_145201_Hantangang_Themepark.webp 325w,
+/static/d6e2fb39eb1a1b868da04e031ff7a4ca/c1dc5/20240917_145201_Hantangang_Themepark.webp 650w,
+/static/d6e2fb39eb1a1b868da04e031ff7a4ca/1e975/20240917_145201_Hantangang_Themepark.webp 975w,
+/static/d6e2fb39eb1a1b868da04e031ff7a4ca/af3f0/20240917_145201_Hantangang_Themepark.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;단지 안엔 사람들이 그럭저럭 있지만&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/3faf9864f071d901644a3fb915a049a7/af3f0/20240917_145507_Hantangang_Themepark.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRooAAABXRUJQVlA4IH4AAADwAwCdASoUAA8APtFUo0uoJKMhsAgBABoJQBOgA9DU/3LsQ51yFZwAAP7nQkgwr9lWsn82lTpwR0CIzUEWC7fwre6dpeYLX4O9burILlgFI4Us9wltu1PgWv5CJDiJF7/FZWgEBemzm0QETK07vhkadWeIa6aCVwXOzbyYIAA=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;한탄강 생태경관단지&quot;
+        title=&quot;&quot;
+        src=&quot;/static/3faf9864f071d901644a3fb915a049a7/c1dc5/20240917_145507_Hantangang_Themepark.webp&quot;
+        srcset=&quot;/static/3faf9864f071d901644a3fb915a049a7/94563/20240917_145507_Hantangang_Themepark.webp 163w,
+/static/3faf9864f071d901644a3fb915a049a7/647a8/20240917_145507_Hantangang_Themepark.webp 325w,
+/static/3faf9864f071d901644a3fb915a049a7/c1dc5/20240917_145507_Hantangang_Themepark.webp 650w,
+/static/3faf9864f071d901644a3fb915a049a7/1e975/20240917_145507_Hantangang_Themepark.webp 975w,
+/static/3faf9864f071d901644a3fb915a049a7/af3f0/20240917_145507_Hantangang_Themepark.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;출렁다리엔 사람들이 어마어마합니다. 개인적으로 사람들 많은 곳에 가면 기 빨리는 것 같음. 😵‍💫&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fb9abfeaa9fa6361d653565666dba3d5/af3f0/20240917_151928_Hantangang_Themepark.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRo4AAABXRUJQVlA4IIIAAADQAwCdASoUAA8APtFUo0uoJKMhsAgBABoJYgCdACG1TOPf6e/dWyAA/uGgz5IGHfUkgr3giONOrupm+SnWPMsQWfWAWpfD5BF+jcG2IMg7nRKLxrJycFIB6Q2k9d13xRmi+LrhE/V7f5/4Tj27DeaAaSuAt9tSF6KPjIeGrTBpAAAA&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Y형 출렁다리&quot;
+        title=&quot;&quot;
+        src=&quot;/static/fb9abfeaa9fa6361d653565666dba3d5/c1dc5/20240917_151928_Hantangang_Themepark.webp&quot;
+        srcset=&quot;/static/fb9abfeaa9fa6361d653565666dba3d5/94563/20240917_151928_Hantangang_Themepark.webp 163w,
+/static/fb9abfeaa9fa6361d653565666dba3d5/647a8/20240917_151928_Hantangang_Themepark.webp 325w,
+/static/fb9abfeaa9fa6361d653565666dba3d5/c1dc5/20240917_151928_Hantangang_Themepark.webp 650w,
+/static/fb9abfeaa9fa6361d653565666dba3d5/1e975/20240917_151928_Hantangang_Themepark.webp 975w,
+/static/fb9abfeaa9fa6361d653565666dba3d5/af3f0/20240917_151928_Hantangang_Themepark.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/df1def872f1455c4acba992e1a8cf789/af3f0/20240917_152834_Chulleongdari.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 74.84662576687117%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRowAAABXRUJQVlA4IIAAAAAQBACdASoUAA8APtFUo0uoJKMhsAgBABoJQBOgjmAYkZ0TtY78/6go4AD+s3bL6dvC7YuwJ8dJpFyPjQM/vK73Xk2/8l+hzqKwhjxGozDLGT79b1cgj0A4lXCVSrouXMI7K6PG/WZ3zrGXj8tukZkqKIZ6RJyahqSy4e3bKMgAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Y형 출렁다리&quot;
+        title=&quot;&quot;
+        src=&quot;/static/df1def872f1455c4acba992e1a8cf789/c1dc5/20240917_152834_Chulleongdari.webp&quot;
+        srcset=&quot;/static/df1def872f1455c4acba992e1a8cf789/94563/20240917_152834_Chulleongdari.webp 163w,
+/static/df1def872f1455c4acba992e1a8cf789/647a8/20240917_152834_Chulleongdari.webp 325w,
+/static/df1def872f1455c4acba992e1a8cf789/c1dc5/20240917_152834_Chulleongdari.webp 650w,
+/static/df1def872f1455c4acba992e1a8cf789/1e975/20240917_152834_Chulleongdari.webp 975w,
+/static/df1def872f1455c4acba992e1a8cf789/af3f0/20240917_152834_Chulleongdari.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;고소공포증 있는 사람도 출렁다리를 건널 수는... 있습니다.&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/e349030bdf1cd9cd506a0417a54090fd/af3f0/20240917_155351_Chulleongdari.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.44171779141104%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAABwAwCdASoUAAsAPtFWo0uoJKMhsAgBABoJZQC/OA5uJa4SFQAA/RScEyvlW0IMqAVTjwpyrdOSXJ9b0EosYB1kUfvDyJhSY25npCOGRIIYxlrbjZxAAA==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Y형 출렁다리에서 아래 쳐다보기&quot;
+        title=&quot;&quot;
+        src=&quot;/static/e349030bdf1cd9cd506a0417a54090fd/c1dc5/20240917_155351_Chulleongdari.webp&quot;
+        srcset=&quot;/static/e349030bdf1cd9cd506a0417a54090fd/94563/20240917_155351_Chulleongdari.webp 163w,
+/static/e349030bdf1cd9cd506a0417a54090fd/647a8/20240917_155351_Chulleongdari.webp 325w,
+/static/e349030bdf1cd9cd506a0417a54090fd/c1dc5/20240917_155351_Chulleongdari.webp 650w,
+/static/e349030bdf1cd9cd506a0417a54090fd/1e975/20240917_155351_Chulleongdari.webp 975w,
+/static/e349030bdf1cd9cd506a0417a54090fd/af3f0/20240917_155351_Chulleongdari.webp 1280w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;앞서가던 꼬마 아이가 다리를 일부러 출렁거릴 때 좀... 무서웠습니다. 😵&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/26b41d131f68fecc20a3477c23cc0871/bc514/20240917_155157_Chulleongdari.webp&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 177.91411042944785%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/webp;base64,UklGRh4BAABXRUJQVlA4IBIBAABQBwCdASoUACQAPtFkqlEoJSOipWgBABoJYwC2++2I9tnshZpf9t6TkEXwIKbWwhMr89CSD70eIM6jrt7E4aEapb8AAP73K2PV5cF0bUFgXjYD4Hg8T/IwO62QrMBjX9S2IehMEWHbkTXjfw6kKRrWWj00x9EB7otcRmPJEvmhBjnkAiyC4rCdDkIceJG8L/MmlDg6ofepo33bm/PFSszxQtTzaOvLLG24eB2binOqWOA2yUt32dn6aw26d7c4lnnkJ+bMgfwSNEd0/Wa1OBu8iMsOlQkkNUiZTZ1HFrciGO4E14AgInPy/O/zlCuKXGIJEyM6cFt8caZjikh5Gpn5Pa/HSSBeccPLbVP1Rz9mEAAA&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Y형 출렁다리&quot;
+        title=&quot;&quot;
+        src=&quot;/static/26b41d131f68fecc20a3477c23cc0871/c1dc5/20240917_155157_Chulleongdari.webp&quot;
+        srcset=&quot;/static/26b41d131f68fecc20a3477c23cc0871/94563/20240917_155157_Chulleongdari.webp 163w,
+/static/26b41d131f68fecc20a3477c23cc0871/647a8/20240917_155157_Chulleongdari.webp 325w,
+/static/26b41d131f68fecc20a3477c23cc0871/c1dc5/20240917_155157_Chulleongdari.webp 650w,
+/static/26b41d131f68fecc20a3477c23cc0871/bc514/20240917_155157_Chulleongdari.webp 720w&quot;
+        sizes=&quot;(max-width: 650px) 100vw, 650px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Rocky Linux 9 파일시스템 설정]]></title><description><![CDATA[CentOS 서버 이관용 Rocky Linux 9 가상화 서버 만들다가 배운 걸 정리한 글. 제대로 이해한건지 모르겠으나... 암튼 정리해봄. 😵‍💫 🔠 용어 설명 LVM(Logical Volume Manager…]]></description><link>https://jeonwon.dev/system/linux/rockylinux9-filesystem-setting/</link><guid isPermaLink="false">https://jeonwon.dev/system/linux/rockylinux9-filesystem-setting/</guid><pubDate>Sat, 14 Sep 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href=&quot;https://www.instagram.com/25_jw/&quot;&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 650px; &quot;
     &gt;
@@ -9543,7 +10304,6 @@ $ &lt;span class=&quot;token function&quot;&gt;git&lt;/span&gt; stash &lt;span c
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
 &lt;h2 id=&quot;-도쿄-타워&quot; style=&quot;position:relative;&quot;&gt;&lt;a href=&quot;#-%EB%8F%84%EC%BF%84-%ED%83%80%EC%9B%8C&quot; aria-label=&quot; 도쿄 타워 permalink&quot; class=&quot;anchor before&quot;&gt;&lt;svg aria-hidden=&quot;true&quot; focusable=&quot;false&quot; height=&quot;16&quot; version=&quot;1.1&quot; viewBox=&quot;0 0 16 16&quot; width=&quot;16&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt;&lt;a href=&quot;https://maps.app.goo.gl/7YUm5nQRzR7FBqTLA&quot;&gt;🗼 도쿄 타워&lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;웅장이 가슴해지는 불빛(?)&lt;/p&gt;
 &lt;p&gt;도쿄타워 외관은 조명을 받아 멋지지만 내부 전망대는 1,000엔 가량 내고 관람할만한 가치가 있는지 개인적으로 영... 그렇습니다. 도쿄 전망대는 무조건 날씨 좋은 날에 &lt;a href=&quot;https://maps.app.goo.gl/kvX41Hn5oJNVzn6u8&quot;&gt;시부야 스카이 트리&lt;/a&gt; 루프탑으로 가는 게 좋습니다. (루프탑이 더 개방감이 있으나 날씨가 좋지 않으면 루프탑을 개방하지 않기 때문)&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
