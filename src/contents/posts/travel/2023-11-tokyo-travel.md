@@ -75,8 +75,6 @@ previewImage: "travel.jpeg"
 
 ## [🗼 도쿄 타워](https://maps.app.goo.gl/7YUm5nQRzR7FBqTLA)
 
-웅장이 가슴해지는 불빛(?)
-
 도쿄타워 외관은 조명을 받아 멋지지만 내부 전망대는 1,000엔 가량 내고 관람할만한 가치가 있는지 개인적으로 영... 그렇습니다. 도쿄 전망대는 무조건 날씨 좋은 날에 [시부야 스카이 트리](https://maps.app.goo.gl/kvX41Hn5oJNVzn6u8) 루프탑으로 가는 게 좋습니다. (루프탑이 더 개방감이 있으나 날씨가 좋지 않으면 루프탑을 개방하지 않기 때문)
 
 ![도쿄타워](./images/2023-11-tokyo/20231123_201220_TokyoTower.jpg)
