@@ -127,6 +127,8 @@ $ rsync -avzh --delete <OLD_SERVER_PATH> --log-file=<LOG_FILE_PATH> --bwlimit=10
 $ rsync -avzh --delete /home/rocky root@<NEW_SERVER_IP>:/home
 ```
 
+**단, 두 서버의 캐릭터셋이 다른 경우 rsync로 이관 시 한글파일명이 깨질 수 있음.** 예를 들어 구 서버의 캐릭터셋이 EUC-KR이고 신 서버의 캐릭터셋이 UTF-8인 경우 한글파일명이 깨짐. 파일명이 깨지는 파일이 적으면 FTP로 재업로드 하거나, 너무 많으면 `convmv` 명령어를 사용해볼 수 있을 것 같은데... 써보진 않음.
+
 
 ## 4. 애플리케이션 기동 테스트
 

@@ -98,6 +98,7 @@ $ docker logs CONTAINER_NAME     ## 컨테이너 로그 조회
 $ docker logs -f CONTAINER_NAME  ## 컨테이너 로그를 실시간 조회
 $ docker exec CONTAINER_NAME COMMAND        ## 컨테이너 내 명령어 실행
 $ docker exec -it CONTAINER_NAME /bin/bash  ## 컨테이너 셸 실행(Interactive, Terminal)
+# (참고) 컨테이너 셸 실행후 bash 명령어 실행하면 좀 더 고급진(?) 셸 사용 가능
 
 # 상세 정보 출력
 $ docker inspect IMAGE_NAME:TAG
@@ -131,19 +132,37 @@ Dockerfile을 이용해 이미지를 빌드할 수 있음.
 
 ```dockerfile
 # Dockerfile 예시
-FROM node:20
+FROM node:20-slim
 LABEL maintainer="Jeon Won <https://jeonwon.dev>"
-COPY hello.js /
-CMD ["node", "hello.js"]
+WORKDIR /app
+COPY . .
+
+# npm 패키지 설치(대괄호를 사용하는 `RUN`을 사용하는 게 나음)
+RUN npm install
+RUN ["npm", "install"] 
+
+# 포트 노출
+EXPOSE 8080
+
+# 마지막 터미널 명령어는 RUN이 아닌, CMD 또는 ENTRYPOINT
+CMD ["node", "server.js"]
 ```
 
+(참고) node 프로젝트인 경우 package.json 파일을 Dockerfile이 존재하는 경로에 복사 후 실행하면 좋음. 설치할 npm 패키지를 Dockerfile에 하나하나 명시하는 것보다 효율적이기 때문.
+
 ### Dockerfile 주요 문법
+
+Dockerfile의 마지막 터미널 명령어는 RUN이 아닌 CMD 또는 ENTRYPOINT임. 
 
 * `#`: 주석
 * `FROM`: Base image. 가장 먼저 나와야 함.
 * `LABEL`: Key-Value 형식의 메타데이터. `MAINTAINER`는 Deprecated됨.
-* `RUN`: Base image에서 실행할 명령어들
+* `USER`: root 외의 유저 설정
+* `WORKDIR`: 컨테이너 내의 작업 디렉터리 경로로 이동
 * `COPY`: 호스트의 파일을 컨테이너로 복사
+* `RUN`: Base image에서 실행할 명령어들
+  - 대괄호를 사용하지 않는 RUN(예: `RUN npm install`) 은 도커 컨테이너가 아닌 OS 기본 쉘을 사용하여 실행함
+  - OS 쉘을 사용할 게 아니라면 호환성 등의 이유 때문에 대괄호를 사용하는 RUN(예: `RUN ["npm", "install"]`)을 사용하는 게 나음
 * `ADD`: 호스트의 파일을 컨테이너로 복사. COPY와의 차이점은...
 	- 압축 파일(tar, tar.gz)인 경우 압축을 해제하여 복사해줌
 	- wget 등을 통해 원격지의 파일을 복사 대상으로 지정할 수 있음
@@ -160,6 +179,35 @@ CMD ["node", "hello.js"]
 `docker build -t DOCKER_HUB_ID/IMAGE_NAME:TAG_NAME .` 명령어를 실행하면 이미지가 생성됨.
 * Docker Hub에 배포하지 않는다면 `DOCKER_HUB_ID/` 부분은 제거해도 무방. 
 * `.`은 현재 경로에 있는 Dockerfile을 가리킴. 다른 경로에 있다면 `.` 대신 `-f DOCKERFILE_PATH`를 입력해주면 됨.
+
+### .dockerignore 파일
+
+`.dockerignore` 파일엔 `COPY` 사용 시 복사하지 않을 파일 또는 디렉터리를 명시함. 
+
+```dockerignore
+node_modules
+Dockerfile
+.git
+```
+
+### nginx 컨테이너 만들어 보기
+
+nginx를 쓰는 이유는 서버로 들어오는 요청을 가로채는 Reverse proxy 기능을 쓰기 위함. Reverse proxy의 주요 기능은...
+
+* 서버 정보를 숨기기
+* HTTPS 인증서 설치 쉽게 하기
+* 로드 밸런싱 구축
+* 접속 로그를 남기거나 IP 차단 등
+
+```dockerfile
+FROM nginx:1.27.2-alpine
+COPY ./myconf.conf /etc/nginx/conf.d/myconf.conf
+RUN rm /etc/nginx/conf.d/default.conf
+
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+```
+
 
 
 ## 🚀 이미지 배포하기
@@ -294,9 +342,9 @@ $ docker run -d \
 ... 생략
 ```
 
-### 로컬 경로를 컨테이너에 마운트
+### Bind mount
 
-도커 볼륨을 만들지 않고 로컬 경로를 직접 컨테이너에 마운트 할 수 있음.
+Bind mount를 사용하면 도커 볼륨을 만들지 않고 로컬 경로를 직접 컨테이너에 마운트 할 수 있음.
 
 ```shell
 $ docker run -d \
@@ -305,6 +353,26 @@ $ docker run -d \
 ... 생략
 ```
 
+### PostgreSQL 컨테이너 만들어 보기
+
+1. 컨테이너 생성
+
+```shell
+$ docker run -d --name CONTAINER_NAME \
+-p 5432:5432
+-e POSTGRES_USER=admin
+-e POSTGRES_PASSWORD=qwer1234
+-v <VOLUME_NAME>:/var/lib/postgresql/data
+postgres:17-alpine
+```
+
+2. `docker exec -it CONTAINER_NAME` 명령어로 컨테이너 셸 접속 후 좀 더 고급진(😅?) 셸 사용을 위해 `bash` 명령어 실행
+3. `psql -U admin -W` 명령어 실행하여 postgresql 실행
+4. `\l` 명령어 실행하면 데이터베이스 목록이 나타남. 아마 postgres가 있을 거임. `\c postgres` 명령어 실행하여 postgres DB로 접속.
+5. `create table test ( name VARCHAR(50) );` 명령어 실행하여 테이블 생성
+6. 이제 컨테이너를 삭제한 후, 기존 볼륨 연결하여 새로운 컨테이너를 만들어도 위에서 만든 테이블이 존재할 것임
+
+참고로 DB는 안정적으로 실행하는 것이 더 중요하기 때문에 굳이 컨테이너로 만들 필요성이 적음. 편의성이 더 중요하다면 또 모름...
 
 ## 🌐 컨테이너 네트워크
 
@@ -376,19 +444,21 @@ $ docker run --name CONTAINER_NAME_2 --network NETWORK_NAME ...생략
 * YAML 문법으로 컨테이너가 어떻게 실행되어야 하는지를 정의함
 * Dockerfile로 이미지를 생성하고, Docker Compose로 이미지를 어떻게 컨테이너화 할지를 정의함
 
+Docker compose 실행 명령어는 `docker-compose`와 `docker compose` 두 가지가 있는데 `docker-compose`는 지원 종료되어 `docker compose`를 사용하는 게 좋을듯. 강의에선 주로 `docker-compose`를 설명하여 아래 설명도 대부분 똑같이 따라함...
+
 ### 주요 문법
 
 `services`: 실행할 컨테이너 목록
 
 ```yaml
 service:
-  container1:  # 컨테이너 1
+  SERVICE_CONTAINER_NAME_1:  # 서비스(컨테이너) 1
     image: nginx:latest
-  container2:  # 컨테이너 2
+  SERVICE_CONTAINER_NAME_2:  # 서비스(컨테이너) 2
     image: mysql:latest
 ```
 
-`build`: 현재 디렉터리의 Dockerfile로 이미지 빌드
+`build`: Dockerfile의 경로를 명시하여 이미지 빌드
 
 ```yaml
 container:
@@ -426,22 +496,6 @@ container:
     - 3306
 ```
 
-`volumes`: 마운트할 볼륨 경로
-
-```yaml
-container1:
-  volumes:
-    - db_data:/var/lib/mysql
-container2:
-  volumes:
-    - wp_data:/var/www/html
-
-volumes:
-  db_data: {}       # docker-compose에 의해 새로 생성될 볼륨 / {}: 추가적인 설정이 없음
-  wp_data:
-    external: true  # 이미 생성된 볼륨을 사용함
-```
-
 `environment`: 환경변수 정의
 
 ```yaml
@@ -470,6 +524,63 @@ container1:
 container2:
   image: mysql
 ```
+
+`deploy`: 컨테이너 복제. `docker-compose --compatibility up` 명령어 필요. 
+
+```yaml
+container:
+  deploy:
+    mode: replicated
+    replicas: 3
+```
+
+`env_file`: 참조할 `.env` 경로. 이 속성을 작성하지 않으면 같은 경로에 있는 `.env` 파일을 참조함.
+
+```yaml
+container:
+  env_file:
+    - custom.env
+  environment:
+    - POSTGRES_USER=${POSTGRES_USER} # .env 파일 값 ㅊ마조
+```
+
+`network`: 네트워크 명시.
+
+```yaml
+services:
+  nginx:
+    image: nginx:latest
+    networks:
+      - mynet1
+  db:
+    image: postgres:17-alpine
+    networks:
+      - mynet2
+networks:
+  mynet1:
+  mynet2:
+```
+
+`volumes`: 볼륨 명시
+
+```yaml
+container1:
+  volumes:
+    - db_data:/var/lib/mysql
+container2:
+  volumes:
+    - wp_data:/var/www/html
+container3:
+  volumes: # Bind mount
+    - ./vol:/var/lib/postgresql/data
+
+volumes:
+  db_data: {}       # docker-compose에 의해 새로 생성될 볼륨 / {}: 추가적인 설정이 없음
+  wp_data:
+    external: true  # 이미 생성된 볼륨을 사용하려면 이 속성 필요
+```
+
+네트워크를 명시하지 않으면 모든 컨테이너는 같은 네트워크에 속함. 이 때 다른 컨테이너와 통신하려면 서로의 IP주소 대신 컨테이너 이름을 사용하여 서로 통신하면 됨.
 
 `link`: 연계할 컨테이너 **(Deprecated 됨)**
 
@@ -525,6 +636,29 @@ $ docker-compose down  ## 정지(커스텀 네트워크도 삭제됨)
 $ docker-compose down --volumes  ## 정지 & 볼륨까지 삭제
 ```
 
+### docker compose watch
+
+docker compose watch 기능을 사용하면 파일(소스코드)의 변경사항을 컨테이너에 자동으로 반영할 수 있음.
+
+이 watch 기능을 사용하려면 아래와 같이 `docker-compose.yaml` 파일을 작성해준 후 `docker compose up --watch` 명령어를 실행하면 됨.
+
+```yaml
+services:
+  mynginx:
+    image: nginx:latest
+    # build 속성이 있어야 watch 잘 됨
+    build: . 
+    develop:
+      # watch관련 속성은 여러 개 작성 가능함
+      watch: 
+        - action: sync+restart  # 변동사항을 컨테이너에 복붙 후 컨테이너 재실행
+          path: .       # 변동사항을 감지할 로컬 경로
+          target: /app  # 변동사항 감지 시 컨테이너 내부에 복붙할 경로
+          ignore:       # 변동사항을 무시할 경로(.dockerignore 파일 사용하면 되므로 굳이 사용 안 함)
+            - node_modules
+        - action: sync  # 변동사항을 컨테이너에 복붙
+          path: package.json
+```
 
 ### docker-compose 사용 예시: Wordpress 구축
 
@@ -574,4 +708,64 @@ volumes:
   db_data: {}
   wp_data:
     external: true
+```
+
+
+## 도커 컨테이너 성능 개선
+
+### 성능을 위한 Dockerfile 작성법
+
+변동사항이 적은 코드(package.json, 라이브러리, 설정 파일 등)는 위쪽에, 많은 코드는 맨 마지막에 작성. 캐싱을 활용하여 초반부 코드는 빠르게 실행하기 위함.
+
+```dockerfile
+# 변동사항이 적은 부분 먼저
+COPY package*.json .
+# 변동사항이 많은 부분(소스코드 등) 나중에
+COPY /app .
+```
+
+패키지 설치 버전을 아주 정확하게 맞추려면 `npm ci`를 사용.
+
+```dockerfile
+# npm ci를 사용하면 package.json 파일 내의 버전 앞에 명시된 ^를 무시하고 
+# 정확한 버전으로만 설치함
+RUN ["npm", "ci"]
+```
+
+Dockerfile 내 코드는 기본적으로 root 권한으로 실행됨. 유저 권한을 낮춰 실행할 수 있다면 그렇게 하는 게 안전함.
+
+```dockerfile
+# Node.js 공식 이미지엔 기본적으로 node 유저가 있음
+USER node
+CMD ["node", "server.js"]
+```
+
+빌드 작업이 필요한 프로젝트(Spring, Next.js 등)인 경우 멀티 스테이징(빌드 후 빌드 결과만 이미지로 복사하는 방법)을 사용하면 이미지 용량을 줄일 수 있음.
+
+```dockerfile
+FROM ubuntu:latest
+# 대충 빌드 코드
+
+FROM ubuntu:latest
+# 대충 빌드 결과를 이미지로 복사한 후 실행하는 코드
+```
+
+### Graceful shutdown 적용하기
+
+Graceful shutdown은 진행 중인 작업을 적절히 마무리한 뒤 종료하는 것.
+
+도커가 컨테이너에 종료 명령을 보내면 컨테이너는 종료 코드를 실행함. 그런데 종료 코드가 없으면 도커는 10초 후에 컨테이너를 강제 종료함. 따라서 종료 명령이 도달했을 때 종료 코드를 작성하면 쓸데없이 10초 간 존버하는 일이 없어질 듯.
+
+node.js 앱인 경우 아래와 같이 Graceful shutdown을 적용해볼 수 있음.
+
+```javascript
+// SIGTERM: kill 1 실행 시 전달되는 메시지
+process.on('SIGTERM', () => {
+  // 대충 종료 코드...
+});
+
+// SIGINT: Ctrl+C 누르면 전달되는 메시지
+process.on('SIGINT', () => {
+  // 대충 종료 코드...
+})
 ```
