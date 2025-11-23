@@ -641,7 +641,7 @@ will-change 속성을 사용하면 성능 개선이 가능함. 바뀔 내용을 
 <script src="bootstrap.js_PATH"></script>
 ```
 
-이제 [getbootstrap.com](getbootstrap.com)에 방문하여 마음에 드는 UI 요소를 돌라 웹 개발하면 됨.
+이제 [https://getbootstrap.com](https://getbootstrap.com)에 방문하여 마음에 드는 UI 요소를 돌라 웹 개발하면 됨.
 
 Bootstrap에서 제공하는 디자인은 대부분 공통 디자인이므로 디자인을 입맛에 맞게 수정할 수 있음.
 

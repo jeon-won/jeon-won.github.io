@@ -67,7 +67,7 @@ image:
 
 아래 예를 들어 설명해보면, 긴자선과 히비야선 그리고 지요다선은 알파벳 한 자리에 단색 동그라미로 되어 있으므로 이 노선에서 도쿄 서브웨이 티켓을 사용할 수 있습니다.
 
-![구글 맵 도쿄 지하철 경로 검색](/assets/img/posts/travel/japan/tokyo/2023-04/GoogleMap_Subway_Search.JPG)
+![구글 맵 도쿄 지하철 경로 검색](/assets/img/posts/travel/japan/2023-04-tokyo/GoogleMap_Subway_Search.JPG)
 
 단, 위 예시에 있는 게이힌토호쿠선은 알파벳 한 자리에 단색 동그라미가 아니어서 도쿄 서브웨이 티켓을 사용할 수 없으므로 대신 스이카를 사용해야 하고, 지요다 선으로 환승하여 내릴 땐 도쿄 서브웨이 티켓을 사용하면 됩니다.
 

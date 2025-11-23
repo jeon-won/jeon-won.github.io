@@ -21,7 +21,7 @@ ASUS TUF-AX4200Q 공유기로 WireGuard VPN 구축 과정을 정리한 글.
 
 ## 1️⃣ 공유기에 WireGuard VPN 설정
 
-ASUS TUF-AX4200Q 공유기 설정을 위해 웹브라우저로 192.168.50.1 주소로 접속 후 로그인. 접속되지 않으면 [http://www.asusrouter.com](http://www.asusrouter.com) 주소로 접속.
+ASUS TUF-AX4200Q 공유기 설정을 위해 웹브라우저로 192.168.50.1 주소로 접속 후 로그인. 접속되지 않으면 `http://www.asusrouter.com` 주소로 접속.
 
 Advanced Settings의 VPN 메뉴 클릭 → WireGuard VPN 활성화. 아마 아래와 같이 설정될 것임.
 
@@ -36,7 +36,7 @@ VPN Client 이름을 클릭하면 VPN 설정 파일(wgs_client.conf)을 다운�
 
 ## 2️⃣ 통신사 공유기 포트포워딩 설정
 
-통신사 공유기마다 접속 주소가 다름. SKB를 사용하는 경우 웹브라우저로 192.168.45.1 주소로 통신사 공유기에 접속 가능함. 접속이 안 된다면 [http://wifi.skbroadband.com](http://wifi.skbroadband.com) 주소로 접속하면 됨.
+통신사 공유기마다 접속 주소가 다름. SKB를 사용하는 경우 웹브라우저로 192.168.45.1 주소로 통신사 공유기에 접속 가능함. 접속이 안 된다면 `http://wifi.skbroadband.com` 주소로 접속하면 됨.
 
 네트워크 메뉴 → LAN 메뉴 → `접속 리스트` 클릭 → ASUS 공유기로 추정되는 IP 복사.
 

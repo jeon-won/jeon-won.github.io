@@ -77,7 +77,7 @@ jeustest
 
 * JEUS WebAdmin 접속을 위한 DAS 기동 명령어는 `/assets/img/posts/web/startDomainAdminServer -domain jeus_domain -u administrator -p PASSWORD`
 * 위 명령어를 매번 치기 귀찮으니  `dsboot.sh` 파일을 만들어 사용하면 편함
-* [http://SERVER_IP:9736/webadmin](http://SERVER_IP:9736/webadmin) 주소로 접속되는지 확인.
+* `http://SERVER_IP:9736/webadmin` 주소로 접속되는지 확인.
 * 만약 접속되지 않는다면 `systemctl stop firewalld` 명령어로 OS 방화벽을 비활성화한 후, `netstat -an | grep 9736` 명령어로 9736번 포트 LISTENING 상태인지 확인. ~~실습용이니 보안 따위...~~
 
 ![](/assets/img/posts/web/jeus_web_login.jpg)
