@@ -11,14 +11,14 @@ tags: [hobby, review]
 평소 영화랑 애니메이션 안 보다가 연말에 볼만한 게 눈에 띄어서 몰아본 후 적어본 짤막한 후기.
 
 
-## 서울의 봄
+## 🇰🇷 서울의 봄
 
 ![서울의 봄 포스터](/assets/img/posts/hobby/review/1212_TheDay.jpeg)
 
 그럴 일은 없겠지만 만에 하나 내가 높으신 분의 자리에 올라간다면 빌런 짓을 하지 않을까... 빌런 짓은 하지 않더라도 저런 비상 사태가 터졌을 때 상황을 통솔할만한 깜냥이 과연 될까... 😭 라는 생각을 하게 만든 영화입니다.
 
 
-## 그대들은 어떻게 살 것인가
+## 🦢 그대들은 어떻게 살 것인가
 
 ![그대들은 어떻게 살 것인가 포스터](/assets/img/posts/hobby/review/TheBoyAndTheHeron.webp)
 
@@ -40,14 +40,14 @@ tags: [hobby, review]
 </video>
 
 
-## 소년시대
+## 👦🏻 소년시대
 
 ![소년시대 포스터](/assets/img/posts/hobby/review/Boyhood.webp)
 
 웅장이 가슴해지는(?) 찌질이의 인싸극. 임시완 배우의 다재다능한 연기가 미쳤따리... 입소문 듣고 하루 한 편씩 보려했다가 하루만에 다 봐버렸습니다. 😅
 
 
-## 플루토
+## ♇ 플루토
 
 ![플루토 포스터](/assets/img/posts/hobby/review/Pluto.webp)
 
@@ -56,7 +56,7 @@ tags: [hobby, review]
 편당 1시간 분량이어서 보다가 지루할 수 있지만 작화가 워낙 좋다보니 꼭 그렇지만도 않습니다. 그리고 아톰이 등장하는 분량이 적어서 좀 아쉽기도 합니다. 😅
 
 
-## 고려거란전쟁
+## ⚔️ 고려거란전쟁
 
 ![고려거란전쟁 포스터](/assets/img/posts/hobby/review/KoreaKhitanWar.webp)
 
