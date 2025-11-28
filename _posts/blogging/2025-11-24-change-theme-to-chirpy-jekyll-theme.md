@@ -43,6 +43,9 @@ ruby 3.4 버전에선 의존성 오류가 발생하므로 3.3 이하 버전을 �
 1. 테마 복제: `git clone https://github.com/cotes2020/jekyll-theme-chirpy.git`
 2. 테마 초기화: `bash tools/init.sh`
 3. 의존성 패키지 설치: `bundle`
+   1. 이 과정에서 `An error occurred while installing eventmachine (1.2.7)` 오류가 발생한다면 
+   2. `sudo rm -rf /Library/Developer/CommandLineTools` 실행 후
+   3. `xcode-select --install` 명령어 실행하여 Command line developer tools 재설치
 4. Jekyll Server 실행: `bundle exec jekyll serve`
 5. `http://127.0.0.1:4000` 주소로 잘 접속되는지 확인
 
@@ -114,3 +117,9 @@ Github 저장소의 Actions 메뉴에서 오류 발생 여부를 확인합니다
 ## ✍️ 글 작성
 
 [https://chirpy.cotes.page/posts/write-a-new-post](https://chirpy.cotes.page/posts/write-a-new-post) 참고
+
+
+## 📚 참고
+
+* [https://chirpy.cotes.page](https://chirpy.cotes.page)
+* [eventmachine(1.2.7) installation issue on Intel mac with ruby 3.3.0 #990](https://github.com/eventmachine/eventmachine/issues/990)
