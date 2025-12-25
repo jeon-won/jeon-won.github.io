@@ -60,7 +60,7 @@ image:
 
 ![마쓰야마 성 내부 칼](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251108-095206-matsuyama-castle-inside-sword.webp)
 
-귀멸의 칼날 마쓰야마 성편(?) 갑자기 바닥이 사라질 것만 같은 기분 😵‍💫
+귀멸의 칼날 마쓰야마 성편(?) 갑자기 '띠잉~!' 소리과 함께 바닥이 사라질 것만 같은 기분 😵‍💫
 
 ![귀멸의 칼날 마쓰야마 성편(?)](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251108-095559-matsuyama-castle-inside-demonslayer.webp)
 
@@ -187,7 +187,7 @@ JR 마쓰야마 역에서 약간의 헤프닝이 있었습니다. 인터넷으�
 
 ![다카마쓰 행 기차에서 본 세토내 해](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251108-164631-jr-train-scenery.webp)
 
-마쓰야마를 여행해보니, 여행 다니기 정말 쉽습니다. 지금까지 후쿠오카 여행이 가장 쉬웠는데 후쿠오다 여행보다 훨씬 쉬운 것 같습니다.
+마쓰야마를 여행해보니, 여행 다니기 정말 쉽습니다. 지금까지 후쿠오카 여행이 가장 쉬웠는데 후쿠오카 여행보다 훨씬 쉬운 것 같습니다.
 
 
 ## 🍜 저녁: 모미지 우동
