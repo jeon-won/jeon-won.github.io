@@ -7,7 +7,7 @@ tags: [travel, japan, takamatsu, matsuyama]
 # published: false
 image: 
   path: /assets/img/posts/travel/japan/2025-11-takamatsuyama/20251107-101641-gamoudon-entry.webp
-  alt: 도고온천 본관 야경
+  alt: 가모우 우동
 ---
 
 [2025년 11월 다카마쓰야마(?) 병맛 여행기 1일차 - 치치부가하마, 호네츠키도리](/travel/japan/takamatsuyama-travel-1day/)에서 이어지는 여행기입니다.
@@ -38,11 +38,11 @@ image:
 
 ## 🍜점심: 혼카쿠테우치모리야
 
-어제 비행기가 지연되는 바람에 점심을 먹으러 못 갔던 [혼카쿠테우치모리야](https://maps.app.goo.gl/FYYKsKoK84LrjUKW7)라는 우동집에 가봤습니다.
+어제 비행기가 지연되는 바람에 못 갔던 [혼카쿠테우치모리야](https://maps.app.goo.gl/FYYKsKoK84LrjUKW7)라는 우동집에 가봤습니다.
 
 ![혼카쿠테우치모리야](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251107-112908-honkakuteuchimoriya-entry.webp)
 
-주문한 음식은 따뜻한 튀김 붓카케우동입니다. 차가운 걸로 먹으려 했는데 실수로 따뜻한 걸 주문해버렸습니다. 😓
+주문한 음식은 따뜻한 튀김 붓카케 우동입니다. 차가운 걸로 먹으려 했는데 실수로 따뜻한 걸 주문해버렸습니다. 😓
 
 ![혼카쿠테우치모리야 따뜻한 튀김 붓카케 우동](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251107-113603-honkakuteuchimoriya-warmbutkakeudon.webp)
 
@@ -53,7 +53,7 @@ image:
 
 ## 🚌 마쓰야마로 이동
 
-다카마쓰 역 옆에 있는 [버스터미널](https://maps.app.goo.gl/vuQG8DJxzu8FfVdy7)에서 마쓰야마행 버스를 탔습니다. 버스 티켓을 [온라인으로 예약](https://japanbusonline.com/ko/CourseSearch/13700070002?AreaCd=737)했었는데 좌석이 많이 남아서 굳이 그럴 필요까진 없는 것 같습니다.
+다카마쓰 역 옆에 있는 [버스터미널](https://maps.app.goo.gl/vuQG8DJxzu8FfVdy7)에서 마쓰야마행 버스를 탔습니다. 버스 티켓을 [온라인으로 예약](https://japanbusonline.com/ko/CourseSearch/13700070002?AreaCd=737)했었는데요. 좌석이 많이 남아서 현장에서 구매해도 상관 없는 듯합니다.
 
 ![마쓰야마 행 버스](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251107-123634-bus-to-matsuyama.webp)
 
@@ -65,7 +65,7 @@ image:
 
 ![마쓰야마 행 버스 비닐](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251107-124213-bus-to-matsuyama-in-vinyl.webp)
 
-버스 티켓을 온라인 예약할 때 좌석 지정하는 항목이 없어서 아무 좌석에나 앉으면 되는 줄 알았는데, 알고 보니 이 버스는 지정석에 앉아야 하는 버스입니다. 아무 좌석에 앉았더니 그 좌석을 예약한 분이 난감해하시며 빈 좌석에 앉으셨습니다. 제가 앉았던 자리가 그 분이 예약했던 자리였나 봅니다. 꼭 지정석에 앉읍시다... 🥺
+버스 티켓을 온라인 예약할 때 좌석 지정하는 항목이 없어서 아무 좌석에나 앉으면 되는 줄 알았는데, 알고 보니 이 버스는 지정석에 앉아야 하는 버스입니다. 아무 좌석에 앉았더니 그 좌석을 예약한 분이 난감해하시며 빈 좌석에 앉으셨습니다. 제가 앉았던 자리가 그 분이 예약했던 자리였나 봅니다. 꼭 지정석에 앉읍시다. 🥺
 
 
 ## 🛍️ 도고 상점가
@@ -86,7 +86,7 @@ image:
 
 ![봇짱 카라쿠리 시계](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251107-190122-botjjang-time-night-transform.webp)
 
-도고 상점가는 아케이드 형으로 되어있습니다.
+도고 상점가는 아케이드 형으로 되어있고 그리 크지 않아서 금방 돌아볼 수 있습니다.
 
 ![도고 상점가 내부](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251107-165112-dogoshoppingstreet-inside.webp)
 
@@ -109,7 +109,7 @@ image:
 
 ![에히메의 식탁 1970 주스](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251107-162313-ehime1970-drink.webp)
 
-이 맛도 서로 비교했기 때문에 불호다, 밍밍하다, 달다고 느낀 게 아니었을까... 비교하지 않았다면 250엔 짜리 쥬스로도 밍밍한 맛이 아닌 묵직한 맛을 느끼지 않았을까... 우리가 좋다고 느끼는 건 나쁘다고 느끼는 상대적인 것이 존재하기 때문인 것 같습니다. 🤔
+이 맛도 서로 비교했기 때문에 불호다, 밍밍하다, 달다고 느낀 게 아니었을까... 비교하지 않았다면 250엔 짜리 주스로도 밍밍한 맛이 아닌 묵직한 맛을 느끼지 않았을까... 우리가 좋다고 느끼는 건 나쁘다고 느끼는 상대적인 것이 존재하기 때문인 것 같습니다. 🤔
 
 ### 키친 유젠
 
@@ -199,7 +199,7 @@ image:
 
 늦은 시간에 와서 그런지 부유물도 보이고 물이 깨끗해보이진 않았습니다. 다음날 낮에 마쓰야마를 떠나기 전 시간이 남아서 다시 와봤는데 이 땐 물이 깨끗해 보였습니다.
 
-매우 뜨거우니 조심합시다! 🥵
+매우 뜨거우니 조심합시다! (혐짤 주의 🥵)
 
 ![도고온천 산책로 족욕탕에 발 담그기](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251107-192101-footbath.webp)
 

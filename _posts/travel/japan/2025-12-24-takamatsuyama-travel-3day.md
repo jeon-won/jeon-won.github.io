@@ -32,7 +32,7 @@ image:
 
 ## 🏯 마쓰야마 성
 
-마쓰야마 여행을 왔다면 아마 무조건 방문한다는 마쓰야마 성. 리프트를 타보고 싶어서 와봤습니다. 날씨가 좋지 않으면 리프트를 운영하지 않고 케이블 카만 타야 한다고 하는데, 다행이 날씨가 좋아서 리프트를 탈 수 있었습니다.
+마쓰야마에 여행 왔다면 아마 무조건 방문한다는 마쓰야마 성. 리프트를 타보고 싶어서 와봤습니다. 날씨가 좋지 않으면 리프트를 운영하지 않고 케이블 카만 타야 한다고 하는데, 다행이 날씨가 좋아서 리프트를 탈 수 있었습니다.
 
 ![마쓰야마 성 리프트](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251108-091802-matsuyama-castle-lift.webp)
 
@@ -60,7 +60,7 @@ image:
 
 ![마쓰야마 성 내부 칼](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251108-095206-matsuyama-castle-inside-sword.webp)
 
-귀멸의 칼날 마쓰야마 성편(?) 갑자기 '띠잉~!' 소리과 함께 바닥이 사라질 것만 같은 기분 😵‍💫
+귀멸의 칼날 마쓰야마 성편(?) 갑자기 '띠잉~!' 소리과 함께 바닥이 사라질 것만 같은 기분(?)
 
 ![귀멸의 칼날 마쓰야마 성편(?)](/assets/img/posts/travel/japan/2025-11-takamatsuyama/20251108-095559-matsuyama-castle-inside-demonslayer.webp)
 
