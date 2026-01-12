@@ -417,27 +417,27 @@ Flexbox 레이아웃 설명은 https://css-tricks.com/snippets/css/a-guide-to-fl
 
 `flex-direction` 속성은 주축의 방향을 정함.
 
-![Flex flex-direction](/assets/img/posts/web/flex-direction.svg)
+![Flex flex-direction](/assets/img/posts/web/flex-direction.webp)
 
 `flex-wrap` 속성은 요소를 흘러내림(wrap) 처리할 것인지를 정함.
 
-![Flex flex-wrap](/assets/img/posts/web/flex-wrap.svg)
+![Flex flex-wrap](/assets/img/posts/web/flex-wrap.webp)
 
 `justify-content` 속성은 주축을 따라 요소를 어떻게 배치할 것인지를 정함.
 
-![Flex justify-content](/assets/img/posts/web/flex-justify-content.svg)
+![Flex justify-content](/assets/img/posts/web/flex-justify-content.webp)
 
 `align-items` 속성은 교차축을 따라 요소를 어떻게 배치할 것인지를 정함.
 
-![Flex align-items](/assets/img/posts/web/flex-align-items.svg)
+![Flex align-items](/assets/img/posts/web/flex-align-items.webp)
 
 `align-content` 속성은 교차축에 여유 공간이 있을 때 요소를 어떻게 배치할 것인지를 정함.
 
-![Flex align-content](/assets/img/posts/web/flex-align-content.svg)
+![Flex align-content](/assets/img/posts/web/flex-align-content.webp)
 
 `gap` 속성은 행열 간격을 줌.
 
-![Flex gap](/assets/img/posts/web/flex-gap.svg)
+![Flex gap](/assets/img/posts/web/flex-gap.webp)
 
 `flox-grow` 속성은 Flexbox의 자식 요소에만 사용하는 속성으로, 상대적인 크기(폭)가 얼마나 되는지를 결정.
 
