@@ -27,10 +27,27 @@ Gatsby 기반의 테마를 쓰다가 jekyll 기반의 Chirpy v7.4.1 테마로 �
 
 ruby 3.4 버전에선 의존성 오류가 발생하므로 3.3 이하 버전을 사용합니다.
 
-* rbenv(ruby 버전 관리 도구) 설치: Homebrew가 설치되어 있다면 `brew install rbenv`
+* rbenv(ruby 버전 관리 도구) 설치: [Homebrew](https://brew.sh)가 설치되어 있다면 `brew install rbenv`
 * ruby 3.3 버전 설치: `rbenv install 3.3.10`
 * ruby 3.3 버전을 기본으로 설정: `rbenv global 3.3.10`
 * ruby 버전 확인: `ruby -v`
+
+ruby 버전이 제대로 나오지 않는다면 아래 명령어를 실행합니다.
+
+```bash
+# 사용 중인 쉘 확인
+echo $SHELL
+
+# zsh인 경우
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc
+source ~/.zshrc
+
+# bash인 경우
+echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bashrc
+echo 'eval "$(rbenv init - bash)"' >> ~/.bashrc
+source ~/.bashrc
+```
 
 
 ## 🔄 기존 Github Pages 구조 변경
