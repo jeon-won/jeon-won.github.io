@@ -688,7 +688,7 @@ END
 __펑션에서 사용하는 IF문__
 
 ```sql
-CREATE FUNCTION <db_name>.함수명()
+CREATE FUNCTION <db_name>.<function_name>()
 RETURNS <type>
 DETERMINISTIC|NO SQL|READS SQL DATA|MODIFIES SQL DATA
 BEGIN
